@@ -1,0 +1,1273 @@
+#root {
+  text-align: center;
+
+}
+.video-main-container{
+  width: 80%;
+  height: 500px;
+}
+
+
+.Galerie h1{
+  padding-top: 100px;
+}
+
+.video{
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.video video{
+  width: 100%;
+  object-fit: cover;
+  
+}
+
+.Galerie{
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+  position: relative;
+  padding: 0px;
+  width: 100%;
+  height: auto;
+  display: block;
+  padding-top: 0;
+}
+
+.galerie-main-container{
+  width: 100%;
+  padding-top: 50px;
+  
+  display: flex;
+  justify-content: center;
+}
+
+ .RModalImages{
+  -webkit-filter: brightness(80%);
+
+}
+.RModalImages:hover{
+  -webkit-filter: brightness(100%);
+  transition: 0.5s ease-in-out;
+
+}
+
+.galer-container img{
+  object-fit: cover;
+  width: 50%;
+  height: auto;
+}
+.RennkalenderH1{
+  padding: 30px;
+}
+
+.Rennkalender{
+  padding: 20px;
+  padding-bottom: 500px;
+}
+.contact-mui{
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+.footer-content{
+  text-align: right;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer-telefon{
+  text-align: left;
+}
+
+.Resultate{
+  padding-top: 50px;
+  width: 100%;
+  height: auto;
+  background-color: #171738;
+  padding-bottom: 50px;
+
+}
+.resultate-container h1{
+  font-size: 40px;
+}
+
+
+
+.resultate-container-header-title{
+  display: flex;
+  justify-content: left;
+
+}
+.Box-icon{
+  margin: 17px;
+  padding-left: 50%;
+  display: flex;
+  justify-content: right;
+ 
+}
+
+.resultate-container-header{
+  width: auto;
+  display: flex;
+  background-color: #dbe4ee;
+  padding: 10px;
+}
+.resultate-title{
+  padding-bottom: 60px;
+  color: #7180b9;
+}
+
+
+
+.resultate-main-container{
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px;
+}
+
+
+.resultate-container{
+  
+  grid-template-columns: 1fr ;
+  height: fit-content;
+  border: 3px solid grey;
+  display: grid;
+ 
+  
+}
+.resultate-container h1{
+  position: inherit;
+}
+
+.resultate-content{
+  min-height: 100;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1.0s ease-out;
+  display: grid;
+  grid-template-rows: 1fr ;
+  grid-gap: 8px;
+  text-align: left;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.resultate-content.show{
+  max-height: 500px;
+  padding: 15px;
+  
+}
+
+
+.resultate-content h4{
+  font-size: 20px;
+  color: #7180b9;
+  margin: 0;
+  font-weight: 500;
+}
+.resultate-content h4{
+  color: white;
+ }
+ .resultate-content.show h4{
+   color: white;
+ 
+ }
+
+
+/*Hier startet der Sponsoren Slider*/
+
+/*Slider für die IMG anfang seite */
+.img-slider{
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  margin: 0;
+  
+
+}
+.img-container{
+width: 100%;
+position: relative;
+height: auto;
+margin: 0;
+
+
+}
+
+.img-container img{
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  
+ 
+  
+}
+.img-container-slider{
+  height: 100vh;
+}
+
+.img-container-slider .rightArrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 5%;
+  font-size: 45px;
+  color: white;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.img-container-slider .leftArrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 5%;
+  font-size: 45px;
+  color: white;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.slide-container {
+  width: 600px;
+  position: relative;
+  height: 200px;
+  margin: 0 auto;
+  padding-bottom: 200px;
+}
+
+.slide {
+  position: relative;
+  width: 10%;
+  height: 10%;
+  border-radius: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  aspect-ratio: 2.8/1.3;
+}
+
+.teamsponsoren .rightArrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -70%);
+  right: -100px;
+  font-size: 45px;
+  color: black;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.teamsponsoren .leftArrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: -100px;
+  font-size: 45px;
+  color: black;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.no-arrows .arrows{
+  visibility: hidden;
+}
+
+
+.slider {
+  position: relative;
+  height: 100%;
+}
+
+.dotsContainer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  color: black;
+}
+
+.dot {
+  margin: 0 3px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+/*****Ende des Sponsorensliders **************/
+
+.contact-titles h1 {
+  color: #466362;
+}
+.contact-text{
+  width: 80%;
+  display: flex;
+  margin: auto;
+
+}
+
+.contact-text h2{
+  font-size: 25px;
+  color: #466362;
+}
+
+.contact-titles h2 {
+  font-size: 30px;
+  color: #466362;
+}
+
+.Contact {
+  padding: 0px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.contact-container {
+  height: 500px;
+  width: 80%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container div {
+  display: flex;
+  width: 100%
+}
+
+.contact-container form {
+  height: auto;
+  display: grid;
+  width: 100%;
+  gap: 10%;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.contact-container input[type="submit"] {
+  display: flex;
+  justify-content: center;
+  grid-column: 1/3;
+
+}
+
+input {
+
+  margin-bottom: 15px;
+  height: 50px;
+  width: 100%;
+  text-indent: 5px;
+  border: 1px solid #444;
+  
+
+}
+
+textarea {
+  margin-bottom: 15px;
+  height: 100px;
+  width: 100%;
+  text-indent: 10px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  grid-column: 1/3 ;
+  resize: none;
+
+}
+
+
+
+
+h3 {
+  font-weight: 600;
+}
+
+.sponsoren-container {
+  background-color: white;
+  padding: px;
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  align-items: center;
+  border: 3px solid grey;
+  border-radius: 30px;
+  justify-content: center;
+  height: auto;
+
+
+
+
+}
+
+.Sponsoren {
+  background-color: white;
+  width: 100%;
+  height: calc(100vh - 100%);
+  align-items: center;
+}
+
+.Sponsoren h1 {
+  background-color: #759eb8;
+  color: black;
+  
+  padding-top: 50px;
+  margin: 0;
+}
+
+.teamsponsoren h1{
+  padding-top:40px;
+  padding-bottom: 30px;
+}
+
+.sponsoren-name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  align-items: center;
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+
+.sponsoren-main-container {
+  padding-top: 50px;
+  background-color: #759eb8;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+ 
+}
+
+
+.sponsoren-img img {
+  object-fit: contain;
+  width: 70%;
+  aspect-ratio: 8/1.7;
+
+}
+
+
+
+.footer-container {
+  
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  justify-content: center;
+  color: white;
+}
+
+.footer-title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 10px;
+
+}
+
+.footer-email {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footer.creater {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.icon-container {
+  padding-top: 20px;
+  width: 100%;
+  height: 60px;
+}
+
+.icon-img img {
+  justify-content: center;
+  object-fit: cover;
+  height: 80px;
+  width: auto;
+  aspect-ratio: 1/1;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.Steckbrief {
+  text-align: left;
+}
+
+.about-container h1 {
+  padding-top: 5px;
+  padding-bottom: 15px;;
+  margin: 0;
+}
+
+.joe h1 {
+  padding-top: 40px;
+  margin-bottom: 0;
+  background-color: white;
+  color: #0d324d;
+}
+
+.about-container {
+  background-color: white;
+  padding-top: 30px;
+  color: #0d324d;
+  padding-bottom: 0px;
+
+}
+
+.AboutMe-container {
+  padding-top: 40px;
+  margin-top: 0;
+  padding-bottom: 60px;
+  background-color: white;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.AboutMe-Text {
+  color: #0d324d;
+  width: 400px;
+  position: inherit;
+  margin: 40px;
+  border-radius: 5px;
+  border: 3px solid #020202;
+  padding: 20px;
+}
+
+.AboutMe-description {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.AboutMe-title {
+  font-size: 60px;
+  text-align: center;
+
+}
+
+.AboutMe-img {
+  justify-content: right;
+  display: flex;
+  object-fit: cover;
+  height: 600px;
+  width: 400px;
+  aspect-ratio: 3/1.5;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 30px;
+}
+
+.AboutMe-img img {
+  border-radius: 4px;
+  border: 1px solid black;
+
+
+}
+.AboutMe-button {
+  color: black;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #3b2c35;
+}
+
+/*ADDED CSSS BY ME
+.img-container img {
+  display: flex;
+  object-fit: cover;
+  width: 100%;
+  aspect-ratio: 1/0.5345;
+  object-position: top center;
+}*/
+
+.rennberichte-main-container {
+  padding: 10px;
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.Rennberichte {
+  background-color: #dbe4ee;
+  color: white;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+  height: calc(100vh - 100%);
+  overflow: hidden;
+
+}
+.SingleRennbericht {
+  background-color: #456990 ;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  height: calc(100vh - 100%);
+
+}
+
+.about-container h1 {
+  font-weight: 700;
+  color: #a188a6;
+}
+
+.Rennberichte h1 {
+  color: black;
+  padding-top: 50px;
+}
+.SingleRennbericht .rennberichte-container{
+  width: 100%;
+  border: 0px;
+  
+}
+
+.SingleRennbericht .rennberichte-main-container{
+  padding: 10px;
+  grid-template-columns: 1fr;
+  width: 100%;
+  padding-bottom: 50px;;
+}
+
+.SingleRennbericht .rennberichte-img{
+  padding-top: 100px;
+  object-fit: cover;
+  width: 80%;
+ 
+  aspect-ratio: 14/9;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.SingleRennbericht .rennberichte-text{
+  padding-top: 50px;
+  width: 80.3%;
+  padding-left: 9.5%;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
+.SingleRennbericht .rennberichte-subtitle{
+  
+  padding: 7px;
+  font-size: 25px;
+  display: flex;
+  text-align: left;
+  width: 100%;
+}
+
+.SingleRennbericht .rennberichte-title{
+  padding: 7px;
+  text-align: left;
+  font-size: 45px;
+  padding-bottom: 50px;
+}
+
+.rennberichte-img-container .rennberichte-img{
+  padding-top: 100px;
+  object-fit: cover;
+  width: 80%;
+  aspect-ratio: 13/10;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+
+.rennberichte-img-container{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+  
+}
+.rennberichte-container:hover{
+  -webkit-filter: brightness(100%);
+  transition: 0.6s ease-in-out;
+
+  
+  
+}
+.rennberichte-container {
+  -webkit-filter: brightness(90%);
+  transition: 0.6s ease-in-out;
+  color: white;
+  width: 400px;
+  border-radius: 5px;
+  border: 2px solid #3b2c35;
+  padding: auto;
+  height: 100%;
+  color: black;
+
+}
+.rennberichte-container.hover{ 
+  width: 400px;
+  border-radius: 5px;
+  border: 2px solid #3b2c35;
+  padding: auto;
+  height: 100%;
+  color: black;
+}
+.react-card-flip{
+  width: 400px;
+  height: 356px;
+  
+}
+
+.rennberichte-img {
+  object-fit: cover;
+  width: 100%;
+  
+  aspect-ratio: 10/9;
+  border-radius: 5px;
+}
+
+.rennberichte-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+.rennbericht-title{
+  font-size: 30px;
+  color: black;
+  padding-bottom: 15px;
+}
+.rennbericht-subtitle{
+  font-size: 20px;
+  padding: 10px;
+  color:black;
+}
+
+
+.rennberichte-subtitle {
+  padding: 7px;
+  font-size: 18px;
+  display: flex;
+  
+  align-items: center;
+}
+
+.navigation {
+  z-index: 100;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  padding: 0.5rem 0rem;
+  background-color: black;
+  color: white;
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+
+}
+
+.navigation-dark {
+  background-color: black;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 0rem;
+  background-color: #fff;
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
+
+.brand-name {
+  text-decoration: none;
+  color: white;
+  font-size: 1.9rem;
+  padding-left: 2.5rem;
+}
+
+.navigation-menu {
+  margin-left: auto;
+}
+
+.navigation-menu ul {
+  display: flex;
+  padding: 0;
+}
+
+.navigation-menu li {
+  /*removes default disc bullet for li tags and applies margin to left & right side*/
+  list-style-type: none;
+  margin: 0 2rem;
+ 
+}
+
+.navigation-menu li link {
+  /*increases the surface area of the anchor tag to span more than just the anchor text*/
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+.hamburger {
+  /*// removes default border on button element*/
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  /*// positions the icon to the right and center aligns it vertically*/
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+}
+
+.hamburger:hover {
+  background-color: #2642af;
+}
+
+@media screen and (max-width: 1580px) {
+  .brand-name{
+    font-size: 1.3rem;
+  }
+  a{
+    font-size: 15px;
+  }
+  .rennberichte-main-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px;
+
+  }
+  .resultate-container-header-title h1{
+    font-size: 34.7px;
+  }
+
+  .AboutMe-img {
+    height: 450px;
+    width: 300px;
+  }
+
+}
+
+@media screen and (max-width: 1308px) {
+
+  .resultate-container-header-title h1{
+    font-size: 25px;
+  }
+  .img-container img{
+    height: calc(100vh - 100px);
+  }
+  input,
+  textarea {
+    height: 40px;
+    width: 100%;
+  }
+  .resultate-container{
+    grid-template-columns: 1fr;
+   -ms-grid-column-align: center;
+    }
+  .resultate-content{
+    font-size: 20px;
+  }
+
+  .contact-container label {
+    padding-right: 20px;
+  }
+
+  .contact-container input[type="submit"] {
+    width: 100%;
+    column-span: all;
+  }
+
+
+
+  .hamburger {
+    display: block;
+    background-color: #2642af;
+  }
+
+  .Sponsoren {
+    padding-top: 0px;
+  }
+
+  .Steckbrief h3 {
+    font-size: 15px;
+
+  }
+
+  .Steckbrief h1 {
+
+    font-size: 20px;
+  }
+
+  .AboutMe-title {
+    font-size: 30px;
+  }
+
+  .AboutMe-description {
+    font-size: 17px;
+    padding-left: 0;
+  }
+
+  .AboutMe-button {
+    height: auto;
+    margin-top: 10px;
+    padding: 1px;
+
+  }
+  
+  .AboutMe-img {
+    object-fit: cover;
+    aspect-ratio: 3/4;
+    width: 300px;
+    height: auto;
+    padding-left: 5px;
+
+  }
+
+  .about-container .AboutMe-Text{
+    width: 30%;
+  }
+
+  .AboutMe-Text {
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    margin: 0;
+  }
+
+  .rennberichte-main-container {
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+
+  }
+
+  .navigation {
+    position: relative;
+    z-index: 100;
+  }
+
+  .navigation-menu ul {
+    /*// navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar)*/
+    position: absolute;
+    top: 60px;
+    left: 0;
+    /*/ stacks the li tags vertically */
+    flex-direction: column;
+    /*// makes menu span full height and width3*/
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: #2642af;
+    border-top: 1px solid black;
+    display: none;
+  }
+
+  .navigation-menu li {
+    /*// centers link text and strips off margin*/
+    text-align: center;
+    margin: 0;
+  }
+
+  .navigation-menu li link {
+    /*/// increases the surface area of the anchor tag to span the full width of the menu*/
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+
+  .navigation-menu li:hover {
+    background-color: #eee;
+  }
+
+  .navigation-menuexpanded li Link{
+    color: black;
+  }
+  .navigation-menuexpanded {
+    z-index: -1;
+    animation: slideInFromTop 0.6s ease-in-out;
+    transition: all;
+    top: 0;
+    position: absolute;
+    font-size: 30px;
+    top: 100%;
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+
+  }
+  .navigation-menuexpanded a{
+    color: black;
+    display: flex;
+    
+  }
+
+  body:has(.navigation-menuexpanded) {
+    overflow: hidden;
+  }
+
+  .navigation-menuexpanded ul {
+    justify-content: center;
+  
+
+  }
+
+  .navigation-menuexpanded li {
+    padding: 10px;
+    
+
+
+  }
+  .img-slider{
+    height: calc(100vh - 100px);
+  }
+}
+@media screen and (max-width: 1200px){
+  .resultate-main-container{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer-content, .footer-content .footer-email{
+    font-size: 15px;
+  }
+  .Steckbrief h3 {
+    font-size: 12px;
+
+  }
+  .AboutMe-title {
+    font-size: 10px;
+  }
+  .resultate-content{
+    font-size: 19px;
+  }
+  .resultate-container{
+    grid-template-columns: 1fr;
+    }
+
+  .AboutMe-description {
+    font-size: 10px;
+    padding-left: 0;
+  }
+
+  .AboutMe-button {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .AboutMe-button a{
+    font-size: 7.8px;
+  }
+
+
+  .AboutMe-img {
+    object-fit: cover;
+    aspect-ratio: 3/4;
+    width: 200px;
+    height: auto;
+    padding-left: 5px;
+
+  }
+
+  .AboutMe-Text {
+    width: 110px;
+    height: auto;
+    padding: 5px;
+    margin: 0;
+  }
+
+  .about-container .AboutMe-Text{
+    width: 40%;
+  }
+  input {
+    height: 40px;
+    width: 100%
+  }
+
+  textarea {
+    width: 100%;
+    height: 40px;
+  }
+
+  
+
+  .rennberichte-main-container {
+    grid-template-columns: 1fr;
+    padding: 30px;
+
+
+  }
+  .rennberichte-container{
+    width: 400px;
+  }
+
+  .rennberichte-container.hover{
+    width: 400px;
+  }
+
+  .slide-container {
+    width: 300px;
+    height: auto;
+
+  }
+
+  .sponsoren-name {
+    font-size: 15px;
+  }
+
+  .Sponsoren h1 {
+    font-size: 40px;
+  }
+
+
+}
+
+@media screen and (max-width: 540px) {
+  .brand-name {
+    font-size: 18px;
+
+
+  }
+  .Steckbrief h3 {
+    font-size: 10px;
+
+  }
+  .resultate-content.show h4{
+    font-size: 13px;
+  }
+
+  .slide-container {
+    width: 150px;
+    height: auto;
+
+  }
+
+  .leftArrow {
+    top: 40%;
+  }
+  .rennberichte-container{
+    width: 300px;
+  }
+  .rennberichte-container.hover{
+    width: 300px;
+    
+  }
+  .react-card-flip{
+    width: 300px;
+    height: 266px;
+    
+  }
+
+
+.container {
+  width: 100%;
+  overflow-x: hidden;
+
+}
+
+}
+
+
+body {
+  position: absolute;
+  overflow-x: hidden;
+}
+
+.toggler {
+  display: flex;
+  align-items: center;
+}
+
+.toggler p {
+  font-size: 0.625rem;
+  font-weight: 600;
+}
+
+/*
+.toggler--slider {
+  width: 25px;
+  height: 13px;
+  background-color: #2B283A;
+  border-radius: 2rem;
+  margin-inline: 7px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  box-sizing: content-box;
+}
+
+nav.dark .toggler--slider {
+  border-color: white;
+  background-color: #F5F5F5;
+}
+
+.toggler--slider--circle {
+  height: 13px;
+  width: 13px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+nav.dark .toggler--slider--circle {
+  background-color: black;
+}
+
+.toggler--light {
+  color: #2B283A;
+}
+
+nav.dark .toggler--light {
+  color: #918E9B;
+}
+
+.toggler--dark {
+  color: #D5D4D8;
+}
+
+nav.dark .toggler-dark {
+  color: #FFFFFF;
+}
+
+nav.dark .toggler--slider {
+  justify-content: flex-end;
+}
+
+main.dark {
+  background-image: url("./images/react-icon-dark.png"); 
+  background-color: #282D35;
+  color: white;    
+}*/
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}

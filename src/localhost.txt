@@ -1,0 +1,5 @@
+1f13742106e3f0dfdd1016143797dea5c4be2d27
+
+https://www.strava.com/oauth/token?client_id=113858&client_secret=9e181ff28a52c861584cf2338077e1a71e5c99da&code=1f13742106e3f0dfdd1016143797dea5c4be2d27&grant_type=authorization_code
+
+570e95e80c8c5f09849e4150ccf09f14444c7cd4
