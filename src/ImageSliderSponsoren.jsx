@@ -64,8 +64,6 @@ const ImageSliderSponsoren = ({ slides }) => {
         
         <div onClick={goToPrevious} className="leftArrow" color="white">
         ❰
-        
-          
         </div>
         
         <div onClick={goToNext} className="rightArrow">
