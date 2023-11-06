@@ -1,9 +1,9 @@
 export default [
     {
-        title: "- 9. Rang Junior Series Basel HC",
+        title: "- CIC ON Swissbikecup Gesamtsieg",
     },
     {
-        title: "- CIC ON Swissbikecup Gesamtsieg",
+        title: "- 9. Rang Junior Series Basel HC",
     },
     {
         title: "- 2. Rang Swissbikecup Savognin C2",
