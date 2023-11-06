@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import React from "react"
@@ -18,17 +18,39 @@ import ImageSlider from './ImageSlider'
 
 export default function App() {
 
-  const slides = [
-    { url: "Savognin.jpg", title: "Gränichen Junior Series" },
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  const slidesSmall = [
     { url: "gstaad.jpg", title: "Gränichen Junior Series" },
+  ];
+  const slidesLarge = [
+    { url: "Savognin.jpg", title: "Gränichen Junior Series" },
     { url: "Gränichen.JPG", title: "Gränichen Junior Series" },
     { url: "Savognin_1.JPG", title: "Gränichen Junior Series" },
     { url: "Savognin_3.jpg", title: "Gränichen Junior Series" },
 
-
-
-
   ]
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  const getSlidesToShow = () => {
+    if (windowWidth <= 800) {
+      return slidesSmall;
+    } else {
+      return slidesLarge;
+    }
+  };
+
+ 
   const aboutMe = dataAbout.map(item => {
     return (
       <AboutVorschau key={item.id} item={item} />
@@ -44,7 +66,7 @@ export default function App() {
         <div className="img-slider">
           <picture>
           <ImageSlider
-            slides={slides}
+            slides={getSlidesToShow()}
           />
           </picture>
         </div>
