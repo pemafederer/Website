@@ -20,6 +20,7 @@ export default function App() {
 
   const slides = [
     { url: "Savognin.jpg", title: "Gränichen Junior Series" },
+    { url: "gstaad.jpg", title: "Gränichen Junior Series" },
     { url: "Gränichen.JPG", title: "Gränichen Junior Series" },
     { url: "Savognin_1.JPG", title: "Gränichen Junior Series" },
     { url: "Savognin_3.jpg", title: "Gränichen Junior Series" },
