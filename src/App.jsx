@@ -22,6 +22,8 @@ export default function App() {
 
   const slidesSmall = [
     { url: "gstaad.jpg", title: "Gränichen Junior Series" },
+    { url: "gstaad-podium.jpg", title: "Gränichen Junior Series" },
+    { url: "Davos_2.jpg", title: "Gränichen Junior Series" },
   ];
   const slidesLarge = [
     { url: "Savognin.jpg", title: "Gränichen Junior Series" },

@@ -18,7 +18,7 @@ export default function Rennkalender() {
     return (
         <div className='Rennkalender'>
             <div className="img-container">
-                <img src="Savognin_2022.jpg" />
+                <img src="gstaad.jpg" />
             </div>
             <div className="RennkalenderH1">
             <h1> Rennkalender</h1>
