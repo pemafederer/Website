@@ -3,6 +3,9 @@ export default [
         title: "- 9. Rang Junior Series Basel HC",
     },
     {
+        title: "- CIC ON Swissbikecup Gesamtsieg",
+    },
+    {
         title: "- 2. Rang Swissbikecup Savognin C2",
         rank: "P.9"
     },
@@ -11,7 +14,7 @@ export default [
         rank: "P.9"
     },
     {
-        title: "- Gesamtsieg BikeWorld Raceseries",
+        title: "- BikeWorld Raceseries Gesamtsieg ",
         rank: " P.9"
     },
     {
