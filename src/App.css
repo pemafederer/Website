@@ -103,6 +103,7 @@
   padding-top: 1.6%;
   padding-left: 70%;
   display: flex;
+  
   justify-content: right;
  
 }
@@ -111,6 +112,7 @@
   width: auto;
   display: flex;
   background-color: #dbe4ee;
+  border-radius: 29px;
   padding: 10px;
 }
 .resultate-title{
@@ -125,6 +127,7 @@
   grid-gap: 30px;
   grid-template-columns: 1fr 1fr;
   padding: 50px;
+ 
 }
 
 
@@ -132,7 +135,8 @@
   
   grid-template-columns: 1fr ;
   height: fit-content;
-  border: 3px solid grey;
+  border: 5px solid whitesmoke;
+  border-radius: 35px;
   display: grid;
  
   
