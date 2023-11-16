@@ -71,9 +71,11 @@ const ImageSlider = ({ slides }) => {
         <div onClick={goToNext} className="rightArrow">
           ❱
         </div>
+        <h1 className="Home-h1"> Home</h1>
         */}
       </div>
-      <div style={slideStylesWidthBackground}></div>
+      <div style={slideStylesWidthBackground}> </div>
+      
       <div className="dotsContainer" >
         {slides.map((_, slideIndex) => (
           <div
@@ -82,6 +84,7 @@ const ImageSlider = ({ slides }) => {
             onClick={() => goToSlide(slideIndex)}
           ></div>
         ))}
+       
       </div>
     </div>
   );

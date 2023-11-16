@@ -13,6 +13,7 @@ import Sponsoren from './Sponsoren'
 import dataSponsoren from './data-sponsoren'
 import { json } from 'react-router-dom'
 import ImageSlider from './ImageSlider'
+import { InstagramEmbed } from 'react-social-media-embed';
 
 
 
@@ -63,22 +64,56 @@ export default function App() {
 
 
   return (
-    <div className="container">
+    <><div className="container">
       <div className='img-container-slider'>
         <div className="img-slider">
           <picture>
-          <ImageSlider
-            slides={getSlidesToShow()}
-          />
+            <ImageSlider
+              h1="Über Mich"
+              slides={getSlidesToShow()} />
+
           </picture>
+
         </div>
       </div>
       <div className='joe'>{aboutMe}</div>
       <div className="Rennberichte"><h1> Aktuelles </h1> <RennberichteVorschau /></div>
 
     </div>
+    <div className="InstagramEmbeded" >
+        <InstagramEmbed 
+        className="InstagramEmbedPost" 
+        placeholderSpinnerDisabled
+        url="https://www.instagram.com/p/CxoDyhwsjAg/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" 
+        height="60%"
+        width="100%"
+        />
+        <InstagramEmbed 
+        className="InstagramEmbedPost" 
+        placeholderSpinnerDisabled
+        url="https://www.instagram.com/p/CwlHqYBsi1z/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" 
+        height="60%"
+        width="100%"
+        />
+         <InstagramEmbed 
+        className="InstagramEmbedPost" 
+        placeholderSpinnerDisabled
+        url="https://www.instagram.com/p/CwN0YomMfPb/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" 
+        height="60%"
+        width="100%"
+        />
+         <InstagramEmbed 
+        className="InstagramEmbedPost" 
+        placeholderSpinnerDisabled
+        url="https://www.instagram.com/reel/Cvflfk7Rns4/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" 
+        height="60%"
+        width="100%"
+        captioned="false"
+        />
+        </div>
 
 
+</>
   )
 }
 

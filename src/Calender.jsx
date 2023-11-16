@@ -12,13 +12,15 @@ import ImageSlider from './ImageSlider';
 export default function Calender() {
   
   return (
-    <div className='contact-mui'><Timeline position="absolute">
+    <div className='contact-mui'><Timeline position="alternate">
               {dataCalender.map((item) => (
                   <div>
-                      <TimelineItem position='alternate'>
-                          <TimelineOppositeContent color="white">
+                      <TimelineItem >
+                        <TimelineSeparator>
+                          <TimelineContent color="black">
                               {item.date}
-                          </TimelineOppositeContent>
+                          </TimelineContent>
+                          </TimelineSeparator>
                           <TimelineSeparator>
                               <TimelineDot color={item.state} />
                               <TimelineConnector />

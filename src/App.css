@@ -67,8 +67,10 @@
 .contact-mui{
   padding-top: 5px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
+
+
 .footer-content{
   text-align: right;
   display: grid;
@@ -161,6 +163,7 @@
 .resultate-content.show{
   max-height: 500px;
   padding: 15px;
+
   
 }
 
@@ -452,7 +455,11 @@ h3 {
   aspect-ratio: 8/1.7;
 
 }
-
+.Home-h1{
+  display: flex;
+  justify-content: center;
+  padding-top: 50vh;
+}
 
 
 .footer-container {
@@ -513,7 +520,7 @@ h3 {
 }
 
 .joe h1 {
-  padding-top: 40px;
+  padding-top: -10px;
   margin-bottom: 0;
   background-color: white;
   color: #0d324d;
@@ -646,6 +653,20 @@ h1 {
   width: 100%;
   border: 0px;
   
+}
+.aws-sld {
+  &--exit {
+    &.aws-sld--moveRight, &.aws-sld--moveLeft {
+      animation: scaleOut var(--slider-transition-duration) both
+        var(--transition-bezier);
+    }
+  }
+}
+
+@keyframes scaleOut {
+  to {
+    transform: scale(0.85);
+  }
 }
 
 .SingleRennbericht .rennberichte-main-container{
@@ -851,6 +872,18 @@ h1 {
 .hamburger:hover {
   background-color: #2642af;
 }
+
+.InstagramEmbeded {
+  box-sizing: content-box;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  height: fit-content;
+  position: relative;
+  padding: 40px;
+
+}
+
 
 @media screen and (max-width: 1580px) {
   .brand-name{

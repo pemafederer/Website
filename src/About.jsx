@@ -17,7 +17,8 @@ export default function About() {
         <div className="About">
 
             <div className="img-container">
-                <img src="Lugano_XCC_2.jpg" />
+                <img src="Lugano_XCC_2.jpg" title="jjaaad"/>
+                
             </div>
 
 
@@ -26,7 +27,7 @@ export default function About() {
                 <h1> Über mich</h1>
                 <div className="AboutMe-container">
                     {dataAbout.map(item => (
-
+                        
 
                         <><div className="AboutMe-img">
                             <img src={item.img} loading="lazy" />

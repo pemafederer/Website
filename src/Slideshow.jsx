@@ -23,7 +23,9 @@ const SlideShow = () => {
     return (
         <div>
             <div className="slide-container">
-                <Link><ImageSlider slides={slides}/> </Link>
+                <Link>
+                <ImageSlider slides={slides}/> 
+                </Link>
                 
             </div>
         </div>
