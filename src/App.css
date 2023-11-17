@@ -1,5 +1,6 @@
 #root {
   text-align: center;
+  max-width: 200;
 
 }
 .video-main-container{
@@ -201,6 +202,14 @@ height: auto;
 margin: 0;
 
 
+}
+.img-container-title{
+  display: flex;
+  justify-content: center;
+  font-size: 200px;
+  margin-top: -20%;
+  margin-bottom: 10%;
+  color: white;
 }
 
 .img-container img{
@@ -876,12 +885,17 @@ h1 {
 .InstagramEmbeded {
   box-sizing: content-box;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
-  height: fit-content;
-  position: relative;
+  /*position: relative;*/
   padding: 40px;
 
+}
+.InstagramEmbededItem {
+  height: 100%;
+  border: 1px solid black;
+  height: fit-content;/* Adjust the height as needed */
+  width: 100%;
 }
 
 

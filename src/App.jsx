@@ -71,7 +71,7 @@ export default function App() {
             <ImageSlider
               h1="Über Mich"
               slides={getSlidesToShow()} />
-
+    
           </picture>
 
         </div>
@@ -80,36 +80,39 @@ export default function App() {
       <div className="Rennberichte"><h1> Aktuelles </h1> <RennberichteVorschau /></div>
 
     </div>
-    <div className="InstagramEmbeded" >
+    <div className="InstagramEmbeded"  >
         <InstagramEmbed 
-        className="InstagramEmbedPost" 
+        className="InstagramEmbededItem" 
         placeholderSpinnerDisabled
         url="https://www.instagram.com/p/CxoDyhwsjAg/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" 
-        height="60%"
-        width="100%"
+        height="46%"
+        width="auto"
+        injectScript
+  
         />
         <InstagramEmbed 
-        className="InstagramEmbedPost" 
+        className="InstagramEmbededItem" 
         placeholderSpinnerDisabled
         url="https://www.instagram.com/p/CwlHqYBsi1z/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" 
-        height="60%"
+        height="46%"
         width="100%"
         />
          <InstagramEmbed 
-        className="InstagramEmbedPost" 
+        className="InstagramEmbededItem" 
         placeholderSpinnerDisabled
         url="https://www.instagram.com/p/CwN0YomMfPb/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" 
-        height="60%"
+        height="46%"
         width="100%"
         />
-         <InstagramEmbed 
-        className="InstagramEmbedPost" 
+          <InstagramEmbed 
+        className="InstagramEmbededItem" 
         placeholderSpinnerDisabled
-        url="https://www.instagram.com/reel/Cvflfk7Rns4/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" 
-        height="60%"
+        url="https://www.instagram.com/p/CwN0YomMfPb/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" 
+        height="46%"
         width="100%"
-        captioned="false"
         />
+    
+
         </div>
 
 
