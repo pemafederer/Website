@@ -13,13 +13,16 @@ export default function Rennberichte() {
         { url: "Savognin.jpg", title: "Gränichen Junior Series" },
         { url: "Haiming.JPG", title: "Gränichen Junior Series" },
     ]
+
+    const figcaption = " Rennberichte "
     return (
 
         <div className="Rennberichte">
-            <div className="img-container">
-                <img src="Savognin_3.jpg" />
+               <div className="img-container">
+                <img src="Savognin_3.jpg"/>
+                <figcaption className="img-container-title">{figcaption}</figcaption>
             </div>
-            <h1>Rennberichte </h1>
+           { /*<!-- <h1>Rennberichte </h1> ! -->*/}
             <div className="rennberichte-main-container">
 
 

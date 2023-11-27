@@ -9,16 +9,18 @@ import ImageSlider from "./ImageSlider"
 
 export default function Sponsoren() {
   
+    const figcaption = " Sponsoren";
 
     console.log(dataSponsoren)
     return (
         <>
-            <div className="container">
+            <div className="container-sponsoren">
                 <div className="Sponsoren">
-                        <div className="img-container">
-                           <img src="Savognin.jpg" />
-                        </div>
-                    <h1> Private Sponsoren</h1>
+                <div className="img-container">
+                <img src="Savognin.jpg" title="jjaaad"/>
+               { /*<figcaption className="img-container-title">{figcaption}</figcaption>*/}
+            </div>
+                  <h1 > Private Sponsoren</h1>
                     <div className="sponsoren-main-container">
 
                         {dataSponsoren.map(item =>
@@ -39,7 +41,7 @@ export default function Sponsoren() {
                             </div>
                         )
 
-                        ).slice(10, 11)}
+                        ).slice(10, 12)}
 
                     </div>
 

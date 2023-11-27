@@ -52,11 +52,18 @@ export default[
             link: "https://sypoba.com/"
          },
          {
-            name: "Tibetasia, Wo Zürich auf Asien trifft Wir freuen uns Ihnen frische Spezialitäten mit einem Lächeln servieren zu dürfen. Auch bieten wir direkte Lieferung zu Ihnen nach Hause. Ich bedanke mich bei unseren Gästen für die jahrelange Treue und freue mich darauf, weiterhin beste kulinarische Erlebnisse zu schaffen",
+            name: "Tibetasia, Wo Zürich auf Asien trifft. Wir freuen uns Ihnen frische Spezialitäten mit einem Lächeln servieren zu dürfen. Auch bieten wir direkte Lieferung zu Ihnen nach Hause. Ich bedanke mich bei unseren Gästen für die jahrelange Treue und freue mich darauf, weiterhin beste kulinarische Erlebnisse zu schaffen",
             img:"tibetasia.jpg",
             link: "https://www.tibetasia.ch/"
 
          },
+         {
+            name: "Seit 1993 sind wir stolz darauf, ein Familienbetrieb in Uznach zu sein, der eine breite Palette von Dienstleistungen rund um Autos anbietet. Unsere Leidenschaft für Fahrzeuge und unser Engagement für Qualität haben uns zu einer vertrauenswürdigen Anlaufstelle für unsere Kunden gemacht.",
+            img:"markaj.png",
+            link: "https://garage-markaj.ch/"
+
+         },
+
          {
             name: "Migmar Kangsar",
             img:"gränichen.jpeg",

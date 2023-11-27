@@ -29,6 +29,7 @@
     "react-modal-images": "^0.1.0",
     "react-modal-video": "^2.0.1",
     "react-social-media-embed": "^2.3.6",
+    "strava-v3": "^2.2.0",
     "text-encoding": "^0.7.0",
     "video-react": "^0.16.0"
   },
