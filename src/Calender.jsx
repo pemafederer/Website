@@ -1,35 +1,66 @@
 import * as React from 'react';
-import Timeline from '@mui/lab/Timeline';
-import TimelineItem from '@mui/lab/TimelineItem';
-import TimelineSeparator from '@mui/lab/TimelineSeparator';
-import TimelineConnector from '@mui/lab/TimelineConnector';
-import TimelineContent from '@mui/lab/TimelineContent';
-import TimelineDot from '@mui/lab/TimelineDot';
-import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell, { tableCellClasses } from '@mui/material/TableCell';
+import TableContainer from '@mui/material/TableContainer';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
+import Paper from '@mui/material/Paper';
 import dataCalender from './data-calender';
 import ImageSlider from './ImageSlider';
 
 export default function Calender() {
+
+  const StyledTableCell = styled(TableCell)(({ theme }) => ({
+    [`&.${tableCellClasses.head}`]: {
+      backgroundColor: theme.palette.common.black,
+      color: theme.palette.common.white,
+    },
+    [`&.${tableCellClasses.body}`]: {
+      fontSize: 14,
+    },
+  }));
+  
+  const StyledTableRow = styled(TableRow)(({ theme }) => ({
+    '&:nth-of-type(odd)': {
+      backgroundColor: theme.palette.action.hover,
+    },
+    // hide last border
+    '&:last-child td, &:last-child th': {
+      border: 0,
+    },
+  }));
+  
+  function createData(name, date, startTime, category, status) {
+    return { name, date, startTime, category, status };
+  }
   
   return (
-    <div className='contact-mui'><Timeline position="alternate">
-              {dataCalender.map((item) => (
-                  <div>
-                      <TimelineItem >
-                        <TimelineSeparator>
-                          <TimelineContent color="black">
-                              {item.date}
-                          </TimelineContent>
-                          </TimelineSeparator>
-                          <TimelineSeparator>
-                              <TimelineDot color={item.state} />
-                              <TimelineConnector />
-                          </TimelineSeparator>
-                          <TimelineContent>{item.race}</TimelineContent>
-                      </TimelineItem>
-                  </div>
-              ))}
-
-          </Timeline></div>
+    <TableContainer component={Paper}>
+    <Table sx={{ minWidth: 700 }} aria-label="customized table">
+      <TableHead>
+        <TableRow>
+          <StyledTableCell>Rennkalender 2024 (provisorisch)</StyledTableCell>
+          <StyledTableCell align="left">Datum</StyledTableCell>
+          <StyledTableCell align="left">Startzeit</StyledTableCell>
+          <StyledTableCell align="left">Kategorie</StyledTableCell>
+          <StyledTableCell align="left">Status</StyledTableCell>
+        </TableRow>
+      </TableHead>
+      <TableBody>
+        {dataCalender.map((row) => (
+          <StyledTableRow key={row.race}>
+            <StyledTableCell component="th" scope="row">
+              {row.race}
+            </StyledTableCell>
+            <StyledTableCell align="left">{row.date}</StyledTableCell>
+            <StyledTableCell align="left">{row.startTime}</StyledTableCell>
+            <StyledTableCell align="left">{row.category}</StyledTableCell>
+            <StyledTableCell align="left">{row.state}</StyledTableCell>
+          </StyledTableRow>
+        ))}
+      </TableBody>
+    </Table>
+  </TableContainer>
   );
 }

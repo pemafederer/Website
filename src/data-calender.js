@@ -1,86 +1,117 @@
 export default [
     {
-        date: "19.03.2023",
-        race: "Junior Series Gränichen (HC)",
-        state: "success"
+        date: "17.03.2024",
+        race: "Swissbikecup Gränichen",
+        state: "C1",
+        category: "Amateure Masters",
+        startTime: "08 : 45"
         
     },
     {
-        date: "26.03.2023",
-        race: "Junior Series Rivera (HC)",
-        state: "success"
+        date: "24.03.2024",
+        race: "Swissbikecup Rivera",
+        state: "HC",
+        category: "U23 Herren",
+        startTime: "10 : 15"
     },
     {
-        date: "08.04.2023",
-        race: "Bikerennen Arbon (C3)",
-        state: "success"
+        date: "07.04.2024",
+        race: "Swissbikecup Lugano",
+        state: "C1",
+        category: "Amateure Masters",
+        startTime: "09 : 30"
     },
     {
-        date: "16.04.2023",
-        race: "Junior Series Haiming (HC)",
-        state: "success"
+        date: "28.04.2024",
+        race: "BikeWorldRaceSeries Schwändi",
+        state: "-",
+        category: "Open",
+        startTime: "14 : 15"
+
     },
     {
-        date: "30.04.2023",
-        race: "BikeWorld Raceseries Schwändi",
-        state: "success"
+        date: "05.05.2024",
+        race: "ÖKK Bikerevolution Davos",
+        state: "HC",
+        category: " U23 Herren",
+        startTime: "10 : 15"
     },
     {
-        date: "14.05.2023",
+        date: "26.05.2024",
         race: "BikeWorld Raceseries Wetzikon",
-        state: "success"
+        state: "-",
+        category: "Open",
+        startTime: "14 : 15"
     },
     {
-        date: "19.05.2023",
-        race: "Swissbikecup Lugano XCO (C1)",
-        state: "success"
+        date: "09.06.2024",
+        race: "Swissbikecup Leysin",
+        state: "C1",
+        category: "Amateure Masters",
+        startTime: "09 : 30"
     },
     {
-        date: "21.05.2023",
-        race: "Swissbikecup Lugano XCC",
-        state: "success"
+        date: "23.06.2024",
+        race: "BikeWorldRaceseries Hittnau",
+        state: "-",
+        category: "Open",
+        startTime: "14 : 15"
 
     },
     {
-        date: "04.06.2023",
-        race: "SM Crans-Montana",
-        state: "success"
+        date: "30.06.2024",
+        race: "BikeWorldRaceseries Uster",
+        state: "-",
+        category: "Open",
+        startTime: "14 : 15"
 
     },
     {
-        date: "25.06.2023",
-        race: "Swissbikecup Savognin (C2)",
-        state: "success"
+        date: "12.07.2024",
+        race: "XCC SM Echallens",
+        state: "NC",
+        category: "U23 Herren",
+        startTime: "18 : 30"
 
     },
     {
-        date: "02.07.2023",
-        race: "BikeWorld RaceSeries Uster",
-        state: "success"
+        date: "14.07.2024",
+        race: "XC0 SM Echallens",
+        state: "NC",
+        category: "U23 Herren",
+        startTime: "10 : 15"
 
     },
     {
-        date: "20.08.2023",
-        race: "Junior Series Basel (HC)",
-        state: "success"
+        date: "25.08.2024",
+        race: "Swissbikecup Basel",
+        state: "HC",
+        category: "U23 Herren",
+        startTime: "10 : 15"
 
     },
     {
-        date: "27.08.2023",
+        date: "01.09.2024",
         race: "BikeWorld Raceseries Eschenbach",
-        state: "success"
+        state: "-",
+        category: "Open",
+        startTime: "14 : 15"
 
     },
     {
-        date: "10.09.2023",
+        date: "08.09.2024",
         race: "BikeWorld Raceseries Egg",
-        state: "success"
+        state: "-",
+        category: "Open",
+        startTime: "14 : 15"
 
     },
     {
-        date: "24.09.2023",
-        race: "Swissbikecup Gstaad (C1)",
-        rate: "success"
+        date: "22.09.2024",
+        race: "Swissbikecup Crans-Montana",
+        state: "C1",
+        category: "Amateure Masters",
+        startTime: "09 : 30"
 
     },
 

@@ -1,15 +1,15 @@
 import React from "react"
 import dataRennberichte from "./data-rennberichte"
 import { Link } from "react-router-dom"
+import ActionAreaCard from "./ActionAreaCard"
 
 
 export default function RennberichteVorschau() {
    
 
     return (
-
-        <div className="rennberichte-main-container">
-            {dataRennberichte.map(item =>  (
+            <ActionAreaCard />
+            /*{dataRennberichte.map(item =>  (
                 <div key={item.id}>
                     <div className="rennberichte-container">
                         <picture>
@@ -30,11 +30,8 @@ export default function RennberichteVorschau() {
                 </div>
                 
 
-            )).slice(0, 3)}
+            )).slice(0, 3)}*/
 
-
-
-        </div>
     )
 }
 
