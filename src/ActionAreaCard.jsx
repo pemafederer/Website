@@ -16,7 +16,7 @@ export default function ActionAreaCard() {
 
     {dataRennberichte.map(item => (
         <div className='rennberichte-container'>
-        
+         <Link to={`/rennbericht/${item.id}`}>
         <Card key={item.id} sx={{maxWidth: 400}} className='rennberichte-card'>
           <CardMedia className='rennberichte-img'
             component="img"
@@ -32,13 +32,8 @@ export default function ActionAreaCard() {
              {item.subtitle}
             </Typography>
           </CardContent>
-        <CardActions>
-        <Link to={`/rennbericht/${item.id}`}>
-        <Button size="small" variant='outlined' >Zum Rennbericht</Button>
-        </Link>
-      </CardActions>
         </Card>
-        
+        </Link>
        </div>
     ))}
     

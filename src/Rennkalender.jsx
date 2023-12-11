@@ -46,14 +46,14 @@ export default function Rennkalender() {
     return (
         <div className='Rennkalender'>
             <div className="img-container">
-                <img src="gstaad.jpg" />
+                <img src="Savognin.jpg" />
             </div>
 
             <div className="RennkalenderH1">
             <h1> Rennkalender</h1>
             </div>
         
-    <TableContainer component={Paper} className='rennkalender-main-container'>
+    <TableContainer component={Paper} className='rennkalender-main-container' sx={{ width: '90%' , margin: 'auto'}}>
       <Table sx={{ minWidth: 700 }} aria-label="customized table"  stickyHeader className='rennkalender-container'>
         <TableHead>
           <TableRow>

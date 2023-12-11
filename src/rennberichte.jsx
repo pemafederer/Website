@@ -8,11 +8,6 @@ import ImageSlider from "./ImageSlider";
 
 export default function Rennberichte() {
     const [flip, setFlip] = React.useState([true, true, true, true, true, true]);
-    const slides = [
-        { url: "Crans-Montana.JPG", title: "Gränichen Junior Series" },
-        { url: "Savognin.jpg", title: "Gränichen Junior Series" },
-        { url: "Haiming.JPG", title: "Gränichen Junior Series" },
-    ]
 
     const figcaption = " Rennberichte "
     return (
@@ -34,9 +29,6 @@ export default function Rennberichte() {
                     }))}>
                         <div className={`rennberichte-container ${idx ? 'hover' : ''}`}>
                             <ReactCardFlip isFlipped={flip[idx]} flipDirection="horizontal">
-
-
-
                                 <div>
                                     <Link to={`/rennbericht/${item.id}`}>
                                         <div className="rennbericht-title" >

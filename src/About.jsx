@@ -33,7 +33,6 @@ export default function About() {
                         <><div className="AboutMe-img">
                             <img src={item.img} loading="lazy" />
                         </div>
-                            <div className="vl"></div>
                             <div className="AboutMe-Text">
 
                                 <div className="Steckbrief">

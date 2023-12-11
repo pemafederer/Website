@@ -2,8 +2,8 @@ export default [
 {
     id: 0,
     title: "Swissbikecup Gesamtsieg",
-    subtitle: "Nach einem Massensturz am Start, musste ich das Feld von hinten aufrollen. Dies gelang mir gut und ich befand mich nach Rennhälfte auf P.7. Leider konnte ich den Gap zum Trio um P.4 nie ganz schliessen, trotzdem bin ich mit meiner Leistung zufrieden. Mit dem 7ten Platz konnte ich souverän die Gesamtwertung des Swissbikecup's gewinnen. ",
-    img: "gstaad_podium.jpg",
+    subtitle: "Nach einem Massensturz am Start, musste ich das Feld von hinten aufrollen. Dies gelang mir gut und ich befand mich nach Rennhälfte auf P.7. Leider konnte ich den Gap zum Trio um P.4 nie ganz schliessen. Mit dem 7ten Platz konnte ich souverän die Gesamtwertung des Swissbikecup's gewinnen. ",
+    img: "gstaad.jpg",
     img_container_1: "Eschenbach_2.jpg",
     img_container_2: "Eschenbach_3.JPG",
     img_container_3: "Eschenbach_4.JPG",
@@ -40,7 +40,7 @@ export default [
 {
     id: 5,
     title: "Erste UCI Punkte in Rivera",
-    subtitle: "Nach einem verpatzten Saisonstart in Gränichen, konnte ich an der Junior Series in Rivera ein super Rennen zeigen und zu meinen ersten UCI Punkten fahren. Ich kamm schon am Start sehr gut weg und konnte von da an mein Rennen voll durchziehen und kam auf dem sehr zufriedenstellenden P.21 ins Ziel. ",
+    subtitle: "Nach einem verpatzten Saisonstart in Gränichen, konnte ich an der Junior Series in Rivera ein super Rennen zeigen und zu meinen ersten UCI Punkten fahren. Ich kamm am Start sehr gut weg und konnte von da an mein Rennen voll durchziehen. Schlussendlich kam ich auf P.21 ins Ziel. ",
     img: "Rivera_Rockgarden.JPG",
 }
 
