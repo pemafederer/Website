@@ -28,10 +28,9 @@ export default function Galerie() {
             <h1>Galerie</h1>
             <div className="galerie-main-container">
 
-                <ImageList sx={{ width: "70%" }} cols={2} rowHeight={600} >
-                    {dataGalerie.map((item) => (
-                        <div className="galerie-container">
-
+                <ImageList sx={{ width: "70%" , height: "auto"}} cols={2} rowHeight={"264"} >
+                    {dataGalerie.map((item, index) => (
+                        <div key={index} className="galerie-container" style={{ maxHeight: "80vh", paddingBottom: "px" }}>
                             {/* <ImageListItem key={item.img}>*/}
                             <RModalImages className="RModalImages"
                                 contentLabel={"Example Modal"}
@@ -40,6 +39,10 @@ export default function Galerie() {
                                 large={`${item.img}?w=164&h=164&fit=crop&auto=format`}
                                 alt={item.title}
                                 loading="lazy"
+                                sx={{height: "50vh"}}
+                                hideDownloadButton={true}
+                                showRotateButton={false}
+                                imageBackgroundColor="black"
                             />
 
                             {/*</ImageListItem>*/}
