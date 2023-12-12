@@ -77,7 +77,6 @@ export default function App() {
         </div>
       </div>
       <div className='joe'>{aboutMe}</div>
-      <Analytics />
       <div className="Rennberichte"><h1> Aktuelles </h1> <RennberichteVorschau /></div>
 
     </div>
