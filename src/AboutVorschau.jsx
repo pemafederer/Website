@@ -10,13 +10,14 @@ function onClick(){
     
 }
     return (
-        <><h1> Über mich</h1>
-        <div className="AboutMe-container">
+        <div className="about-vorschau-container">
+        <h1> Über mich</h1>
+        <div className="AboutMe-vorschau-container">
 
             <div className="AboutMe-img">
                 <img src={props.item.img} />
             </div>
-            <div className="AboutMe-Text">
+            <div className="AboutMe-vorschau-Text">
                 <div className="AboutMe-title">
                     {props.item.title}
                 </div>
@@ -26,7 +27,8 @@ function onClick(){
 
 
 
-        </div></>
+        </div>
+        </div>
 
     )
 }
