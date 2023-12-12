@@ -15,7 +15,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function Main(){
   return(
-    <SpeedInsights>
+    
     <BrowserRouter>
     <Routes>
       <Route element={<Layout />}>
@@ -29,7 +29,7 @@ function Main(){
       </Route>
     </Routes>
     </BrowserRouter>
-    </SpeedInsights>
+    
   )
 }
 
