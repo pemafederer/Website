@@ -8,7 +8,6 @@ import './App.css'
 import RennberichteVorschau from './RennberichteVorschau.jsx'
 import Navbar from './Navbar'
 import dataRennberichte from './data-rennberichte'
-import { Analytics } from '@vercel/analytics/react';
 import Sponsoren from './Sponsoren'
 import dataSponsoren from './data-sponsoren'
 import { json } from 'react-router-dom'
