@@ -11,7 +11,6 @@ function onClick(){
 }
     return (
         <div className="about-vorschau-container">
-        <h1> Über mich</h1>
         <div className="AboutMe-vorschau-container">
 
             <div className="AboutMe-img">
@@ -22,7 +21,7 @@ function onClick(){
                     {props.item.title}
                 </div>
                 <div className="AboutMe-description">{props.item.description}</div>
-                <button className="AboutMe-button"><Link to="/about">Learn more about my passion </Link></button>
+                <button className="AboutMe-button"><Link to="/about">Mehr Erfahren </Link></button>
             </div>
 
 

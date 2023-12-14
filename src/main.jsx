@@ -10,7 +10,6 @@ import Rennberichte from './rennberichte.jsx'
 import Rennkalender from './Rennkalender.jsx'
 import Galerie from './Galerie.jsx'
 import SingleRennbericht from './SingleRennbericht.jsx'
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 function Main(){

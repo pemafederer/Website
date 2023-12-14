@@ -75,16 +75,6 @@
 }
 
 
-.footer-content{
-  text-align: right;
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 1fr 1fr;
-}
-
-.footer-telefon{
-  text-align: left;
-}
 
 .Resultate{
   padding-top: 50px;
@@ -223,7 +213,7 @@ margin: 0;
   
 }
 .img-container-slider{
-  height: 100vh;
+
 }
 
 .img-container-slider .rightArrow {
@@ -479,12 +469,18 @@ h3 {
   padding-top: 50vh;
 }
 
+.footer-content{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
 
 .footer-container {
-  
+ 
   display: flex;
   width: 100%;
-  height: 300px;
+  height: 35vh;
   background-color: black;
   justify-content: center;
   color: white;
@@ -492,25 +488,29 @@ h3 {
 
 .footer-title {
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 700;
   padding: 10px;
 
 }
 
 .footer-email {
-  text-align: center;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
-.footer.creater {
-  text-align: center;
+.footer-creater {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 400;
+}
+.footer-telefon{
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .icon-container {
+  grid-template-columns: 1fr 1fr;
   padding-top: 20px;
   width: 100%;
   height: 60px;
@@ -518,12 +518,9 @@ h3 {
 
 .icon-img img {
   justify-content: center;
-  object-fit: cover;
-  height: 80px;
+  height:60px;
   width: auto;
-  aspect-ratio: 1/1;
   border-radius: 5px;
-  margin-bottom: 10px;
   padding: 10px;
 }
 
@@ -560,9 +557,7 @@ h3 {
 }
 
 .AboutMe-container {
-  padding-top: 40px;
   margin-top: 0;
-  padding-bottom: 60px;
   background-color: white;
   flex-direction: row;
   display: flex;
@@ -572,17 +567,13 @@ h3 {
 
 }
 .AboutMe-vorschau-container {
-  padding-top: 40px;
-  margin-left: 10%;
   margin-top: 0;
   padding-bottom: 60px;
-  width: 80%;
+  width: 90%;
   background-color: white;
-  flex-direction: row;
   display: flex;
   justify-content: center;
   align-items: center;
-
 
 }
 
@@ -601,21 +592,22 @@ h1 {
 }
 .AboutMe-vorschau-Text {
   color: #0d324d;
-  width: 25%;
+  width: 35%;
   position: inherit;
   margin: 3%;
   border-radius: 5px;
-  border: 3px solid #020202;
   padding: 20px;
 }
 
 .AboutMe-description {
+  text-align: justify;
   padding-top: 20px;
   font-size: 20px;
 }
 
 .AboutMe-title {
-  font-size: 60px;
+  width: 100%;
+  font-size: 4rem;
   text-align: center;
 
 }
@@ -625,7 +617,7 @@ h1 {
   display: flex;
   object-fit: cover;
   width: auto;
-  height: 80vh;
+  height: 60vh;
   aspect-ratio: 3/4;
   border-radius: 5px;
   margin-bottom: 10px;
@@ -640,8 +632,8 @@ h1 {
 }
 .AboutMe-button {
   color: black;
-  margin-top: 30px;
-  padding: 20px;
+  margin-top: 10%;
+  padding: 5%;
   background-color: #3b2c35;
 }
 
@@ -1020,13 +1012,10 @@ h1 {
 
   .AboutMe-description {
     font-size: 17px;
-    padding-left: 0;
   }
 
   .AboutMe-button {
-    height: auto;
-    margin-top: 10px;
-    padding: 1px;
+    width: auto;
 
   }
   
@@ -1035,7 +1024,7 @@ h1 {
     aspect-ratio: 3/4;
     width: 33.4%;
     height: auto;
-    padding-left: 5px;
+    padding-left: 2%;
 
   }
 
@@ -1140,8 +1129,22 @@ h1 {
 }
 
 @media screen and (max-width: 900px) {
-  .footer-content, .footer-content .footer-email{
-    font-size: 15px;
+
+  .footer-content{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+ 
+  .footer-content, .footer-creater, .footer-telefon, .footer-email{
+    font-size: 18px;
+    text-align: center;
+
+  }
+  .footer-container{
+    height: 350px;
+  }
+  .footer-title {
+    font-size: 20px;
   }
   .Steckbrief h3 {
     font-size: 12px;
@@ -1152,7 +1155,7 @@ h1 {
 
   }
   .AboutMe-title {
-    font-size: 10px;
+    font-size: 17px;
   }
   .resultate-content{
     font-size: 19px;
@@ -1162,17 +1165,16 @@ h1 {
     }
 
   .AboutMe-description {
-    font-size: 10px;
+    font-size: 15px;
     padding-left: 0;
   }
 
   .AboutMe-button {
-    width: 100%;
-    padding: 0px;
+    width: 50%;
+    padding: 2%;
   }
-
-  .AboutMe-button a{
-    font-size: 7.8px;
+  .AboutMe-vorschau-Text{
+    width: 100%;
   }
 
 
@@ -1239,6 +1241,32 @@ h1 {
 }
 
 @media screen and (max-width: 540px) {
+
+  .AboutMe-vorschau-container{
+   flex-wrap: wrap-reverse;
+   padding-left: 5%;
+
+  }
+  .AboutMe-button{
+    width: 80%;
+  }
+  .AboutMe-description{
+    font-size: 18px;
+  }
+  .AboutMe-title{
+    font-size: 20px;
+  }
+
+  .AboutMe-img{
+    width: 50%;
+  }
+
+  .footer-content, .footer-creater, .footer-telefon, .footer-email{
+    font-size: 15px;
+  }
+  .footer-title{
+    font-size: 18px;
+  }
   .brand-name {
     font-size: 18px;
   }

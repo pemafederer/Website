@@ -1,7 +1,7 @@
 export default [
     {
-        title: "About me",
-        description: "Hier kannst du alles über mich und meine Leidenschaft das Mountainbiken erfahren. Seit dem ich zehn Jahre alt bin fasziniert mich der Bikesport mit seinen Facetten. ",
+        title: "ÜBER MICH",
+        description: "Erfahre alles über mich und meine Leidenschaft das Mountainbiken erfahren. Seit dem ich zehn Jahre alt bin fasziniert mich der Bikesport mit seinen Facetten. Die persönlichen Fortschtritte der letzten Jahre motivieren mich weiterhin alles aus meinem Körper herauszuholen, um die persönlichen Ziele zu erreichen. ",
         img:"uster.jpg",
 
         name: "Pema Federer",

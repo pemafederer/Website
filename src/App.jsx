@@ -79,41 +79,6 @@ export default function App() {
       <div className="Rennberichte"><h1> Aktuelles </h1> <RennberichteVorschau /></div>
 
     </div>
-    <h1> Instagram </h1>
-    <div className="InstagramEmbeded"  >
-        <InstagramEmbed 
-        className="InstagramEmbededItem" 
-        placeholderSpinnerDisabled
-        url="https://www.instagram.com/p/CxoDyhwsjAg/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" 
-        height="46%"
-        width="auto"
-        injectScript
-  
-        />
-        <InstagramEmbed 
-        className="InstagramEmbededItem" 
-        placeholderSpinnerDisabled
-        url="https://www.instagram.com/p/CwlHqYBsi1z/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" 
-        height="46%"
-        width="100%"
-        />
-         <InstagramEmbed 
-        className="InstagramEmbededItem" 
-        placeholderSpinnerDisabled
-        url="https://www.instagram.com/p/CwN0YomMfPb/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" 
-        height="46%"
-        width="100%"
-        />
-          <InstagramEmbed 
-        className="InstagramEmbededItem" 
-        placeholderSpinnerDisabled
-        url="https://www.instagram.com/p/CvXx0WCM9ja/?utm_source=ig_web_copy_link&igshid=NTYzOWQzNmJjMA=="
-        height="46%"
-        width="100%"
-        />
-    
-
-        </div>
 </>
   )
 }
