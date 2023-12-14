@@ -13,20 +13,20 @@ export default function About() {
         { url: "Savognin.jpg", title: "Gränichen Junior Series" },
         { url: "Haiming.JPG", title: "Gränichen Junior Series" },
     ]
-    const figcaption = "Über Mich";
     return (
         <div className="About">
 
             <div className="img-container">
                 <img src="Lugano_XCC_2.jpg" title="jjaaad"/>
-                <figcaption className="img-container-title">{figcaption}</figcaption>
             </div>
 
 
 
             <div className="about-container">
+                <div className="AboutMe-title">
                 <h1> Über mich</h1>
-                <div className="AboutMe-container">
+                </div>
+                <div className="AboutMe-vorschau-container">
                     {dataAbout.map(item => (
                         
 

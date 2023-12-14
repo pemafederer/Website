@@ -583,11 +583,7 @@ h1 {
 
 .AboutMe-Text {
   color: #0d324d;
-  width: auto;
-  position: inherit;
-  margin: 40px;
-  border-radius: 5px;
-  border: 3px solid #020202;
+  width: 50%;
   padding: 20px;
 }
 .AboutMe-vorschau-Text {
@@ -609,6 +605,7 @@ h1 {
   width: 100%;
   font-size: 4rem;
   text-align: center;
+  padding-bottom: 100px;
 
 }
 
