@@ -300,6 +300,10 @@ margin: 0;
   position: relative;
   height: 100%;
 }
+.start-slider{
+  position: relative;
+  height: 100%;
+}
 
 .dotsContainer {
   position: absolute;
@@ -1285,8 +1289,12 @@ h1 {
 }
 
 @media screen and (max-width: 540px) {
+  .start-slider{
+    width: 100%;
+    
+  }
   .slider{
-    width: 10%;
+    width: 100%;
     margin: 0 auto;
     overflow: hidden;
   }

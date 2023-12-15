@@ -59,7 +59,7 @@ const ImageSlider = ({ slides }) => {
   };
 
   return (
-    <div className="slider">
+    <div className="start-slider">
       <div className="arrows">
         
         {/*<div onClick={goToPrevious} className="leftArrow">
