@@ -14,15 +14,11 @@ export default function Galerie() {
         { url: "Savognin.jpg", title: "Gränichen Junior Series" },
         { url: "Haiming.JPG", title: "Gränichen Junior Series" },
     ]
-    const figcaption = "Galerie";
-
-
+  
     return (
         <div className="Galerie">
             <div className="img-container">
                     <img src="Gränichen.JPG" alt="Galerie" title="Galerie" />
-                    <figcaption className="img-container-title">{figcaption}</figcaption>
-            
                 
             </div>
             <h1>Galerie</h1>
