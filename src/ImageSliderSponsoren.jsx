@@ -4,7 +4,7 @@ import './App.css'
 const delay = 3000; // 5 seconds
 
 const slideStyles = {
-  width: "100%",
+  width: "auto",
   height: "100%",
   backgroundSize: "contain",
   backgroundRepeat: "no-repeat",
@@ -12,6 +12,7 @@ const slideStyles = {
   transition: "opacity 0.5s ease-in-out",
   textShadow: "1px 1px 2px rgba(0, 0, 0, 0.6)",
 };
+
 
 const ImageSliderSponsoren = ({ slides }) => {
   const [currentIndex, setCurrentIndex] = useState(0);

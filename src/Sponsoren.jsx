@@ -8,8 +8,6 @@ import Resultate from "./Resultate"
 import ImageSlider from "./ImageSlider"
 
 export default function Sponsoren() {
-  
-    const figcaption = " Sponsoren";
 
     console.log(dataSponsoren)
     return (
@@ -18,7 +16,6 @@ export default function Sponsoren() {
                 <div className="Sponsoren">
                 <div className="img-container">
                 <img src="Savognin.jpg" title="jjaaad"/>
-               { /*<figcaption className="img-container-title">{figcaption}</figcaption>*/}
             </div>
                   <h1 > Private Sponsoren</h1>
                     <div className="sponsoren-main-container">
@@ -55,7 +52,7 @@ export default function Sponsoren() {
                     <SlideshowSponsoren />
                 </div>
                 <div className="contact-titles">
-                    <h1> Formular</h1>
+                    <h1> Kontaktforumular</h1>
                 </div>
                 <div className="contact-text">
                     <h2> Möchten sie einen jungen, ambitionierten und sehr zielorientierten Sport untertstützen ?
@@ -67,7 +64,8 @@ export default function Sponsoren() {
 
                 <div className="Contact">
 
-                    <Contact /></div>
+                    <Contact />
+                </div>
 
             </div>
         </>
