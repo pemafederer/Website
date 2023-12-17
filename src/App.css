@@ -1177,9 +1177,6 @@ h1 {
   .Box-icon{
     padding-left: 65%;
   }
-  .resultate-container{
-    width: 90%;
-  }
   .resultate-main-container{
     grid-template-columns: 1fr;
   }
@@ -1187,7 +1184,11 @@ h1 {
 
 @media screen and (max-width: 900px) {
 
-
+  .AboutMe-vorschau-container{
+    flex-wrap: wrap-reverse;
+    padding-left: 5%;
+ 
+   }
   .footer-content{
     display: grid;
     grid-template-columns: 1fr;
@@ -1233,7 +1234,7 @@ h1 {
   .AboutMe-img {
     object-fit: cover;
     aspect-ratio: 3/4;
-    width: 31%;
+    width: 47%;
     height: auto;
     padding-left: 5px;
 
@@ -1287,7 +1288,7 @@ h1 {
 @media screen and (max-width: 540px) {
 
   .resultate-container{
-    width: 80%;
+    width: 90%;
   }
   .Box-icon{
     padding-left: 45%;
@@ -1314,11 +1315,6 @@ h1 {
     grid-gap: 10px;
   }
 
-  .AboutMe-vorschau-container{
-   flex-wrap: wrap-reverse;
-   padding-left: 5%;
-
-  }
   .AboutMe-button{
     width: 80%;
   }
