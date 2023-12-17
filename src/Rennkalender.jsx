@@ -49,8 +49,8 @@ export default function Rennkalender() {
                 <img src="Savognin.jpg" />
             </div>
 
-            <div className="RennkalenderH1">
-            <h1> Rennkalender</h1>
+            <div className="page-title">
+            <h1> RENNKALENDER</h1>
             </div>
         
     <TableContainer component={Paper} className='rennkalender-main-container' sx={{ width: '90%' , margin: 'auto'}}>

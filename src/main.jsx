@@ -19,12 +19,12 @@ function Main(){
     <Routes>
       <Route element={<Layout />}>
         <Route path="/" element={<App />}/>
-        <Route path="sponsoren" element={<Sponsoren/>}/>
-        <Route path="rennberichte" element={<Rennberichte />}/>
-        <Route path="/rennbericht/:rennId" element={<SingleRennbericht/>}/>
-        <Route path="about" element={<About />}/>
-        <Route path="rennkalender" element={<Rennkalender />}/>
-        <Route path="galerie" element={<Galerie />}/>
+        <Route path="SPONSOREN" element={<Sponsoren/>}/>
+        <Route path="RENNBERICHTE" element={<Rennberichte />}/>
+        <Route path="/RENNBERICH/:rennId" element={<SingleRennbericht/>}/>
+        <Route path="ABOUT" element={<About />}/>
+        <Route path="RENNKALENDER" element={<Rennkalender />}/>
+        <Route path="GALERIE" element={<Galerie />}/>
       </Route>
     </Routes>
     </BrowserRouter>

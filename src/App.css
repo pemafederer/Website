@@ -7,7 +7,10 @@
   width: 80%;
   height: 500px;
 }
-
+.galerie-title{
+  font-size: 30px;
+  padding-bottom: 30px;
+}
 
 .Galerie h1{
   padding-top: 100px;
@@ -129,7 +132,7 @@
 .resultate-container{
   width: auto;
   height: fit-content;
-  border: 5px solid whitesmoke;
+  border: 3px solid whitesmoke;
   border-radius: 35px;
   display: grid;
  
@@ -661,9 +664,9 @@ h1 {
 
 .AboutMe-title {
   width: 100%;
-  font-size: 4rem;
+  font-size: 30px;
   text-align: center;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
 
 }
 
@@ -984,6 +987,12 @@ h1 {
   width: 100%;
 }
 
+.page-title{
+  font-size: 25px;
+  padding-bottom: 30px;
+  
+}
+
 
 @media screen and (max-width: 1580px) {
   .brand-name{
@@ -1288,7 +1297,7 @@ h1 {
 @media screen and (max-width: 540px) {
 
   .resultate-container{
-    width: 90%;
+    width: 95%;
   }
   .Box-icon{
     padding-left: 45%;

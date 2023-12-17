@@ -66,8 +66,9 @@ export default function App() {
     <><div className="container">
       <div className='img-container-slider'>
         <div className="img-slider">
-          <picture>
+          <picture loading="lazy">
             <ImageSlider
+          
               h1="Über Mich"
               slides={getSlidesToShow()} />
     
@@ -76,7 +77,7 @@ export default function App() {
         </div>
       </div>
       <div className='joe'>{aboutMe}</div>
-      <div className="Rennberichte"><h1> Aktuelles </h1> <RennberichteVorschau /></div>
+      <div className="Rennberichte"><h1> AKTUELLES </h1> <RennberichteVorschau /></div>
 
     </div>
 </>

@@ -23,8 +23,8 @@ export default function About() {
 
 
             <div className="about-container">
-                <div className="AboutMe-title">
-                <h1> Über mich</h1>
+                <div className="page-title">
+                <h1> ÜBER MICH</h1>
                 </div>
                 <div className="AboutMe-vorschau-container">
                     {dataAbout.map(item => (

@@ -17,7 +17,7 @@ export default function Sponsoren() {
                 <div className="img-container">
                 <img src="Savognin.jpg" title="jjaaad"/>
             </div>
-                  <h1 > Private Sponsoren</h1>
+                  <h1 > PRIVATE SPONSOREN</h1>
                     <div className="sponsoren-main-container">
 
                         {dataSponsoren.map(item =>
@@ -48,7 +48,7 @@ export default function Sponsoren() {
 
                 </div>
                 <div className="teamsponsoren">
-                    <h1>Teamsponsoren</h1>
+                    <h1>TEAMSPONSOREN</h1>
                     <SlideshowSponsoren />
                 </div>
                 <div className="contact-titles">

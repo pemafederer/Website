@@ -21,7 +21,9 @@ export default function Galerie() {
                     <img src="Gränichen.JPG" alt="Galerie" title="Galerie" />
                 
             </div>
-            <h1>Galerie</h1>
+            <div className="galerie-title">
+                <h1> GALERIE</h1>
+                </div>
             <div className="galerie-main-container">
 
                 <ImageList sx={{ width: "70%" , height: "auto"}} cols={2} rowHeight={"264"} >
