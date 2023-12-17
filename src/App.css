@@ -97,14 +97,14 @@
 }
 .Box-icon{
   align-items: center;
-  padding-left: 60%;
+  padding-left: 70%;
   display: flex;
   justify-content: center;
  
 }
 
 .resultate-container-header{
-  width: 'auto';
+  width: auto;
   display: flex;
   background-color: #dbe4ee;
   border-radius: 29px;
@@ -127,8 +127,7 @@
 
 
 .resultate-container{
-  
-  grid-template-columns: 1fr ;
+  width: auto;
   height: fit-content;
   border: 5px solid whitesmoke;
   border-radius: 35px;
@@ -149,7 +148,8 @@
   grid-template-rows: 1fr ;
   grid-gap: 8px;
   text-align: left;
-  padding-left: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0;
 }
 
@@ -172,7 +172,7 @@
  }
  .resultate-content.show h4{
    color: white;
- 
+   font-size: 20px;
  }
 
 
@@ -1035,13 +1035,6 @@ h1 {
     height: 40px;
     width: 100%;
   }
-  .resultate-container{
-    grid-template-columns: 1fr;
-   -ms-grid-column-align: center;
-    }
-  .resultate-content{
-    font-size: 20px;
-  }
 
   .contact-container label {
     padding-right: 20px;
@@ -1180,12 +1173,20 @@ h1 {
   }
 }
 @media screen and (max-width: 1200px){
+
+  .Box-icon{
+    padding-left: 65%;
+  }
+  .resultate-container{
+    width: 90%;
+  }
   .resultate-main-container{
     grid-template-columns: 1fr;
   }
 }
 
 @media screen and (max-width: 900px) {
+
 
   .footer-content{
     display: grid;
@@ -1214,12 +1215,6 @@ h1 {
   .AboutMe-title {
     font-size: 17px;
   }
-  .resultate-content{
-    font-size: 19px;
-  }
-  .resultate-container{
-    grid-template-columns: 1fr;
-    }
 
   .AboutMe-description {
     font-size: 15px;
@@ -1290,6 +1285,13 @@ h1 {
 }
 
 @media screen and (max-width: 540px) {
+
+  .resultate-container{
+    width: 80%;
+  }
+  .Box-icon{
+    padding-left: 45%;
+  }
   .start-slider{
     width: 100%;
     
@@ -1352,6 +1354,9 @@ h1 {
 
   }
   .resultate-content.show h4{
+    font-size: 13px;
+  }
+  .resultate-content h4{
     font-size: 13px;
   }
 
