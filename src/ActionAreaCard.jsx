@@ -14,7 +14,7 @@ export default function ActionAreaCard() {
     <div className="rennberichte-main-container">
 
 
-    {dataRennberichte.map(item => (
+    {dataRennberichte.slice(0,3).map(item => (
         <div className='rennberichte-container'>
          <Link to={`/rennbericht/${item.id}`}>
         <Card key={item.id} sx={{maxWidth: 400}} className='rennberichte-card'>

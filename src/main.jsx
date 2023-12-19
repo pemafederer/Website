@@ -21,7 +21,7 @@ function Main(){
         <Route path="/" element={<App />}/>
         <Route path="SPONSOREN" element={<Sponsoren/>}/>
         <Route path="RENNBERICHTE" element={<Rennberichte />}/>
-        <Route path="/RENNBERICH/:rennId" element={<SingleRennbericht/>}/>
+        <Route path="/RENNBERICHT/:rennId" element={<SingleRennbericht/>}/>
         <Route path="ABOUT" element={<About />}/>
         <Route path="RENNKALENDER" element={<Rennkalender />}/>
         <Route path="GALERIE" element={<Galerie />}/>

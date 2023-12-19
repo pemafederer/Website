@@ -19,8 +19,6 @@ export default function Rennberichte() {
             <h1>RENNBERICHTE </h1>
             </div> 
             <div className="rennberichte-main-container">
-
-
                 {dataRennberichte.map((item, idx) => (
                     <div key={item.id} onMouseOver={() => setFlip(prev => ({
                         ...prev, [idx]: false
@@ -43,7 +41,7 @@ export default function Rennberichte() {
                                 </div>
 
                                 <Link to={`/rennbericht/${item.id}`}>
-                                    <img src={item.img} className="rennberichte-img" alt="Junior Series Basel" loading="lazy" ></img>
+                                    <img src={item.img} className="rennberichte-img" alt={item.title} loading="lazy" ></img>
                                 </Link>
                             </ReactCardFlip>
 

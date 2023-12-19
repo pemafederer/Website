@@ -53,7 +53,7 @@ export default[
          },
          {
             name: "Tibetasia, Wo Zürich auf Asien trifft. Wir freuen uns Ihnen frische Spezialitäten mit einem Lächeln servieren zu dürfen. Auch bieten wir direkte Lieferung zu Ihnen nach Hause. Ich bedanke mich bei unseren Gästen für die jahrelange Treue und freue mich darauf, weiterhin beste kulinarische Erlebnisse zu schaffen",
-            img:"tibetasia.jpg",
+            img:"tibetasia.png",
             link: "https://www.tibetasia.ch/"
 
          },

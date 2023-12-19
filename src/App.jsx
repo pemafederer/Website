@@ -12,11 +12,9 @@ import Sponsoren from './Sponsoren'
 import dataSponsoren from './data-sponsoren'
 import { json } from 'react-router-dom'
 import ImageSlider from './ImageSlider'
-import { InstagramEmbed } from 'react-social-media-embed';
+import Instagram from './Instagram.jsx'
 
-
-
-export default function App() {
+ function App() {
 
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
@@ -78,11 +76,14 @@ export default function App() {
       </div>
       <div className='joe'>{aboutMe}</div>
       <div className="Rennberichte"><h1> AKTUELLES </h1> <RennberichteVorschau /></div>
-
+      <div className='instagram-container'>
+      <Instagram />
+      </div>
     </div>
-</>
+    </>
   )
 }
+export default App;
 
 
 
