@@ -43,6 +43,9 @@ export default function Navbar() {
             <Link to="/Sponsoren" onClick={closeNav}>SPONSOREN</Link>
           </li>
           <li>
+            <Link to="/Gönner" onClick={closeNav}>GÖNNER</Link>
+          </li>
+          <li>
             <Link to="/Rennberichte" onClick={closeNav}>RENNBERICHTE</Link>
           </li>
           <li>

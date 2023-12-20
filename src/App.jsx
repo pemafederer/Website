@@ -13,6 +13,7 @@ import dataSponsoren from './data-sponsoren'
 import { json } from 'react-router-dom'
 import ImageSlider from './ImageSlider'
 import Instagram from './Instagram.jsx'
+import { Helmet } from 'react-helmet'
 
  function App() {
 
@@ -61,26 +62,30 @@ import Instagram from './Instagram.jsx'
 
 
   return (
-    <><div className="container">
-      <div className='img-container-slider'>
-        <div className="img-slider">
-          <picture loading="lazy">
-            <ImageSlider
-          
-              h1="Über Mich"
-              slides={getSlidesToShow()} />
-    
-          </picture>
+    <>
+      <title>Pema Federer Website</title>
+      <meta name="Das ist die offiziele Website vom Mountainbiker Pema Federer aus Schmerikon, der fürs Team Tower Sports - VC Eschenbach fährt" content="Pema Federer Website, Startseite,"  />
+      {/* Add more meta tags as needed */}
 
+        <div className='img-container-slider'>
+          <div className="img-slider">
+            <picture loading="lazy">
+              <ImageSlider
+
+                h1="Über Mich"
+                slides={getSlidesToShow()} />
+
+            </picture>
+
+          </div>
         </div>
-      </div>
-      <div className='joe'>{aboutMe}</div>
-      <div className="Rennberichte"><h1> AKTUELLES </h1> <RennberichteVorschau /></div>
-      <div className='instagram-container'>
-      <Instagram />
-      </div>
-    </div>
-    </>
+        <div className='joe'>{aboutMe}</div>
+        <div className="Rennberichte"><h1> AKTUELLES </h1> <RennberichteVorschau /></div>
+        <div className='instagram-container'>
+          <Instagram />
+        </div>
+     </>
+    
   )
 }
 export default App;

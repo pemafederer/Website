@@ -25,7 +25,7 @@ export default function Rennberichte() {
                     }))} onMouseLeave={() => setFlip(prev => ({
                         ...prev, [idx]: true
                     }))}>
-                        <div className={`rennberichte-container ${idx ? 'hover' : ''}`}>
+                        <div className={`rennberichte-container-hover`}>
                             <ReactCardFlip isFlipped={flip[idx]} flipDirection="horizontal">
                                 <div>
                                     <Link to={`/rennbericht/${item.id}`}>

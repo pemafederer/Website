@@ -10,6 +10,7 @@ import Rennberichte from './rennberichte.jsx'
 import Rennkalender from './Rennkalender.jsx'
 import Galerie from './Galerie.jsx'
 import SingleRennbericht from './SingleRennbericht.jsx'
+import Goener from './Goenner.jsx'
 
 
 function Main(){
@@ -20,6 +21,7 @@ function Main(){
       <Route element={<Layout />}>
         <Route path="/" element={<App />}/>
         <Route path="SPONSOREN" element={<Sponsoren/>}/>
+        <Route path="Gönner" element={<Goener />}/>
         <Route path="RENNBERICHTE" element={<Rennberichte />}/>
         <Route path="/RENNBERICHT/:rennId" element={<SingleRennbericht/>}/>
         <Route path="ABOUT" element={<About />}/>
