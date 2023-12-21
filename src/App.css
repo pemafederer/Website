@@ -1083,6 +1083,26 @@ h1 {
 .gönner-subtitle h2{
   font-size: 30px;
 }
+.gönner-picture{
+  display: flex;
+  justify-content: center;
+}
+.gönner-img img{
+  object-fit: cover;
+  aspect-ratio: 6/4;
+  
+}
+.gönner-img{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+ 
+}
+.gönner-text{
+  display: grid;
+  justify-content: center;
+  width: 90%;
+}
 
 
 
