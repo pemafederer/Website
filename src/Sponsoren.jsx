@@ -51,6 +51,7 @@ export default function Sponsoren() {
                     <h1>TEAMSPONSOREN</h1>
                     <SlideshowSponsoren />
                 </div>
+                <div className="contact-formular-container">
                 <div className="contact-titles">
                     <h1> Kontaktforumular</h1>
                 </div>
@@ -58,6 +59,7 @@ export default function Sponsoren() {
                     <h2> Möchten sie einen jungen, ambitionierten und sehr zielorientierten Sport untertstützen ?
                         Ich würde  mich sehr über eine persönliche Kontaktaufnahme freuen und sie gerne näher kennenlernen. Dabei kann ich Ihnen gerne mein Sponsorenkonzept vorstellen. Ich freue mich schon jetzt über Ihre Nachricht.
                     </h2>
+                </div>
                 </div>
 
 

@@ -342,13 +342,23 @@ margin: 0;
   font-size: 32px;
 }
 .contact-text{
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  
 
 }
 
 .contact-text h2{
-  font-size: 25px;
-  color: #466362;
+  font-size: 24px;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .contact-titles h2 {
@@ -360,23 +370,29 @@ margin: 0;
 }
 
 .Contact {
+  background-color: #f8f8f8;
+  border-radius: 8px;
   padding: auto;
   width: 100%;
   height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white; /* Dark background color */
+  
+}
+.contact-formular-container{
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .contact-container {
   height: auto;
-  max-width: 1000px;
+  max-width: 1900px;
+  max-height: 2000px;
   width: 80%;
-  position: relative;
   display: flex;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
   background-color: #424242; /* Another shade of dark background color */
   border-radius: 10px;
@@ -414,15 +430,14 @@ input, textarea{
 }
 
 textarea {
-  height: auto;
+  height: 200px;
   resize: none;
 
 }
 input[type="submit"] {
-  height: auto;
+  height: 50px;
   width: 100%;
   text-indent: 0;
-  border: none;
   border-radius: 8px;
   background-color: #00bcd4; /* Cyan color */
   color: #ffffff; /* White text color */
@@ -434,8 +449,6 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #0097a7; /* Darker cyan color on hover */
 }
-
-
 
 h3 {
   font-weight: 600;
@@ -488,6 +501,7 @@ h3 {
 
 .teamsponsoren h1{
   padding-top:40px;
+  font-size: 60px;
   padding-bottom: 30px;
 }
 
@@ -1269,6 +1283,9 @@ h1 {
 
 @media screen and (max-width: 900px) {
 
+  .teamsponsoren h1 {
+    font-size: 30px;
+  }
   .AboutMe-vorschau-container{
     flex-wrap: wrap-reverse;
     padding-left: 5%;
