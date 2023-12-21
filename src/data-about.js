@@ -12,7 +12,7 @@ export default [
         kategorie: "U19 Junioren",
         team: "Tower Sports - VC Eschenbach",
         club: "VC Eschenbach",
-        trainer: "Andrin Gees | AG COACHING",
-        ziele: "längerfristig Fortschritte mache und wichtige Erfahrungen sammeln",
+        trainer: "Andrin Gees | AL CYCLING COACHING",
+        ziele: "Elitequalifikation & Selektionierung Heimweltcup",
     }
 ]

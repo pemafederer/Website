@@ -47,7 +47,7 @@ export default function About() {
                                         <h3>Team: {item.team}</h3>
                                         <h3>Veloclub: {item.club}</h3>
                                         <h3>Trainer: {item.trainer}</h3>
-                                        <h3>Ziele: {item.ziele}</h3>
+                                        <h3>Ziele 2024: {item.ziele}</h3>
                                     </div>
                                 </div>
 

@@ -23,7 +23,10 @@ export default function Resultate() {
                 <div className="resultate-container">
                     <div className="resultate-container-header">
                         <div className="resultate-container-header-title">
-                            <h1> Resultate 2023</h1>
+                            <h1>2023</h1>
+                        </div>
+                        <div className="stroke">
+                            
                         </div>
                         <div className="Box-icon">
                             
@@ -51,7 +54,7 @@ export default function Resultate() {
                 <div className="resultate-container">
                     <div className="resultate-container-header">
                         <div className="resultate-container-header-title">
-                            <h1> Resultate 2022</h1>
+                            <h1>2022</h1>
                         </div>
                         <div className="Box-icon">
                             {

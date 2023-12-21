@@ -78,105 +78,99 @@
 }
 
 
-
-.Resultate{
-  padding-top: 50px;
+/* General styling */
+.Resultate {
+  padding-top: 20px;
   width: 100%;
   height: auto;
   background-color: #171738;
   padding-bottom: 50px;
-
 }
-.resultate-container h1{
+
+.resultate-container h1 {
   font-size: 40px;
 }
 
-
-
-.resultate-container-header-title{
+.resultate-container-header-title {
   display: flex;
-  justify-content: left;
-
+  padding-left: 10px;
+  font-size: 40px;
 }
-.Box-icon{
+.resultate-container-header-title h1{
+  font-size: 50px;
+}
+
+.Box-icon {
   align-items: center;
-  padding-left: 70%;
+  padding-left: 80%;
   display: flex;
   justify-content: center;
- 
+  color: white;
 }
 
-.resultate-container-header{
+.resultate-container-header {
   width: auto;
   display: flex;
-  background-color: #dbe4ee;
-  border-radius: 29px;
+  border-radius: 10px;
   padding: 10px;
+ /* Light gray border at the top */
 }
-.resultate-title{
+
+.resultate-title {
   padding-bottom: 60px;
   color: #7180b9;
 }
 
-
-
-.resultate-main-container{
+.resultate-main-container {
+  width: 70%; /* Set to 70% width */
+  margin: 0 auto; /* Center the container */
   display: grid;
   padding: 20px;
-  grid-gap: 10px;
+  grid-gap: 15%;
   grid-template-columns: 1fr 1fr;
- 
 }
 
-
-.resultate-container{
-  width: auto;
+.resultate-container {
+  width: 100%;
   height: fit-content;
-  border: 3px solid whitesmoke;
-  border-radius: 35px;
-  display: grid;
- 
-  
+  border-top: 3px solid #ddd;
+  overflow: hidden; /* Hide overflow from border-top */
 }
-.resultate-container h1{
+
+.resultate-container h1 {
   position: inherit;
 }
 
-.resultate-content{
-  min-height: 100;
+.resultate-content {
+  padding-left: 30px;
+  min-height: 0;
   max-height: 0;
   overflow: hidden;
   transition: max-height 1.0s ease-out;
   display: grid;
-  grid-template-rows: 1fr ;
+  grid-template-rows: 1fr;
   grid-gap: 8px;
   text-align: left;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 30px;
   margin: 0;
 }
 
-.resultate-content.show{
+.resultate-content.show {
   max-height: 500px;
   padding: 15px;
-
-  
+  padding-left: 30px;
 }
 
-
-.resultate-content h4{
+.resultate-content h4 {
   font-size: 20px;
-  color: #7180b9;
+  color: white;
   margin: 0;
   font-weight: 500;
 }
-.resultate-content h4{
-  color: white;
- }
- .resultate-content.show h4{
-   color: white;
-   font-size: 20px;
- }
+
+.resultate-content.show h4 {
+  font-size: 20px;
+}
 
 
 /*Hier startet der Sponsoren Slider*/
@@ -242,9 +236,9 @@ margin: 0;
 }
 
 .slide-container {
-  width: 600px;
+  width:  700px;
   position: relative;
-  height: 200px;
+  height: 300px;
   margin: 0 auto;
   padding-bottom: 200px;
 }
@@ -263,7 +257,7 @@ margin: 0;
 .teamsponsoren .rightArrow {
   position: absolute;
   top: 50%;
-  transform: translate(0, -70%);
+  transform: translate(0, -50%);
   right: -100px;
   font-size: 45px;
   color: black;
@@ -309,8 +303,8 @@ margin: 0;
 }
 
 .dotsContainer {
+  padding-top: 10px;
   position: absolute;
-  bottom: -30px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -339,7 +333,7 @@ margin: 0;
 }
 .contact-titles h1 {
   color: #466362;
-  font-size: 32px;
+  font-size: 60px;
 }
 .contact-text{
   display: flex;
@@ -602,6 +596,7 @@ h3 {
 .Steckbrief {
   text-align: left;
 }
+
 
 .about-container h1 {
   padding-top: 5px;
@@ -1053,7 +1048,6 @@ h1 {
   padding-bottom: 30px;
   
 }
-
 .instagram-post-container {
   display: flex;
   justify-content: center;
@@ -1070,9 +1064,32 @@ h1 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.gönner-main-container{
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.Gönner{
+  color: black;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+  height: calc(100vh - 100%);
+  overflow: hidden;
+}
+.gönner-subtitle h2{
+  font-size: 30px;
+}
+
 
 
 @media screen and (max-width: 1580px) {
+  .Box-icon{
+    padding-left: 70%;
+  }
   .navigation-menu li a{
     font-size: 20px;
   }
@@ -1092,7 +1109,7 @@ h1 {
 
   }
   .resultate-container-header-title h1{
-    font-size: 34.7px;
+    font-size: 50px;
   }
   .sponsoren-container{
     max-width: 100%;
@@ -1105,6 +1122,9 @@ h1 {
     height: auto;
     padding-left: 5px;
   }
+  .resultate-main-container{
+    width: 85%;
+  }
 
 }
 
@@ -1112,6 +1132,12 @@ h1 {
 
   .rennberichte-img-container .single-rennberichte-img{
     width: 90%;
+  }
+  .Box-icon{
+    padding-left: 60%;
+  }
+  .resultate-main-container{
+    width: 80%;
   }
   .rennberichte-subtitle{
     font-size: 22px;
@@ -1274,16 +1300,26 @@ h1 {
 @media screen and (max-width: 1200px){
 
   .Box-icon{
-    padding-left: 65%;
+    padding-left: 85%;
+  }
+  .slide-container{
+    width: 400px;
   }
   .resultate-main-container{
     grid-template-columns: 1fr;
+    grid-gap: 10px;
   }
 }
 
 @media screen and (max-width: 900px) {
-
-  .teamsponsoren h1 {
+  .slide-container{
+    width: 300px;
+  }
+  .Box-icon{
+    padding-left: 78%;
+  }
+  .teamsponsoren h1, .contact-titles h1
+  {
     font-size: 30px;
   }
   .AboutMe-vorschau-container{
@@ -1391,6 +1427,7 @@ h1 {
 }
 
 @media screen and (max-width: 540px) {
+
   .rennberichte-subtitle{
     font-size: 10px;
    }
@@ -1398,7 +1435,7 @@ h1 {
     width: 95%;
   }
   .Box-icon{
-    padding-left: 45%;
+    padding-left: 63%;
   }
   .start-slider{
     width: 100%;
@@ -1406,11 +1443,14 @@ h1 {
   }
   .slider{
     width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
+
   }
   .arrows {
     display: none;
+  }
+  .dotsContainer {
+    padding: 0;
+    
   }
   .sponsoren-name {
     font-size: 12px;
@@ -1464,8 +1504,7 @@ h1 {
   }
 
   .slide-container {
-    width: 150px;
-    height: auto;
+    width: 250px;
 
   }
 
