@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import './App.css'
+import { memo } from 'react';
 
 const delay = 3000; // 5 seconds
 
@@ -13,7 +14,7 @@ const slideStyles = {
   textShadow: "1px 1px 2px rgba(0, 0, 0, 0.6)",
 };
 
-const ImageSlider = ({ slides }) => {
+const ImageSlider = React.memo(({ slides }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const timeoutRef = useRef(null);
 
@@ -87,7 +88,10 @@ const ImageSlider = ({ slides }) => {
        
       </div>
     </div>
-  );
-};
+  
+);
+}
+
+);
 
 export default ImageSlider;

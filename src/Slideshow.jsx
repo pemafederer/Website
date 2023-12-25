@@ -2,6 +2,7 @@ import React from "react"
 import ImageSlider from "./ImageSlider"
 import './App.css'
 import { Link } from "react-router-dom"
+import { LazyLoadImage } from "react-lazy-load-image-component"
 const SlideShow = () => {
 
     const slides = [
@@ -24,7 +25,8 @@ const SlideShow = () => {
         <div>
             <div className="slide-container">
                 <Link>
-                <ImageSlider slides={slides}/> 
+                <ImageSlider slides={slides}/>
+
                 </Link>
                 
             </div>

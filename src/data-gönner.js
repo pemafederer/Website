@@ -5,7 +5,7 @@ export default[
     },
     {
         id: 1,
-        name: "Peter Peter"
+        name: "Francesco Trovato"
     },
     {
         id: 2,
@@ -16,6 +16,7 @@ export default[
         name: "Stefan Peter"
     },
     {
-
+        id: 4,
+        name: 'Marcel Federer'
     },
 ]

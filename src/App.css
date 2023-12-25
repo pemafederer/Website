@@ -95,6 +95,7 @@
   display: flex;
   padding-left: 10px;
   font-size: 40px;
+  color: white;
 }
 .resultate-container-header-title h1{
   font-size: 50px;
@@ -118,7 +119,7 @@
 
 .resultate-title {
   padding-bottom: 60px;
-  color: #7180b9;
+  color: white;
 }
 
 .resultate-main-container {
@@ -536,6 +537,10 @@ h3 {
   display: flex;
   justify-content: center;
   padding-top: 50vh;
+}.footer-container {
+  background-color: #222;
+  color: white;
+  padding: 20px 0;
 }
 
 .footer-content{
@@ -578,6 +583,7 @@ h3 {
   font-weight: 400;
 }
 
+
 .icon-container {
   grid-template-columns: 1fr 1fr;
   padding-top: 20px;
@@ -597,12 +603,6 @@ h3 {
   text-align: left;
 }
 
-
-.about-container h1 {
-  padding-top: 5px;
-  padding-bottom: 15px;;
-  margin: 0;
-}
 
 .joe h1 {
   padding-top: -10px;
@@ -748,10 +748,6 @@ h1 {
 
 }
 
-.about-container h1 {
-  font-weight: 700;
-  color: #a188a6;
-}
 
 .Rennberichte h1 {
   color: black;
@@ -1045,7 +1041,6 @@ h1 {
 
 .page-title{
   font-size: 25px;
-  padding-bottom: 30px;
   
 }
 .instagram-post-container {
@@ -1101,7 +1096,11 @@ h1 {
 .gönner-text{
   display: grid;
   justify-content: center;
-  width: 90%;
+  width: 80%;
+}
+.gönner-text-container{
+  display: flex;
+  justify-content: center;
 }
 
 

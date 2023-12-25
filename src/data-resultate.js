@@ -3,6 +3,10 @@ export default [
         title: " CIC ON Swissbikecup Gesamtsieg",
     },
     {
+        title: " BikeWorld Raceseries Gesamtsieg ",
+        rank: " P.9"
+    },
+    {
         title: " 9. Rang Junior Series Basel HC",
     },
     {
@@ -14,15 +18,12 @@ export default [
         rank: "P.9"
     },
     {
-        title: " BikeWorld Raceseries Gesamtsieg ",
+        title: "4. Rang Bikerennen Arbon C3 ",
         rank: " P.9"
     },
+   
     {
         title: "22. Rang Junior Series Rivera HC",
-        rank: " P.9"
-    },
-    {
-        title: "4. Rang Bikerennen Arbon C3 ",
         rank: " P.9"
     },
     {

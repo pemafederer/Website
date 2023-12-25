@@ -46,18 +46,24 @@ export default function SingleRennbericht() {
                 <div className="rennberichte-img-container">
                                 <RModalImages
                                 sx={{height: "50vh"}}
-                                hideDownload={true}
+                                hideDownloadButton="true"
+                                hideRotateButton="true"
+                                hideZoomButton="true"
                                     small={"../" + rennbericht.img_container_1} className="single-rennberichte-img" 
                                     large={"../" + rennbericht.img_container_1} />
                                 <RModalImages
                                 sx={{height: "50vh"}}
-                                hideDownload={true}
+                                hideDownloadButton="true"
+                                hideRotateButton="true"
+                                hideZoomButton="true"
                                     small={"../" + rennbericht.img_container_2} className="single-rennberichte-img"
                                     large={"../" + rennbericht.img_container_2} />
 
                                 <RModalImages
                                 sx={{height: "50vh"}}
-                                hideDownload={true}
+                                hideDownloadButton="true"
+                                hideRotateButton="true"
+                                hideZoomButton="true"
                                     small={"../" + rennbericht.img_container_3} className="single-rennberichte-img"
                                     large={"../" + rennbericht.img_container_3} />
 

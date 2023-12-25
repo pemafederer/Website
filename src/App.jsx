@@ -26,9 +26,9 @@ import { Helmet } from 'react-helmet'
   ];
   const slidesLarge = [
     { url: "Savognin.jpg", title: "Gränichen Junior Series" },
-    { url: "Gränichen.JPG", title: "Gränichen Junior Series" },
-    { url: "Savognin_1.JPG", title: "Gränichen Junior Series" },
-    { url: "Savognin_3.jpg", title: "Gränichen Junior Series" },
+    { url: "Crans-Montana.JPG", title: "Gränichen Junior Series" },
+    { url: "Savognin_1_compress.jpg", title: "Gränichen Junior Series" },
+    { url: "Savognin_3_compress.jpg", title: "Gränichen Junior Series" },
 
   ]
   useEffect(() => {

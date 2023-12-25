@@ -1,6 +1,7 @@
 import React from "react";
 import dataGönner from "./data-gönner";
 import { RModalImages } from "react-modal-images";
+import Contact from "./Contact";
 
 export default function Gönner(){
 
@@ -33,8 +34,8 @@ return(
             <div className="gönner-picture">
             <div className="gönner-img">
                 <RModalImages
-                small="Savognin.jpg"
-                medium="Savognin.jpg"
+                small="gstaad.jpg"
+                medium="gstaad.jpg"
                 hideDownloadButton="true"
                 hideRotateButton="true"
                 hideZoomButton="true"
@@ -44,6 +45,7 @@ return(
             
         </div>
         <div className="gönner-container">
+            <div className="gönner-text-container">
             <div className="gönner-text">
             <h3>
                 Mit einer Gönnermitgliedschaft untertstützen Sie mich finanziell und werden somit Teil meiner sportlichen Laufbahn.
@@ -58,9 +60,26 @@ return(
                 Ich würde mich über jeglichen Beitrag freuen.
             </h3>
             </div>
+            </div>
         </div>
+        <div className="gönner-container">
+            <div className="gönner-bank-container">
+                <div className="gönner-bank">
+                    <h3> Raiffeisenbank am Ricken</h3>
+                    <h3> Sportkonto Pema Federer</h3>
+                    <h3> IBAN: CH03 8080 8005 4932 6525 0</h3>
+                    <h3> 8716 Schmerikon</h3>
+                </div>
+                <div className="gönner-twint">
+                    <h3>TWINT</h3>
+                    <h3>077 521 98 65</h3>
+                </div>
+            </div>
+        </div>
+        
 
     </div>
+    
 </div>
 )
 

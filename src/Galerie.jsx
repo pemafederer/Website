@@ -38,8 +38,9 @@ export default function Galerie() {
                                 alt={item.title}
                                 loading="lazy"
                                 sx={{height: "50vh"}}
-                                hideDownloadButton={true}
-                                showRotateButton={false}
+                                hideDownloadButton="true"
+                                hideRotateButton="true"
+                                hideZoomButton="true"
                                 imageBackgroundColor="black"
                             />
 
