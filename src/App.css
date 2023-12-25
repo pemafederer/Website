@@ -887,7 +887,7 @@ h1 {
 
 .rennberichte-container-hover{ 
   position: relative;
-  width: 400px;
+  /*width: 400px;*/
   border-radius: 5px;
   overflow: hidden;
   -webkit-filter: brightness(90%);
@@ -1149,6 +1149,10 @@ h1 {
 }
 
 @media screen and (max-width: 1308px) {
+  .page-title{
+    font-size: 20px;
+    
+  }
   .SingleRennbericht .rennberichte-title{
     font-size: 30px;
   }
@@ -1336,6 +1340,10 @@ h1 {
 }
 
 @media screen and (max-width: 900px) {
+  .page-title{
+    font-size: 18px;
+    
+  }
   .slide-container{
     width: 300px;
   }
@@ -1452,7 +1460,10 @@ h1 {
 }
 
 @media screen and (max-width: 540px) {
-
+  .page-title{
+    font-size: 15px;
+    
+  }
   .SingleRennbericht .rennberichte-subtitle, 
   .rennberichte-subtitle{
     font-size: 10px;
