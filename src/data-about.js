@@ -9,7 +9,7 @@ export default [
         wohnort: "Schmerikon",
         ausbildung: "Informatikmittelschule Technik",
         disziplin: "MTB Cross Country",
-        kategorie: "U19 Junioren",
+        kategorie: "U23 Herren",
         team: "Tower Sports - VC Eschenbach",
         club: "VC Eschenbach",
         trainer: "Andrin Gees | AL CYCLING COACHING",
