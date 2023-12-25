@@ -700,8 +700,9 @@ h1 {
 }
 .AboutMe-button {
   color: black;
+  width: auto;
   margin-top: 10%;
-  padding: 5%;
+  padding: 3%;
   background-color: #3b2c35;
 }
 
@@ -1148,6 +1149,9 @@ h1 {
 }
 
 @media screen and (max-width: 1308px) {
+  .SingleRennbericht .rennberichte-title{
+    font-size: 30px;
+  }
 
   .rennberichte-img-container .single-rennberichte-img{
     width: 90%;
@@ -1158,6 +1162,7 @@ h1 {
   .resultate-main-container{
     width: 80%;
   }
+  .SingleRennbericht .rennberichte-subtitle,
   .rennberichte-subtitle{
     font-size: 22px;
   }
@@ -1346,6 +1351,7 @@ h1 {
     padding-left: 5%;
  
    }
+   .SingleRennbericht .rennberichte-subtitle,
    .rennberichte-subtitle{
     font-size: 18px;
    }
@@ -1447,6 +1453,7 @@ h1 {
 
 @media screen and (max-width: 540px) {
 
+  .SingleRennbericht .rennberichte-subtitle, 
   .rennberichte-subtitle{
     font-size: 10px;
    }

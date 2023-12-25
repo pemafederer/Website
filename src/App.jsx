@@ -25,10 +25,10 @@ import { Helmet } from 'react-helmet'
     { url: "Davos_2.jpg", title: "Gränichen Junior Series" },
   ];
   const slidesLarge = [
-    { url: "Savognin.jpg", title: "Gränichen Junior Series" },
-    { url: "Crans-Montana.JPG", title: "Gränichen Junior Series" },
-    { url: "Savognin_1_compress.jpg", title: "Gränichen Junior Series" },
-    { url: "Savognin_3_compress.jpg", title: "Gränichen Junior Series" },
+    { url: "Savognin.jpg", title: "Swissbikecup Savognin" },
+    { url: "Gränichen.JPG", title: "Junior Series Gränichen" },
+    { url: "Savognin_1.JPG", title: "Swissbikecup Savognin" },
+    { url: "Savognin_3.jpg", title: "Swissbikecup Savognin" },
 
   ]
   useEffect(() => {
@@ -63,11 +63,15 @@ import { Helmet } from 'react-helmet'
 
   return (
     <>
+    
       <title>Pema Federer Website</title>
       <meta name="Das ist die offiziele Website vom Mountainbiker Pema Federer aus Schmerikon, der fürs Team Tower Sports - VC Eschenbach fährt" content="Pema Federer Website, Startseite,"  />
       {/* Add more meta tags as needed */}
 
         <div className='img-container-slider'>
+          <meta property='adsf'>
+
+          </meta>
           <div className="img-slider">
             <picture loading="lazy">
               <ImageSlider
