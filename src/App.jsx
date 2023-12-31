@@ -72,13 +72,16 @@ import { Helmet } from 'react-helmet'
           <meta property='adsf'>
 
           </meta>
-          <div className="img-slider">
+          {/*<div className="img-slider">
               <ImageSlider
 
                 h1="Über Mich"
                 slides={getSlidesToShow()} />
 
-          </div>
+  </div>*/}
+          <div className="img-container">
+                <img src="Egg_lastround.JPG" />
+            </div>
         </div>
         <div className='joe'>{aboutMe}</div>
         <div className="Rennberichte"><h1> AKTUELLES </h1> <RennberichteVorschau /></div>

@@ -46,7 +46,7 @@ export default function Rennkalender() {
     return (
         <div className='Rennkalender'>
             <div className="img-container">
-                <img src="Savognin.jpg" />
+                <img src="Egg_lastround.JPG" />
             </div>
 
             <div className="page-title">
