@@ -11,7 +11,7 @@ return(
 
 <div className="Gönner">
 <div className="img-container">
-                <img src="Savognin.jpg" />
+                <img src="Egg.JPG" />
             </div>
     <div className="gönner-main-container">
         <div className="gönner-container">

@@ -73,13 +73,10 @@ import { Helmet } from 'react-helmet'
 
           </meta>
           <div className="img-slider">
-            <picture loading="lazy">
               <ImageSlider
 
                 h1="Über Mich"
                 slides={getSlidesToShow()} />
-
-            </picture>
 
           </div>
         </div>
