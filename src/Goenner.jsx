@@ -34,8 +34,8 @@ return(
             <div className="gönner-picture">
             <div className="gönner-img">
                 <RModalImages
-                small="gstaad.jpg"
-                medium="gstaad.jpg"
+                small="Crans-Montana.JPG"
+                medium="Crans-Montana.JPG"
                 hideDownloadButton="true"
                 hideRotateButton="true"
                 hideZoomButton="true"

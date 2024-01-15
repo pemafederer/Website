@@ -9,14 +9,14 @@ export default[
     },
     {
         id: 2,
-        name: "Max Mustermann"
+        name: "Garage Markaj AG"
     },
-    {
+    /*{
         id: 3,
         name: "Stefan Peter"
     },
     {
         id: 4,
         name: 'Marcel Federer'
-    },
+    },*/
 ]

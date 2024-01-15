@@ -48,7 +48,7 @@ export default function Resultate() {
                                     <h4>{item.title}</h4>
                                 </div>
 
-                            )).slice(0, 12)}
+                            )).slice(0, 9)}
                     </div>
                 </div>
                 <div className="resultate-container">
@@ -77,7 +77,7 @@ export default function Resultate() {
                                     <h4>{item.title}</h4>
                                 </div>
 
-                            )).slice(12, 24)}
+                            )).slice(14, 24)}
                     </div>
                 </div>
 

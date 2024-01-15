@@ -4,62 +4,54 @@ export default [
     },
     {
         title: " BikeWorld Raceseries Gesamtsieg ",
-        rank: " P.9"
     },
     {
         title: " 9. Rang Junior Series Basel HC",
     },
     {
+        title: "5 Siege BikeWorld Raceseries"
+    },
+    {
         title: " 2. Rang Swissbikecup Savognin C2",
-        rank: "P.9"
     },
     {
         title: " 6. Rang ÖKK Bikerevolution Davos C1",
-        rank: "P.9"
     },
     {
         title: "4. Rang Bikerennen Arbon C3 ",
-        rank: " P.9"
     },
    
     {
         title: "22. Rang Junior Series Rivera HC",
-        rank: " P.9"
     },
     {
         title: "14. Rang SM Crans-Montana",
-        rank: " P.9"
+    
     },
     {
         title: "1. Rang BikeWorld Raceseries Schwändi",
-        rank: " P.9"
     },
     {
-        title: "1. Rang BikeWorld Raceseries Wetzikon ",
-        rank: " P.9"
+        title: "1. Rang BikeWorld Raceseries Wetzikon "
     },
     {
         title: "1. Rang BikeWorld Raceseries Uster",
         rank: " P.9"
     },
     {
-        title: "1. Rang BikeWorld Raceseries Eschenbach ",
-        rank: " P.9"
+        title: "1. Rang BikeWorld Raceseries Eschenbach "
     },
     {
-        title: "1. Rang BikeWorld Raceseries Egg  ",
-        rank: " P.9"
+        title: "1. Rang BikeWorld Raceseries Egg  "
     },
     {
-        title: "Gesamtsieg BikeWorld Raceseries",
-        rank: " P.9"
+        title: "Gesamtsieg BikeWorld Raceseries"
     },
     {
         title: "1. Rang Ironbike Einsiedeln Kurzdistanz",
     },
     {
-        title: "1. Rang BikeWorld Raceseries Eschenbach",
-        rank: " P.9"
+        title: "1. Rang BikeWorld Raceseries Eschenbach"
     },
     {
         title: "1. Rang BikeWorld Raceseries Schwändi",

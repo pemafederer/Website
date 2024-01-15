@@ -53,7 +53,7 @@ export default function Rennkalender() {
             <h1> RENNKALENDER</h1>
             </div>
         
-    <TableContainer component={Paper} className='rennkalender-main-container' sx={{ width: 'auto' , margin: 'auto'}}>
+    <TableContainer component={Paper} className='rennkalender-main-container' sx={{ width: '90%' , margin: 'auto'}}>
       <Table sx={{ minWidth: 700 }} aria-label="customized table"  stickyHeader className='rennkalender-container'>
         <TableHead>
           <TableRow>
