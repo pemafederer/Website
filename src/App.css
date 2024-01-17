@@ -938,7 +938,7 @@ h1 {
 }
 
 .navigation {
-  z-index: 100;
+  z-index: 1;
   height: 100px;
   width: 100%;
   max-width: calc(3000px);
