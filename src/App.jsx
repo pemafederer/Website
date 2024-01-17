@@ -80,7 +80,10 @@ import { Helmet } from 'react-helmet'
 
   </div>*/}
           <div className="img-container">
-                <img src="Egg_lastround.JPG" />
+                <img src="Schwändi2.jpg" />
+                <div className="text-container">
+               {/* <p>HERZLICH WILLKOMMEN</p> */}
+          </div>
             </div>
         </div>
         <div className='joe'>{aboutMe}</div>

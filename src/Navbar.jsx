@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <nav className="navigation">
       <a href="/" className="brand-name">
-        Pema Federer | Mountainbiker
+        Pema Federer |               Mountainbiker
       </a>
       <button className="hamburger" onClick={toggleNav}>
         <svg

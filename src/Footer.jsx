@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="footer-container" >
             <footer>
                
-                <div className="footer-title"> Mountainbiker Pema Federer</div>
+                <div className="footer-title"> Pema Federer | Mountainbiker</div>
                 <div className="footer-content">
                 <div className="footer-email">8716 Schmerikon</div>
                 <div className="footer-email">federerpema@icloud.com</div>
