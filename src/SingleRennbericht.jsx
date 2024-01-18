@@ -2,7 +2,6 @@ import React from "react"
 import { Link, useParams } from "react-router-dom"
 import dataRennberichte from "./data-rennberichte"
 import { useState } from "react"
-import './App.css'
 import { RModalImages } from "react-modal-images"
 import dataSponsoren from "./data-sponsoren"
 import Paper from '@mui/material/Paper';
@@ -30,7 +29,9 @@ export default function SingleRennbericht() {
             </div>*/
     return (
          <div className="SingleRennbericht">
+             
                 <div className="rennberichte-main-container">
+              
                     <div className="rennberichte-container">
                         <div className="rennberichte-text">
                             <div className="rennberichte-title">
@@ -44,6 +45,7 @@ export default function SingleRennbericht() {
                     </div>
                 </div>
                 <div className="rennberichte-img-container">
+                    
                                 <RModalImages
                                 sx={{height: "50vh"}}
                                 hideDownloadButton="true"

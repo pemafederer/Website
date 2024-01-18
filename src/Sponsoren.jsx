@@ -56,7 +56,7 @@ export default function Sponsoren() {
                     <h1> Kontaktforumular</h1>
                 </div>
                 <div className="contact-text">
-                    <h2> Möchten sie einen jungen, ambitionierten und sehr zielorientierten Sport untertstützen ?
+                    <h2> Möchten sie einen jungen, ambitionierten und sehr zielorientierten Sportler untertstützen ?
                         Ich würde  mich sehr über eine persönliche Kontaktaufnahme freuen und sie gerne näher kennenlernen. Dabei kann ich Ihnen gerne mein Sponsorenkonzept vorstellen. Ich freue mich schon jetzt über Ihre Nachricht.
                     </h2>
                 </div>
