@@ -15,7 +15,7 @@ export default function Sponsoren() {
             <div className="container-sponsoren">
                 <div className="Sponsoren">
                 <div className="img-container">
-                <img src="Savognin.jpg"/>
+                <img src="Savognin.WebP"/>
             </div>
                   <h1 > PRIVATE SPONSOREN</h1>
                     <div className="sponsoren-main-container">

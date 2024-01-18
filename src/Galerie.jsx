@@ -18,7 +18,7 @@ export default function Galerie() {
     return (
         <div className="Galerie">
             <div className="img-container">
-                    <img src="Gränichen.JPG" alt="Galerie" title="Galerie" />
+                    <img src="Gränichen.WebP" alt="Galerie" title="Galerie" />
                 
             </div>
             <div className="galerie-title">

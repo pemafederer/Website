@@ -11,7 +11,7 @@ return(
 
 <div className="Gönner">
 <div className="img-container">
-                <img src="Egg.JPG" />
+                <img src="Egg.WebP" />
             </div>
     <div className="gönner-main-container">
         <div className="gönner-container">
@@ -34,8 +34,8 @@ return(
             <div className="gönner-picture">
             <div className="gönner-img">
                 <RModalImages
-                small="Crans-Montana.JPG"
-                medium="Crans-Montana.JPG"
+                small="Crans-Montana.WebP"
+                medium="Crans-Montana.WebP"
                 hideDownloadButton="true"
                 hideRotateButton="true"
                 hideZoomButton="true"

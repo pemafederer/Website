@@ -13,7 +13,7 @@ export default function Rennberichte() {
 
         <div className="Rennberichte">
                <div className="img-container">
-                <img src="Savognin_3.jpg"/>
+                <img src="Savognin_3.WebP"/>
             </div>
             <div className="page-title">
             <h1>RENNBERICHTE </h1>

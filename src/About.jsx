@@ -17,7 +17,7 @@ export default function About() {
         <div className="About">
 
             <div className="img-container">
-                <img src="Lugano_XCC_2.jpg" title="jjaaad"/>
+                <img src="Lugano_XCC_2.WebP" title="jjaaad"/>
             </div>
 
 
