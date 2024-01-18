@@ -608,41 +608,26 @@ h3 {
   background-color: white;
   color: #0d324d;
 }
-
-.about-container {
-  background-color: white;
-  padding-top: 30px;
-  color: #0d324d;
-  padding-bottom: 0px;
-
-}
-.about-vorschau-container {
-  background-color: white;
-  padding-top: 30px;
-  color: #0d324d;
-  padding-bottom: 0px;
-
-}
-
-.AboutMe-container {
-  margin-top: 0;
-  background-color: white;
-  flex-direction: row;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-
-}
+/* Container styles */
 .AboutMe-vorschau-container {
   margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 60px;
-  width: 90%;
+  width: 85%;
   background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
+.AboutMe-img {
+  flex: 1; /* This will make the image take up all available space */
+}
+
+.AboutMe-Text {
+  flex: 1; /* This will make the text take up all available space */
+  text-align: center; /* Adjust text alignment as needed */
 }
 
 h1 {
@@ -651,7 +636,7 @@ h1 {
 
 .AboutMe-Text {
   color: #0d324d;
-  width: 50%;
+  width: 60%;
   padding: 20px;
 }
 .AboutMe-vorschau-Text {
@@ -808,16 +793,17 @@ h1 {
 
 .rennberichte-img-container{
   display:grid;
+  grid-gap: 10%;
   padding: 20px;
   grid-template-columns: 1fr 1fr 1fr;
   position: relative;
-  width: 80%;
+  width: 60%;
   padding-bottom: 20px;
 }
 
 .rennberichte-img-container .single-rennberichte-img{
   object-fit: cover;
-  width: 80%; 
+  width: 100%; 
   aspect-ratio: 13/10;
   max-height: 100px;
   border-radius: 5px;
