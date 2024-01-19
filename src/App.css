@@ -104,9 +104,9 @@
 
 .Box-icon {
   align-items: center;
-  padding-left: 80%;
+  margin-left: auto;
   display: flex;
-  justify-content: center;
+  justify-content: top;
   color: white;
 }
 
@@ -204,7 +204,7 @@ margin: 0;
 }
 
 .img-container img{
-  height: 100vh;
+  height: 110vh;
   width: 100%;
   object-fit: cover;
   
@@ -382,10 +382,9 @@ margin: 0;
 
 .Contact {
   background-color: #f8f8f8;
-
-  padding: auto;
+  padding-bottom: 5%;
+  padding-top: 5%;
   width: 100%;
-  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -548,8 +547,11 @@ h3 {
   object-fit: contain;
   width: 100%;
   aspect-ratio: 8/2.3;
-  border-bottom: 1px solid #ddd;
+  
 
+}
+.sponsoren-img{
+  border-bottom: 1px solid #ddd;
 }
 .Home-h1{
   display: flex;
@@ -1132,7 +1134,7 @@ h1 {
 
 @media screen and (max-width: 1580px) {
   .Box-icon{
-    padding-left: 70%;
+    /*margin-left: auto;*/
   }
   .rennberichte-img-container .single-rennberichte-img{
     width: 80%;
@@ -1185,7 +1187,7 @@ h1 {
     width: 90%;
   }
   .Box-icon{
-    padding-left: 60%;
+   /* padding-left: 60%;*/
   }
   .resultate-main-container{
     width: 80%;
@@ -1351,7 +1353,7 @@ h1 {
 @media screen and (max-width: 1200px){
 
   .Box-icon{
-    padding-left: 85%;
+    /*padding-left: 85%;*/
   }
   .slide-container{
     width: 400px;
@@ -1378,7 +1380,7 @@ h1 {
     width: 300px;
   }
   .Box-icon{
-    padding-left: 78%;
+    /*padding-left: 78%;*/
   }
   .teamsponsoren h1, .contact-titles h1
   {
@@ -1500,7 +1502,7 @@ h1 {
     width: 95%;
   }
   .Box-icon{
-    padding-left: 63%;
+    /*padding-left: 63%;*/
   }
   .start-slider{
     width: 100%;
