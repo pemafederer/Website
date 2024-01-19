@@ -52,7 +52,7 @@ export default[
             link: "https://sypoba.com/"
          },
          {
-            name: "Seit 2005 betreiben wir stolz das Tibetasia in Zürich, ein Familienbetrieb mit authentischer tibetischer Küche. Unsere Leidenschaft für Tibets Aromen und höchste Qualität macht uns zur Anlaufstelle für Feinschmecker. Das Restaurant bietet nicht nur exquisit zubereitete Speisen, sondern auch eine einladende Atmosphäre, die die tibetische Kultur widerspiegelt. Entdecken Sie die faszinierende Vielfalt der tibetischen Küche mitten in Zürich",
+            name: "Seit 2005 betreiben wir stolz das Tibetasia in Zürich, ein Familienbetrieb mit authentischer tibetischer Küche. Unsere Leidenschaft für Tibets Aromen und höchste Qualität macht uns zur Anlaufstelle für Feinschmecker. Das Restaurant bietet nicht nur exquisit zubereitete Speisen, sondern auch eine einladende Atmosphäre, die die tibetische Kultur widerspiegelt.",
             img:"tibetasia.png",
             link: "https://www.tibetasia.ch/"
 

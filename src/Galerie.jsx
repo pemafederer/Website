@@ -14,6 +14,11 @@ export default function Galerie() {
         { url: "Savognin.jpg", title: "Gränichen Junior Series" },
         { url: "Haiming.JPG", title: "Gränichen Junior Series" },
     ]
+    const styles = {
+        imageList: {
+          overflow: 'hidden', // Hide the scrollbar
+        },
+      };
   
     return (
         <div className="Galerie">
@@ -26,7 +31,7 @@ export default function Galerie() {
                 </div>
             <div className="galerie-main-container">
 
-                <ImageList sx={{ width: "70%" , height: "auto"}} cols={2} rowHeight={"264"} >
+                <ImageList sx={{ width: "70%" , height: "auto"}} style={styles.imageList} cols={2} rowHeight={"264"} >
                     {dataGalerie.map((item, index) => (
                         <div key={index} className="galerie-container" style={{ maxHeight: "80vh", paddingBottom: "px" }}>
                             {/* <ImageListItem key={item.img}>*/}

@@ -1,11 +1,11 @@
 export default [
    
     {
-        img: "Savognin_1.JPG",
+        img: "Savognin_2.JPG",
         title: "Swissbikecup Savognin"
     },
     {
-        img: "Crans-Montana.JPG",
+        img: "Crans-Montana.WebP",
         title: "MTB SM 2023"
     },
     {
@@ -14,11 +14,7 @@ export default [
     },
     {
         img: "Rivera.JPG",
-        title: "Rivera Junior Series"
-    },
-    {
-        img: "Eschenbach.JPG",
-        title: "BikeWorld Raceseries Eschenbach"
+        title: "Junior Series Rivera"
     },
     
     {
@@ -26,20 +22,17 @@ export default [
         title: "MTB SM 2023"
     },
     {
-        img: "Gränichen.JPG",
+        img: "Crans-Montana_Rock.JPG",
         title: "MTB SM 2023"
     },
     {
-        img: "Basel_Jump.jpg",
-        title: "Junior Series Basel"
+        img: "gstaad.WebP",
+        title: "Swissbikecup Gstaad"
     },
     {
-        img: "Basel.JPG",
-        title: "Basel Jump"
+        img: "Gränichen.jpeg",
+        title: "Junior Series Gränichen"
     },
-    {
-        img: "Crans-Montana_2.jpeg",
-        title: "Basel Jump"
-    },
+
 
 ]
