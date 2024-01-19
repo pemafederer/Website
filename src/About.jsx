@@ -31,7 +31,7 @@ export default function About() {
                         
 
                         <><div className="AboutMe-img">
-                            <img src={item.img} loading="lazy" />
+                            <img src={item.img} className="slide-in" loading="lazy" />
                         </div>
                             <div className="AboutMe-Text">
 

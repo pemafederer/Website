@@ -23,11 +23,13 @@ return(
                     Gönner Saison 2024:
                 </h2>
             </div>
+            <div className="gönner-names-container">
             {dataGönner.map(item => (
                 <div className="gönner-content">
                     <h3>{item.name}</h3>
                 </div>
             ))}
+            </div>
             
         </div>
         <div className="gönner-container">
