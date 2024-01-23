@@ -774,6 +774,9 @@ h1 {
 
 
 
+
+
+
 .Rennberichte h1 {
   color: black;
   padding-top: 50px;
@@ -922,7 +925,7 @@ h1 {
   /*width: 400px;*/
   border-radius: 5px;
   overflow: hidden;
-  -webkit-filter: brightness(90%);
+  -webkit-filter: brightness(100%);
   transition: 0.6s ease-in-out;
   
 }
@@ -932,7 +935,7 @@ h1 {
 
 .react-card-flip {
   width: 400px;
-  height: 356px;
+  height: 100%;
 }
 
 

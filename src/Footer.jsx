@@ -8,8 +8,8 @@ export default function Footer() {
                
                 <div className="footer-title"> Pema Federer | Mountainbiker</div>
                 <div className="footer-content">
-                <div className="footer-email">8716 Schmerikon</div>
                 <div className="footer-email">federerpema@icloud.com</div>
+                <div className="footer-email">8716 Schmerikon</div>
                 <div className="footer-creater">Hirzlistrasse 15</div>
                 <div className="footer-telefon">077 521 98 65</div>
                 </div>
