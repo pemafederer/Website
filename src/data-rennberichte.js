@@ -22,6 +22,7 @@ export default [
 },
 {
     id: 2,
+    date: '13.12.2023',
     title: "SM in Crans-Montana",
     subtitle: "Das Saisonhighlight stand an. Zum ersten Mal wurde in Crans-Montana ein XCO Rennnen ausgetragen. Die Strecke war extrem steil und hatte viele kurze knackige Anstiege sowie auch technische Abfahrten. Das Rennen verlief okay und schlussendlisch beendete ich die SM auf P.14, nach einer zu schnellen Startrunde",
     img: "Crans-Montana.WebP",

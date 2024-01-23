@@ -28,12 +28,17 @@ export default function SingleRennbericht() {
                 <img src="http://localhost:5173/Gränichen.JPG" alt="Gränichen Junior Series"></img>
             </div>*/
     return (
+        <div className="Paper-container">
+        <Paper sx={{ width: '80%', display: 'flex', margin: 'auto' }} className="Paper">
          <div className="SingleRennbericht">
              
                 <div className="rennberichte-main-container">
               
                     <div className="rennberichte-container">
                         <div className="rennberichte-text">
+                            <div className="rennberichte-date">
+                                {rennbericht.date}
+                            </div>
                             <div className="rennberichte-title">
                                 {rennbericht.title}
                             </div>
@@ -82,7 +87,8 @@ export default function SingleRennbericht() {
             </div>
 
             </div>
-
+</Paper>
+</div>
 
     )
 }

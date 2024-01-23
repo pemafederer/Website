@@ -254,6 +254,7 @@ margin: 0;
 .slide-container {
   width:  700px;
   position: relative;
+  background-color: #171738;
   height: 300px;
   margin: 0 auto;
   padding-bottom: 200px;
@@ -583,24 +584,28 @@ h3 {
 }
 
 
-.icon-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 10px;
-  margin-top: 20px;
+
+.icon-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Adjust the gap between the images */
+  margin-top: 10px;
 }
 
 .icon-img img {
   width: 50px;
-  padding: 10px;
   height: 50px;
   border-radius: 5%;
   transition: transform 0.3s ease-in-out;
 }
 
 .icon-img img:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
+
+/* ... Your existing CSS ... */
+
 
 
 .Steckbrief {
@@ -720,6 +725,9 @@ h1 {
   padding: 3%;
   background-color: #3b2c35;
 }
+.AboutMe-button a{
+  margin: 0;
+}
 
 /*ADDED CSSS BY ME
 .img-container img {
@@ -766,6 +774,7 @@ h1 {
 }
 
 
+
 .Rennberichte h1 {
   color: black;
   padding-top: 50px;
@@ -809,10 +818,16 @@ h1 {
   
   padding: 7px;
   padding-bottom: 30px;
-  font-size: 30px;
+  font-size: 25px;
   display: flex;
   text-align: justify;
   width: 100%;
+}
+.rennberichte-date{
+  padding-top: 50px;
+  padding-left: 7px;
+  padding-bottom: 30px;
+  text-align: left;
 }
 
 .SingleRennbericht .rennberichte-title{
@@ -825,11 +840,11 @@ h1 {
 
 .rennberichte-img-container{
   display:grid;
-  grid-gap: 10%;
+  grid-gap: 5%;
   padding: 20px;
   grid-template-columns: 1fr 1fr 1fr;
   position: relative;
-  width: 60%;
+  width: 65%;
   padding-bottom: 20px;
 }
 
@@ -848,6 +863,7 @@ h1 {
     transform: scale(1.05);
   }
 }
+
 
 .sponsors-banner-main-container {
   display: grid;
@@ -1138,7 +1154,7 @@ h1 {
 .gönner-bank-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 4%;
+  gap: 10%;
   text-align: center;
 }
 .gönner-container .gönner-bank-container{
@@ -1151,7 +1167,7 @@ h1 {
   border-radius: 8px;
   padding: 20px; /* Adjust the padding as needed */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 96%; /* Make both containers equally large */
+  width: 100%; /* Make both containers equally large */
   
   
 }
@@ -1166,9 +1182,6 @@ a {
   margin-top: 20px;
 }
 
-a:hover {
-  text-decoration: underline;
-}
 
 
 @media screen and (max-width: 2080px) {
