@@ -54,8 +54,8 @@ return(
                 Sie sorgen mit Ihrem Gönnerbeitrag direkt für die Finanzierung der Reise/Unterkunftskosten, Kosten für Trainingslager usw.
             </h3>
             <h3>
-                Am Ende der Saison erwartet Sie als Gönner ein kleines Geschenk als Dankeschön für die wertvolle Unterstützung. Zudem erhalten Sie 
-             jeden Rennbericht per Email und haben die Möglichkeiten meinen Rennkalender auf Outlook zu abonnieren.
+               Als Gegenleistung wird ihr Name unter den Gönner aufgeführt und erzahlten zudem  
+             jeden Rennbericht per Email sowie auch die Möglichkeit meinen Rennkalender auf Outlook zu abonnieren.
             </h3>
             <h3>
                Die Mitgliedschaft ist unbefristet und Ihrerseits gibt es keine Verpflichtungen. Zudem entscheiden Sie frei über den Betrag und die Laufdauer. 
@@ -70,7 +70,6 @@ return(
                     <h3> Raiffeisenbank am Ricken</h3>
                     <h3> Sportkonto Pema Federer</h3>
                     <h3> IBAN: CH03 8080 8005 4932 6525 0</h3>
-                    <h3> 8716 Schmerikon</h3>
                 </div>
                 <div className="gönner-twint">
                     <h3>TWINT</h3>

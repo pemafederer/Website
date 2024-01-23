@@ -18,6 +18,7 @@ export default function Galerie() {
         imageList: {
           overflow: 'hidden', // Hide the scrollbar
         },
+     
       };
   
     return (
@@ -33,7 +34,7 @@ export default function Galerie() {
 
                 <ImageList sx={{ width: "70%" , height: "auto"}} style={styles.imageList} cols={2} rowHeight={"264"} >
                     {dataGalerie.map((item, index) => (
-                        <div key={index} className="galerie-container" style={{ maxHeight: "80vh", paddingBottom: "px" }}>
+                        <div key={index} className="galerie-container" style={{ maxHeight: "80vh"}}>
                             {/* <ImageListItem key={item.img}>*/}
                             <RModalImages className="RModalImages"
                                 contentLabel={"Example Modal"}
@@ -46,7 +47,7 @@ export default function Galerie() {
                                 hideDownloadButton="true"
                                 hideRotateButton="true"
                                 hideZoomButton="true"
-                                imageBackgroundColor="black"
+                                imageBackgroundColor="white"
                             />
 
                             {/*</ImageListItem>*/}

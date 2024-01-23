@@ -22,13 +22,14 @@ export default [
         title: "MTB SM 2023"
     },
     {
-        img: "Crans-Montana_Rock.JPG",
-        title: "MTB SM 2023"
-    },
-    {
         img: "gstaad.WebP",
         title: "Swissbikecup Gstaad"
     },
+    {
+        img: "Crans-Montana_Rock.JPG",
+        title: "MTB SM 2023"
+    },
+   
     {
         img: "Gränichen.jpeg",
         title: "Junior Series Gränichen"
