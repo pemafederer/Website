@@ -81,7 +81,7 @@ import { Helmet } from 'react-helmet'
 
   </div>*/}
           <div className="img-container">
-                <img src="Schwändi2.WebP" />
+                <img src="Schwändi2.jpg" />
                 <div className="text-container">
                {/* <p>HERZLICH WILLKOMMEN</p> */}
           </div>

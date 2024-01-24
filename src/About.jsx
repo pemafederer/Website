@@ -17,7 +17,7 @@ export default function About() {
         <div className="About">
 
             <div className="img-container">
-                <img src="Crans-Montana_Bridge2.JPG" />
+                <img src="Crans-Montana_Bridge3.jpg" />
             </div>
             <div className="about-container">
                 <div className="page-title">

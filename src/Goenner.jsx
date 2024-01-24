@@ -11,7 +11,7 @@ return(
 
 <div className="Gönner">
 <div className="img-container">
-                <img src="Egg.WebP" />
+                <img src="Lugano_XCC_2.jpg" />
             </div>
     <div className="gönner-main-container">
         <div className="gönner-container">
