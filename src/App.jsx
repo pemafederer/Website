@@ -12,6 +12,7 @@ import Sponsoren from './Sponsoren'
 import dataSponsoren from './data-sponsoren'
 import { json } from 'react-router-dom'
 import ImageSlider from './ImageSlider'
+import { useEffect } from "react";
 import Instagram from './Instagram.jsx'
 import { Helmet } from 'react-helmet'
 

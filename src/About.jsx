@@ -5,6 +5,7 @@ import Resultate from "./Resultate"
 import dataResultate from "./data-resultate"
 import Video from "./Video"
 import ImageSlider from "./ImageSlider"
+import { useEffect } from "react";
 
 export default function About() {
     const slides = [

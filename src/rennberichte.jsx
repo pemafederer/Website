@@ -3,6 +3,7 @@ import dataRennberichte from "./data-rennberichte";
 import { Link } from "react-router-dom";
 import SingleRennbericht from "./SingleRennbericht";
 import ReactCardFlip from "react-card-flip";
+import { useEffect } from "react";
 import ImageSlider from "./ImageSlider";
 
 

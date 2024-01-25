@@ -6,6 +6,7 @@ import SlideshowSponsoren from "./SlideshowSponsoren"
 import Contact from "./Contact"
 import Resultate from "./Resultate"
 import ImageSlider from "./ImageSlider"
+import { useEffect } from "react";
 
 export default function Sponsoren() {
     useEffect(() => {

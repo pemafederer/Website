@@ -1,5 +1,6 @@
 import React from "react";
 import dataGönner from "./data-gönner";
+import { useEffect } from "react";
 import { RModalImages } from "react-modal-images";
 import Contact from "./Contact";
 
