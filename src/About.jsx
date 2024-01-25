@@ -13,6 +13,10 @@ export default function About() {
         { url: "Savognin.jpg", title: "Gränichen Junior Series" },
         { url: "Haiming.JPG", title: "Gränichen Junior Series" },
     ]
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scrollen Sie nach oben, wenn die Komponente eingetreten ist
+      }), []
+  
     return (
         <div className="About">
 

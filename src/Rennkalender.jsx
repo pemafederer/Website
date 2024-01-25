@@ -17,6 +17,10 @@ import { styled } from '@mui/material/styles';
 
 
 export default function Rennkalender() {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scrollen Sie nach oben, wenn die Komponente eingetreten ist
+  }), []
+
 
   const StyledTableCell = styled(TableCell)(({ theme }) => ({
     [`&.${tableCellClasses.head}`]: {

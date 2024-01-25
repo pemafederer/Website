@@ -4,7 +4,10 @@ import { RModalImages } from "react-modal-images";
 import Contact from "./Contact";
 
 export default function Gönner(){
-
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scrollen Sie nach oben, wenn die Komponente eingetreten ist
+      }), []
+  
 
     
 return(

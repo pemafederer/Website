@@ -35,6 +35,10 @@ import { Helmet } from 'react-helmet'
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
     };
+    useEffect(() => {
+      window.scrollTo(0, 0); // Scrollen Sie nach oben, wenn die Komponente eingetreten ist
+    }), []
+
 
     window.addEventListener('resize', handleResize);
 

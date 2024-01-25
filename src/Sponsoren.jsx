@@ -8,7 +8,10 @@ import Resultate from "./Resultate"
 import ImageSlider from "./ImageSlider"
 
 export default function Sponsoren() {
-
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scrollen Sie nach oben, wenn die Komponente eingetreten ist
+      }), []
+  
     console.log(dataSponsoren)
     return (
         <>

@@ -8,7 +8,10 @@ import ImageSlider from "./ImageSlider";
 
 export default function Rennberichte() {
     const [flip, setFlip] = React.useState([true, true, true, true, true, true]);
-
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scrollen Sie nach oben, wenn die Komponente eingetreten ist
+      }), []
+  
     return (
 
         <div className="Rennberichte">
