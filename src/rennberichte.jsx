@@ -1,14 +1,12 @@
-import React from "react";
-import dataRennberichte from "./data-rennberichte";
-import { Link } from "react-router-dom";
-import SingleRennbericht from "./SingleRennbericht";
+import React, { useEffect } from "react";
 import ReactCardFlip from "react-card-flip";
-import { useEffect } from "react";
-import ImageSlider from "./ImageSlider";
+import { Link } from "react-router-dom";
+import dataRennberichte from "./data-rennberichte";
 
 
 export default function Rennberichte() {
     const [flip, setFlip] = React.useState([true, true, true, true, true, true]);
+    
     useEffect(() => {
         window.scrollTo(0, 0); // Scrollen Sie nach oben, wenn die Komponente eingetreten ist
       }), []

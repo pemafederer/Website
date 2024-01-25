@@ -22,13 +22,14 @@ import dataAbout from './data-about'
 
   ]
   useEffect(() => {
+    window.scrollTo(0, 0); // Scrollen Sie nach oben, wenn die Komponente eingetreten ist
+  }), []
+
+  useEffect(() => {
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
     };
-    useEffect(() => {
-      window.scrollTo(0, 0); // Scrollen Sie nach oben, wenn die Komponente eingetreten ist
-    }), []
-
+  
 
     window.addEventListener('resize', handleResize);
 
