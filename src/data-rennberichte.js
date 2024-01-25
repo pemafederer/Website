@@ -36,9 +36,11 @@ export default [
     title: "Podestplatz beim XCC ",
     subtitle: "Am Auffahrtssonntag fand in der Innenstadt von Lugano das XCC Rennnen des Swissbikecups statt. Die Strecke führte durch die Altstadt und beinhaltete einen kurzen Aufstieg und eine darauffolgende Treppenabfahrt. Nach einem soliden Rennen konnte ich auf P.5 ins Ziel fahren. ",
     img: "Lugano_XCC.WebP",
-    img_container_1: "Lugano_XCC.WebP",
-    img_container_2: "Lugano_XCC_2.jpg",
-    img_container_3: "Lugano_XCC_Kurve.jpg",
+    img_container_1: "Lugano_XCC_Kurve.jpg",
+    img_container_2: "Lugano_XCC.WebP",
+    img_container_3: "Lugano_XCC_2.jpg",
+    
+    
     fulltext: "Pema Federer, im Towers Sports VC Eschenbach Race Team Dress unterwegs, gelang der Start ins Junioren Rennen wie gewünscht. Ende der Startrunde fand sich Federer auf dem siebten Zwischenrang wieder. Während der gesamten Renndauer konnte sich Pema Federer stetig steigern. Jedoch wurde er bei Rennhälfte jäh zurückgeworfen. Federer zu diesem Rennmoment: «Ende der vierten Runde merkte ich, dass der Pneu Luft verliert. Leider erst, als ich schon bei der Techzone vorbei war. Darum musste ich fast eine ganze Runde mit sehr wenig Luft fahren. Ich verlor dafür einige Plätze.» In der letzten Runde konnte Federer, wieder mit fahrtüchtigem Bike unterwegs, nochmals Plätze gut machen. Schlussendlich beendete er das Rennen auf dem 13. Rang. Pema zum Rennen: «Trotz dem Endresultat bin ich zufrieden mit meiner ersten Rennhälfte und nehme positives daraus. So bin ich zuversichtlich für die Schweizermeisterschaften in zwei Wochen.Auch Federer kurvte am Sonntag beim Shortrace Rennen durch die Altstadt Luganos. Die Strecke war sehr schnell und hatte einen kurzen aber knackigen Anstieg mit einer darauffolgenden Treppenabfahrt. Federer startete gut ins Rennen. Während der gesamten Dauer war der Wettkampf sehr taktisch. Vor allem auf der langen Gerade von Start und Ziel wurde bewusst taktiert und Tempo rausgenommen. Pema Federer zum Rennen: «Ich konnte mich fast während dem ganzen Rennen an der Spitze halten und fuhr aktiv mit. Leider fehlte mir in den letzten zwei Runden die letzte Kraft, um den Sieg zu kämpfen zu können. Schlussendlich reichte es für den guten 5. Platz. Ich bin zufrieden mit meinem Rennen obwohl durch besseres taktisches Verhalten eine bessere Platzierung drin gelegen wäre. Zudem freue ich mich über mein erstes Swissbikecup Podest seit mehreren Jahren.",
 },
 {
@@ -46,8 +48,8 @@ export default [
     title: "Erste Junior Series im Ausland",
     subtitle: "Aufgrund meines guten Rennens an der Junior Series Rivera, bekam ich einen Nationalmannschafts Startplatz für die Junior Series in Haiming. Die Strecke war extrem technisch und physisch sehr anspruchsvoll.  Mein Rennen verlief ganz solide, auch wenn ich mir mehr erhoffte.  ",
     img: "Haiming.WebP",
-    img_container_1: "Haiming.WebP",
-    img_container_2: "Haiming_2.jpg",
+    img_container_1: "Haiming_2.jpg",
+    img_container_2: "Haiming.WebP",
     img_container_3: "Haiming_3.jpg",
     fulltext: "Durch mein sehr gutes Rennen in Rivera bekam ich von der Nationalmannschaft einen Startplatz an der Junior Series in Haiming. Ich freute mich sehr über diese Möglichkeit, da es für mich das erste Mal war im Dress der Nationalmannschaft zu starten. Wie in Rivera einige Wochen zuvor war das Rennen in Haiming auch eine Junior Series. Ein Juniorenrennen mit dem höchsten UCI-Status. Deshalb war das Feld auch extrem gut und international besetzt. Die Strecke in Haiming ist bekannt für die technischen Schwirigkeiten. Durch den Regen in der Vorwoche wurden die vielen Wurzelpassagen extrem rutschig und auch die Anstiege mussten teilweise geschoben werden. Als wir am Vortag die Strecke besichtigten fühlte ich mich jedoch gut und sehr sicher. Das Rennen startete ich von P.61/92 aus, da ich noch weniger als 20 UCI Punkte besitzte. Mein Start verlief gut, leider stürzte ich noch in der ersten Runde und verlor dadurch noch einige paar Plätze. In den folgenden Runden konnte ich immer wieder Fahrer überholen dies auch weil ich technisch sauber fuhr. Schlussendlich konnte ich das Rennen auf P.38/92 beenden, als 9ter Schweizer. Alles in allem bin ich zufrieden mit meine Rennen und konnte ein gutes Rennen im Dress der Nationalmannschaft zeigen. "
 },
@@ -56,9 +58,9 @@ export default [
     title: "Erste UCI Punkte in Rivera",
     subtitle: "Nach einem verpatzten Saisonstart in Gränichen, konnte ich an der Junior Series in Rivera ein super Rennen zeigen und zu meinen ersten UCI Punkten fahren. Ich kamm am Start sehr gut weg und konnte von da an mein Rennen voll durchziehen. Schlussendlich kam ich auf P.21 ins Ziel. ",
     img: "Rivera_Start.WebP",
-    img_container_1: "Rivera_BigRock.WebP",
-    img_container_2: "Rivera_Rockgarden.JPG",
-    img_container_3: "Rivera_Drop.JPG",
+    img_container_1: "Rivera_Rockgarden.JPG",
+    img_container_2: "Rivera_Drop.JPG",
+    img_container_3: "Rivera_BigRock.WebP",
     fulltext: "Das heutige Rennen in Rivera war wie letzte Woche eine Junior Series und es gab UCI Punkte für die Top 25. Also ein Juniorenrennen mit dem höchsten UCI Status. Die Strecke in Rivera ist eine der technischsten Strecken in der Schweiz aufgrund der vielen Felspartien. Zudem ist sie auch physisch extrem anspruchsvoll. Die Strecke lag mir persönlich sehr und ich habe sie schon oft als meine Lieblingsstrecke betitelt. Nun zum Rennen. Ich hatte einen guten Start und war Ende der ersten Runde auf P.28. In den darauffolgenden Runden konnte ich immer wieder Fahrer überholen und befand mich nun in den UCI Punkten. Vorallem in den technischen Passagen versuchte ich immer sauber zu fahren und konnte viel Zeit jeweils rausholen. Auf der zweitletzten Runde konnte ich mich von meiner Gruppe(P.22-P24) lösen und fuhr schlussendlich als 22ter über die Ziellinie. Ich bin sehr zufrieden mit meinem Rennen, da ich zum ersten Mal UCI Punkte holen konnte und somit ein Saisonziel schon früh erreicht habe. Dadurch kann ich an den weiteren UCI Rennen weiter vorne starten. "
 }
 

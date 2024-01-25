@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import About from './About.jsx'
 import App from './App.jsx'
+import { useEffect } from 'react'
 import Layout from './Layout.jsx'
 import Sponsoren from './Sponsoren.jsx'
 import './index.css'
@@ -14,6 +15,7 @@ import Goener from './Goenner.jsx'
 
 
 function Main(){
+
   return(
     
     <BrowserRouter>

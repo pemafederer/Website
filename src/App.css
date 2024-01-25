@@ -842,9 +842,9 @@ h1 {
 
 .rennberichte-img-container{
   display:grid;
-  grid-gap: 5%;
+  grid-gap: 1%;
   padding: 20px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   position: relative;
   width: 65%;
   padding-bottom: 20px;
@@ -869,9 +869,9 @@ h1 {
 
 .sponsors-banner-main-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   align-items: center;
-  background-color: #456990; /* Light gray background color */
+  background-color: #0a2239; /* Light gray background color */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 80%;
   padding: 20px;
@@ -881,9 +881,8 @@ h1 {
 
 .sponsors-banner-container {
   width: 100%;
-  box-sizing: border-box;
- margin: 0 10px; /* Add spacing between logos */
- text-align: center;
+  text-align: center;
+  padding: 0;
 }
 
 .sponsor-logo {
@@ -901,7 +900,41 @@ h1 {
 .sponsor-logo:hover {
   transform: scale(1.1); /* Scale up the logo on hover */
 }
+/* Adjust the styling for the carousel container */
+/* Adjust the styling for the carousel container */
+.carousel-main-container {
+  position: relative;
+  max-height: 75vh;
+  width: 60%;
+  height: auto; /* Adjust the height as needed */
+  overflow: hidden;
+  
 
+}
+.carousel.carousel-slider{
+  
+}
+.carousel .slider-wrapper{
+  overflow: visible;
+  object-fit: cover;
+  aspect-ratio: 15/10;
+}
+
+.carousel.carousel-slider .control-arrow{
+  height: auto;
+  width: 10%;
+
+}
+
+.carousel-main-container .single-rennberichte-img {
+  object-fit: cover;
+  aspect-ratio: 15/10;
+  height: auto;
+  /* Hover effect for a subtle interaction */
+  &:hover {
+    transform: scale(1.05);
+  }
+}
 
 .rennberichte-container:hover{
   -webkit-filter: brightness(100%);

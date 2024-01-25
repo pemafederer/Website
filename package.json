@@ -32,6 +32,7 @@
     "react-modal": "^3.16.1",
     "react-modal-images": "^0.1.0",
     "react-modal-video": "^2.0.1",
+    "react-responsive-carousel": "^3.2.23",
     "react-social-media-embed": "^2.4.1",
     "strava-v3": "^2.2.0",
     "text-encoding": "^0.7.0",

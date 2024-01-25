@@ -1,13 +1,21 @@
 import React from "react"
 import { Link, useParams } from "react-router-dom"
 import dataRennberichte from "./data-rennberichte"
-import { useState } from "react"
+import { useState, useEffect} from "react"
 import { RModalImages } from "react-modal-images"
 import dataSponsoren from "./data-sponsoren"
 import Paper from '@mui/material/Paper';
+import { Carousel } from "react-responsive-carousel"
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+
 
 
 export default function SingleRennbericht() {
+    
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scrollen Sie nach oben, wenn die Komponente eingetreten ist
+      }), []
+  
 
     const { rennId } = useParams();
     const [showFullScreen, setShowFullScreen] = useState(false)
@@ -49,34 +57,48 @@ export default function SingleRennbericht() {
                         </div>
                     </div>
                 </div>
-                <div className="rennberichte-img-container">
-                    
-                                <RModalImages
-                                sx={{height: "50vh"}}
-                                hideDownloadButton="true"
-                                hideRotateButton="true"
-                                hideZoomButton="true"
-                                    small={"../" + rennbericht.img_container_1} className="single-rennberichte-img" 
-                                    large={"../" + rennbericht.img_container_1} />
-                                <RModalImages
-                                sx={{height: "50vh"}}
-                                hideDownloadButton="true"
-                                hideRotateButton="true"
-                                hideZoomButton="true"
-                                    small={"../" + rennbericht.img_container_2} className="single-rennberichte-img"
-                                    large={"../" + rennbericht.img_container_2} />
+           
+          {/*
+          <div className="rennberichte-img-container">  
+                    <RModalImages
+                    sx={{height: "50vh"}}
+                    hideDownloadButton="true"
+                    hideRotateButton="true"
+                    hideZoomButton="true"
+                        small={"../" + rennbericht.img_container_1} className="single-rennberichte-img" 
+                        large={"../" + rennbericht.img_container_1} />
+                    <RModalImages
+                    sx={{height: "50vh"}}
+                    hideDownloadButton="true"
+                    hideRotateButton="true"
+                    hideZoomButton="true"
+                        small={"../" + rennbericht.img_container_2} className="single-rennberichte-img"
+                        large={"../" + rennbericht.img_container_2} />
 
-                                <RModalImages
-                                sx={{height: "50vh"}}
-                                hideDownloadButton="true"
-                                hideRotateButton="true"
-                                hideZoomButton="true"
-                                    small={"../" + rennbericht.img_container_3} className="single-rennberichte-img"
-                                    large={"../" + rennbericht.img_container_3} />
+                    <RModalImages
+                    sx={{height: "50vh"}}
+                    hideDownloadButton="true"
+                    hideRotateButton="true"
+                    hideZoomButton="true"
+                        small={"../" + rennbericht.img_container_3} className="single-rennberichte-img"
+                        large={"../" + rennbericht.img_container_3} />
 
-                            </div>
-                <div className="sponsors-banner-main-container">
-                {dataSponsoren.slice(10, 12).map(item => (
+                </div>
+    */}
+
+                <div className="carousel-main-container">
+                <Carousel autoPlay sx={{maxHeight: "100px"}}>
+                <div className="carousel-container">
+                    <img src={"../" + rennbericht.img_container_2} className="single-rennberichte-img"/>
+                </div>
+                <div className="carousel-container">
+                    <img src={"../" + rennbericht.img_container_3} className="single-rennberichte-img"/>
+                </div>
+            </Carousel>
+            </div>
+                
+            <div className="sponsors-banner-main-container">
+                {dataSponsoren.slice(10, 11).map(item => (
                     <div className="sponsors-banner-container">
                         <Link to={item.link} preventScrollReset={false}>
                             <img src={"../" + item.img} className="sponsor-logo" ></img>
@@ -85,6 +107,7 @@ export default function SingleRennbericht() {
                 ))}
                
             </div>
+        
 
             </div>
 </Paper>
