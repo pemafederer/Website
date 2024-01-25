@@ -1,11 +1,7 @@
-import React from "react"
-import dataGalerie from "./data-galerie"
-import { useEffect } from "react";
 import ImageList from '@mui/material/ImageList';
-import ImageListItem from '@mui/material/ImageListItem';
+import React, { useEffect } from "react";
 import { RModalImages } from "react-modal-images";
-import SlideShow from "./Slideshow";
-import ImageSlider from "./ImageSlider";
+import dataGalerie from "./data-galerie";
 
 
 export default function Galerie() {

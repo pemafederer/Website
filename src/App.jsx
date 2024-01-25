@@ -1,20 +1,9 @@
-import { useState, useEffect } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import React from "react"
+import React, { useEffect, useState } from "react"
 import AboutVorschau from './AboutVorschau.jsx'
-import dataAbout from './data-about'
 import './App.css'
-import RennberichteVorschau from './RennberichteVorschau.jsx'
-import Navbar from './Navbar'
-import dataRennberichte from './data-rennberichte'
-import Sponsoren from './Sponsoren'
-import dataSponsoren from './data-sponsoren'
-import { json } from 'react-router-dom'
-import ImageSlider from './ImageSlider'
-import { useEffect } from "react";
 import Instagram from './Instagram.jsx'
-import { Helmet } from 'react-helmet'
+import RennberichteVorschau from './RennberichteVorschau.jsx'
+import dataAbout from './data-about'
 
  function App() {
 
