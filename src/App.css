@@ -1042,6 +1042,7 @@ h1 {
 
 .navigation-menu {
   margin-left: auto;
+  overflow-y: auto;
 }
 
 .navigation-menu ul {

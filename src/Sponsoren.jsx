@@ -1,12 +1,10 @@
-import React from "react"
-import './App.css'
+import React, { useEffect } from "react"
 import { Link } from "react-router-dom"
-import dataSponsoren from "./data-sponsoren"
-import SlideshowSponsoren from "./SlideshowSponsoren"
+import './App.css'
 import Contact from "./Contact"
-import Resultate from "./Resultate"
-import ImageSlider from "./ImageSlider"
-import { useEffect } from "react";
+import SlideshowSponsoren from "./SlideshowSponsoren"
+import dataSponsoren from "./data-sponsoren"
+import ImageWithFallback from "./ImageWithFallback"
 
 export default function Sponsoren() {
     useEffect(() => {
@@ -19,7 +17,7 @@ export default function Sponsoren() {
             <div className="container-sponsoren">
                 <div className="Sponsoren">
                 <div className="img-container">
-                <img src="Savognin.jpg"/>
+                <ImageWithFallback src="Savognin.jpg" alt="Savognin Image" />
             </div>
                   <h1 > PRIVATE SPONSOREN</h1>
                     <div className="sponsoren-main-container">
