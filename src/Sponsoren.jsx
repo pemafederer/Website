@@ -53,6 +53,7 @@ export default function Sponsoren() {
                     <h1>TEAMSPONSOREN</h1>
                     <SlideshowSponsoren />
                 </div>
+                {/* 
                 <div className="contact-formular-container">
                 <div className="contact-titles">
                     <h1> Kontaktforumular</h1>
@@ -64,12 +65,14 @@ export default function Sponsoren() {
                 </div>
                 </div>
 
-
+                
 
                 <div className="Contact">
 
                     <Contact />
                 </div>
+
+                */}
 
             </div>
         </>
