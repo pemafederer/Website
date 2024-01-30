@@ -37,7 +37,7 @@ export default function SingleRennbericht() {
             </div>*/
     return (
         <div className="Paper-container">
-        <Paper sx={{ width: '80%', display: 'flex', margin: 'auto', marginTop: ''}} className="Paper">
+        <Paper sx={{ width: '80%', display: 'flex', margin: 'auto', marginTop: '', maxWidth: '1200px'}} className="Paper">
          <div className="SingleRennbericht">
              
                 <div className="rennberichte-main-container">
