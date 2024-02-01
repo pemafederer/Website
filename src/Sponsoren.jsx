@@ -21,7 +21,7 @@ export default function Sponsoren() {
             </div>
                   <h1 > PRIVATE SPONSOREN</h1>
                     <div className="sponsoren-main-container">
-
+        
                         {dataSponsoren.map(item =>
 
                         (
@@ -40,7 +40,7 @@ export default function Sponsoren() {
                             </div>
                         )
 
-                        ).slice(10, 12)}
+                        ).slice(9, 11)}
 
                     </div>
 
@@ -51,7 +51,7 @@ export default function Sponsoren() {
                 </div>
                 <div className="teamsponsoren">
                     <h1>TEAMSPONSOREN</h1>
-                    <SlideshowSponsoren />
+                    <SlideshowSponsoren/>
                 </div>
                 {/* 
                 <div className="contact-formular-container">

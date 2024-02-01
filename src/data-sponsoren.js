@@ -48,11 +48,11 @@ export default[
          },
          {
             name: "DAS Trainingsgerät, welches die Grundthemen Kraft, Koordination, Geschicklichkeit und Beweglichkeit angeht. Die Einsatzgebiete des SYPOBA® sind grenzenlos. Dosiertes und aufbauendes Training sind sogar in spielerischen Formen möglich. SYPOBA® bietet ein vielseitiges Trainingsgerät für jung und alt und eignet sich sowohl für den „Normalverbraucher“ als auch für den Profisportler.",
-            img:"sypoba.jpg",
+            img:"sypboa2.jpg",
             link: "https://sypoba.com/"
          },
          {
-            name: "Seit 2005 betreiben wir stolz das Tibetasia in Zürich, ein Familienbetrieb mit authentischer tibetischer Küche. Unsere Leidenschaft für Tibets Aromen und höchste Qualität macht uns zur Anlaufstelle für Feinschmecker. Das Restaurant bietet nicht nur exquisit zubereitete Speisen, sondern auch eine einladende Atmosphäre, die die tibetische Kultur widerspiegelt.",
+            name: "Seit 2005 betreiben wir stolz das Tibetasia in Zürich, ein Familienbetrieb mit authentischer tibetischer Küche. Unsere Leidenschaft für Tibets Aromen und höchste Qualität macht uns zur Anlaufstelle für Feinschmecker. Das Restaurant bietet nicht nur exquisit zubereitete Speisen, sondern auch eine einladende Atmosphäre, die die schöne tibetische Kultur widerspiegelt.",
             img:"tibetasia.png",
             link: "https://www.tibetasia.ch/"
 
@@ -64,11 +64,6 @@ export default[
 
          },
 
-         {
-            name: "Migmar Kangsar",
-            img:"gränichen.jpeg",
-            link: "https://srf.ch"
-         }
             
         
     

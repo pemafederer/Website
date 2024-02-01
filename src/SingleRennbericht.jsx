@@ -98,7 +98,7 @@ export default function SingleRennbericht() {
             </div>
                 
             <div className="sponsors-banner-main-container">
-                {dataSponsoren.slice(10, 11).map(item => (
+                {dataSponsoren.slice(9, 11).map(item => (
                     <div className="sponsors-banner-container">
                         <Link to={item.link} preventScrollReset={false}>
                             <img src={"../" + item.img} className="sponsor-logo" ></img>

@@ -1,15 +1,15 @@
 export default [
     {
-        title: " CIC ON Swissbikecup Gesamtsieg",
+        title: " Gesamtsieg U19 CIC ON Swiss Bike Cup",
     },
     {
-        title: " BikeWorld Raceseries Gesamtsieg ",
+        title: " Gesamtsieg U19 BikeWorld Raceseries ",
     },
     {
         title: " 9. Rang Junior Series Basel HC",
     },
     {
-        title: "5 Siege BikeWorld Raceseries"
+        title: "5 Siege bei der BikeWorld Raceseries"
     },
     {
         title: " 2. Rang Swissbikecup Savognin C2",

@@ -1,5 +1,6 @@
 import React from "react"
 import ImageSliderSponsoren from "./ImageSliderSponsoren"
+import dataSponsoren from "./data-sponsoren"
 import './App.css'
 import { Link } from "react-router-dom"
 const SlideShow = () => {
@@ -11,7 +12,7 @@ const SlideShow = () => {
         { url: "raiffeisen.jpg", title: "Raiffeisen" },
         { url: "specialized.jpg", title: "Specialized" },
         { url: "towersports.jpg", title: "Tower Sports" },
-        { url: "sypoba.jpg", title: "Sypoba" },
+        { url: "sypboa2.jpg", title: "Sypoba" },
         { url: "swissstop.jpg", title: "SwissStop" },
     ]
     /**/
