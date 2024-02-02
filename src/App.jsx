@@ -4,7 +4,7 @@ import './App.css'
 import Instagram from './Instagram.jsx'
 import RennberichteVorschau from './RennberichteVorschau.jsx'
 import dataAbout from './data-about'
-import { InstagramEmbed } from 'react-social-media-embed';
+
 
 
  function App() {
