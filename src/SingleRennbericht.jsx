@@ -85,7 +85,16 @@ export default function SingleRennbericht() {
 
                 </div>
     */}
-
+<div className="sponsors-banner-main-container">
+                {dataSponsoren.slice(9, 11).map(item => (
+                    <div className="sponsors-banner-container">
+                        <Link to={item.link} preventScrollReset={false}>
+                            <img src={"../" + item.img} className="sponsor-logo" ></img>
+                        </Link>
+                    </div>
+                ))}
+               
+            </div>
                 <div className="carousel-main-container">
                 <Carousel autoPlay sx={{maxHeight: "100px"}}>
                 <div className="carousel-container">
@@ -97,16 +106,7 @@ export default function SingleRennbericht() {
             </Carousel>
             </div>
                 
-            <div className="sponsors-banner-main-container">
-                {dataSponsoren.slice(9, 11).map(item => (
-                    <div className="sponsors-banner-container">
-                        <Link to={item.link} preventScrollReset={false}>
-                            <img src={"../" + item.img} className="sponsor-logo" ></img>
-                        </Link>
-                    </div>
-                ))}
-               
-            </div>
+            
         
 
             </div>

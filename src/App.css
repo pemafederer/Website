@@ -877,13 +877,12 @@ h1 {
   }
 }
 
-
 .sponsors-banner-main-container {
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
   /*background-color: #0a2239; /* Light gray background color */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
   width: 80%;
   padding: 20px;
   margin-top: 20px;
@@ -1495,6 +1494,11 @@ a {
     padding-left: 5%;
  
    }
+   .AboutMe-vorschau2-container{
+    flex-wrap: wrap-reverse;
+    
+ 
+   }
    .SingleRennbericht .rennberichte-subtitle,
    .rennberichte-subtitle{
     font-size: 18px;
@@ -1646,9 +1650,9 @@ a {
   .AboutMe-img {
     object-fit: cover;
     aspect-ratio: 3/4;
-    width: 61%;
+    width: 100%;
     height: auto;
-    padding-left: 5px;
+    
   }
 
   .footer-content, .footer-creater, .footer-telefon, .footer-email{
