@@ -1468,6 +1468,9 @@ a {
 }
 
 @media screen and (max-width: 900px) {
+  .galerie-title{
+    font-size: 20px;
+  }
   .page-title{
     font-size: 18px;
     
