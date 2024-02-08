@@ -11,6 +11,10 @@ export default[
         id: 2,
         name: "Garage Markaj AG"
     },
+    {
+        id: 3,
+        name: "Manuel, Cheme, Nima, Sangmo Knöpfel"
+    },
     /*{
         id: 3,
         name: "Stefan Peter"
