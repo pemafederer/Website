@@ -25,7 +25,7 @@ export default function Galerie() {
     return (
         <div className="Galerie">
             <div className="img-container">
-                    <img src="Gränichen.WebP" alt="Galerie" title="Galerie" />
+                    <img src="etzelbergzeitfahren_2.jpg" alt="Galerie" title="Galerie" />
                 
             </div>
             <div className="galerie-title">

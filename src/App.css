@@ -1129,6 +1129,7 @@ h1 {
 
 .page-title{
   font-size: 25px;
+  color:black;
   
 }
 .instagram-post-container {
@@ -1164,6 +1165,7 @@ h1 {
 .gönner-subtitle h2 {
   font-size: 30px;
   text-align: center;
+  color:black;
 }
 .gönner-names-container{
   margin-bottom: 2%;
@@ -1215,6 +1217,7 @@ h1 {
 .gönner-bank,
 .gönner-twint {
   background-color: #f7f7f7;
+  color:black;;
   border-radius: 8px;
   padding: 20px; /* Adjust the padding as needed */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
