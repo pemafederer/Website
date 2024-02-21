@@ -6,6 +6,7 @@ import { RModalImages } from "react-modal-images"
 import dataSponsoren from "./data-sponsoren"
 import Paper from '@mui/material/Paper';
 import { Carousel } from "react-responsive-carousel"
+import { useMediaQuery } from '@mui/material';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 
@@ -31,14 +32,16 @@ export default function SingleRennbericht() {
     const handleCloseFullScreen = () => {
         setShowFullScreen(false)
     }
+    const isSmallScreen = useMediaQuery('(max-width:600px)'); // Define your breakpoint here
+
 
     /*<div className="img-container">
                 <img src="http://localhost:5173/Gränichen.JPG" alt="Gränichen Junior Series"></img>
             </div>*/
     return (
         <div className="Paper-container">
-        <Paper sx={{ width: '80%', display: 'flex', margin: 'auto', marginTop: '', maxWidth: '1200px'}} className="Paper">
-         <div className="SingleRennbericht">
+        <Paper sx={{ width: isSmallScreen ? '100%' : '80%', display: 'flex', margin: 'auto', marginTop: '', maxWidth: '1200px'}} className="Paper">
+               <div className="SingleRennbericht">
              
                 <div className="rennberichte-main-container">
               
