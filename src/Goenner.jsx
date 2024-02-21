@@ -54,17 +54,14 @@ return(
             <div className="gönner-text-container">
             <div className="gönner-text">
             <h3>
-                Mit einer Gönnermitgliedschaft unterstützen Sie mich finanziell und werden somit Teil meiner sportlichen Laufbahn.
-                Sie sorgen mit Ihrem Gönnerbeitrag direkt für die Finanzierung der Reise/Unterkunftskosten, Kosten für Trainingslager usw.
+            Durch eine großzügige Unterstützung mit einer Gönnermitgliedschaft ab 100 CHF werden Sie Teil meines sportlichen Werdegangs. Ihre finanzielle Hilfe trägt direkt dazu bei, meine Reise- und Unterkunftskosten sowie die Kosten für Trainingslager und ähnliches zu decken
             </h3>
             <h3>
                Als Gegenleistung wird ihr Name unter den Gönner aufgeführt und Sie erhalten zudem  
              jeden Rennbericht per Email sowie auch die Möglichkeit meinen Rennkalender auf Outlook zu abonnieren.
             </h3>
             <h3>
-               Die Mitgliedschaft ist unbefristet und Ihrerseits gibt es keine Verpflichtungen. Sie entscheiden frei über den Betrag und die Laufdauer. 
-                Ich würde mich über jeglichen Beitrag freuen.
-            </h3>
+            Die Mitgliedschaft ist flexibel und unbefristet, es gibt keine Verpflichtungen seitens Ihrerseits. Jeder Beitrag wird sehr geschätzt</h3>
             </div>
             </div>
         </div>
