@@ -1039,20 +1039,10 @@ h1 {
   text-decoration: none; /* Remove underline */
 }
 
-.navigation-menu li a::after {
-  content: ''; /* Create pseudo-element */
-  position: absolute; /* Position absolute to position relative parent */
-  left: 0; /* Align with the left edge of the link */
-  bottom: -3px; /* Position it just below the text */
-  width: 0%; /* Initial width is 0 */
-  height: 2px; /* Height of the line */
-  background-color: transparent; /* Initial color of the line */
-  transition: width 0.5s ease; /* Smooth transition effect */
-}
 
-.navigation-menu li a.active::after {
-  width: 100%; /* Full width */
-  background-color: #2642af; /* Color of the underline */
+.navigation-menu li a.active {
+ /* Full width */
+  color: #2642af; /* Color of the underline */
 }
 
 .navigation {
@@ -1830,7 +1820,7 @@ main.dark {
     transform: translateY(0);
   }
 }
-@keyframes loadingBar {
+/*@keyframes loadingBar {
   from { width: 0; } /* Starting width of the loading bar */
-  to { width: 100%; } /* Ending width of the loading bar */
-}
+  to { width: 100%; } /* Ending width of the loading bar 
+}*/
