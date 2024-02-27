@@ -493,8 +493,8 @@ h3 {
 
 }
 .sponsoren-container:hover{
-  transform: scale(1.05); /* Increase the size on hover */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+  transform: scale(1.01);
+  /*box-shadow: 0 8px 16px rgba(122, 158, 206, 0.2); /* Enhance shadow on hover */
 
 
 }
@@ -504,12 +504,12 @@ h3 {
   display: grid;
   width: 100%;
   max-width: 100%;
-  height: calc(100vh - 10%);
+  height: auto;
   /*align-items: center;*/
 }
 
 .Sponsoren h1 {
-  background-color: #22577a;
+  background-color: #2c3e50;
   color: white;
   padding-top: 50px;
   margin: 0;
@@ -538,7 +538,8 @@ h3 {
   grid-template-columns: 1fr 1fr;
   grid-gap: 8%;
   padding: 5%;
-  background-color: #22577a;
+  /*background-color: #22577a;*/
+  background-color: #2c3e50;
   max-width: 100%;
   height: auto;
   padding-bottom: 10%;
@@ -561,53 +562,62 @@ h3 {
   display: flex;
   justify-content: center;
   padding-top: 50vh;
+}.footer-container {
+  text-align: center;
 }
-.footer-container {
-  background-color: #333;
-  color: #fff;
-  padding: 40px 20px;
+
+footer {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 20px 0;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-left,
+.footer-right {
+  width: 100%;
+  text-align: center;
 }
 
 .footer-title {
-  font-size: 36px;
-  font-weight: 700;
-  padding-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .footer-content {
-  display: grid;
-  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.footer-email,
-.footer-creater,
-.footer-telefon {
-  font-size: 18px;
-  line-height: 1.5;
+.footer-item {
+  font-size: 14px;
+  margin-bottom: 5px;
 }
 
-
+.icon-container {
+  margin-top: 10px;
+}
 
 .icon-img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px; /* Adjust the gap between the images */
-  margin-top: 10px;
 }
 
 .icon-img img {
-  width: 50px;
-  height: 50px;
-  border-radius: 5%;
-  transition: transform 0.3s ease-in-out;
+  margin: 0 5px;
+  width: 30px;
+  height: 30px;
 }
 
-.icon-img img:hover {
-  transform: scale(1.1);
-}
-
-/* ... Your existing CSS ... */
 
 
 
@@ -1017,6 +1027,33 @@ h1 {
   
   align-items: center;
 }
+.navigation-menu li {
+  /* Removes default disc bullet for li tags and applies margin to left & right side */
+  list-style-type: none;
+  margin: 0 2rem;
+}
+
+.navigation-menu li a {
+  position: relative; /* Position relative for pseudo-element */
+  color: black; /* Set default text color */
+  text-decoration: none; /* Remove underline */
+}
+
+.navigation-menu li a::after {
+  content: ''; /* Create pseudo-element */
+  position: absolute; /* Position absolute to position relative parent */
+  left: 0; /* Align with the left edge of the link */
+  bottom: -3px; /* Position it just below the text */
+  width: 0%; /* Initial width is 0 */
+  height: 2px; /* Height of the line */
+  background-color: transparent; /* Initial color of the line */
+  transition: width 0.5s ease; /* Smooth transition effect */
+}
+
+.navigation-menu li a.active::after {
+  width: 100%; /* Full width */
+  background-color: #2642af; /* Color of the underline */
+}
 
 .navigation {
   z-index: 100;
@@ -1045,6 +1082,7 @@ h1 {
   box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
 }
 
+
 .brand-name {
   text-decoration: none;
   color: black;
@@ -1063,31 +1101,16 @@ h1 {
   padding: 0;
 }
 
-.navigation-menu li {
-  /*removes default disc bullet for li tags and applies margin to left & right side*/
-  list-style-type: none;
-  margin: 0 2rem;
- 
-}
-.navigation-menu li :hover{
- color: #2642af;
-}
-.navigation img{
+.navigation img {
   width: 70%;
 }
-.navigation-menu li a{
+
+.navigation-menu li a {
   font-size: 25px;
   color: black;
   text-decoration: inherit;
- 
 }
 
-.navigation-menu li link {
-  /*increases the surface area of the anchor tag to span more than just the anchor text*/
-  text-decoration: none;
-  display: block;
-  width: 100%;
-}
 
 .hamburger {
   /*// removes default border on button element*/
@@ -1396,7 +1419,7 @@ a {
   .navigation-menu ul {
     /*// navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar)*/
     position: absolute;
-    top: 60px;
+    top: 600px;
     left: 0;
     /*/ stacks the li tags vertically */
     flex-direction: column;
@@ -1434,7 +1457,7 @@ a {
     transition: all;
     position: absolute;
     font-size: 30px;
-    top: 50%;
+    top: 99%;
     background-color: #fff;
     width: 100%;
     height: 100vh;
@@ -1800,10 +1823,14 @@ main.dark {
 
 @keyframes slideInFromTop {
   0% {
-    transform: translateY(-5%);
+    transform: translateY(-10%);
   }
 
   100% {
     transform: translateY(0);
   }
+}
+@keyframes loadingBar {
+  from { width: 0; } /* Starting width of the loading bar */
+  to { width: 100%; } /* Ending width of the loading bar */
 }

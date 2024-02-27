@@ -1,0 +1,34 @@
+.sponsor-banner {
+    width: 100%;
+    margin: 0 auto;
+    height:    1500px;
+    background-color: white; /* Background color */
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+}
+
+.sponsor-section {
+    margin-bottom: 20px;
+}
+
+.sponsor-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.sponsor-logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+    justify-content: center;
+}
+
+.sponsor-logos img {
+    height: 150px; /* Fixed height */
+    max-width: 400px; /* Max width */
+    object-fit: contain; /* Ensure logos stretch to fit container */
+    background-color: transparent;
+}

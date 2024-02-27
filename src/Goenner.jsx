@@ -58,7 +58,7 @@ return(
             </h3>
             <h3>
                Als Gegenleistung wird ihr Name unter den Gönner aufgeführt und Sie erhalten zudem  
-             jeden Rennbericht per Email sowie auch die Möglichkeit meinen Rennkalender auf Outlook zu abonnieren.
+             jeden Rennbericht per Email.
             </h3>
             <h3>
             Die Mitgliedschaft ist flexibel und unbefristet, es gibt keine Verpflichtungen seitens Ihrerseits. Jeder Beitrag wird sehr geschätzt</h3>

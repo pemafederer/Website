@@ -5,6 +5,7 @@ import Contact from "./Contact"
 import SlideshowSponsoren from "./SlideshowSponsoren"
 import dataSponsoren from "./data-sponsoren"
 import ImageWithFallback from "./ImageWithFallback"
+import SponsoringBanner from "./sponsoringBanner"
 
 export default function Sponsoren() {
     useEffect(() => {
@@ -75,6 +76,7 @@ export default function Sponsoren() {
                 */}
 
             </div>
+
         </>
 
     );
