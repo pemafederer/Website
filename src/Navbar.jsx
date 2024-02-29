@@ -58,7 +58,7 @@ export default function Navbar() {
             <Link to="/Sponsoren" className={location.pathname === "/Sponsoren" ? "active" : ""} onClick={handleLinkClick}>SPONSOREN</Link>
           </li>
           <li>
-            <Link to="/Gönner" className={location.pathname === "/Gönner" ? "active" : ""} onClick={handleLinkClick}>GÖNNER</Link>
+            <Link to="/Goenner" className={location.pathname === "/Goenner" ? "active" : ""} onClick={handleLinkClick}>GÖNNER</Link>
           </li>
           <li>
             <Link to="/Rennberichte" className={location.pathname === "/Rennberichte" ? "active" : ""} onClick={handleLinkClick}>RENNBERICHTE</Link>

@@ -22,8 +22,8 @@ export default [
         title: "MTB SM 2023"
     },
     {
-        img: "gstaad.WebP",
-        title: "Swissbikecup Gstaad"
+        img: "Davos_2.jpg",
+        title: "ÖKK Bikerevolution Davos"
     },
     {
         img: "Crans-Montana_Rock.JPG",

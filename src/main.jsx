@@ -23,7 +23,7 @@ function Main(){
       <Route element={<Layout />}>
         <Route path="/" element={<App />}/>
         <Route path="SPONSOREN" element={<Sponsoren/>}/>
-        <Route path="Gönner" element={<Goener />}/>
+        <Route path="GOENNER" element={<Goener />}/>
         <Route path="RENNBERICHTE" element={<Rennberichte />}/>
         <Route path="/RENNBERICHT/:rennId" element={<SingleRennbericht/>}/>
         <Route path="ABOUT" element={<About />}/>
