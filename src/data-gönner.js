@@ -15,6 +15,10 @@ export default[
         id: 3,
         name: "Manuel, Cheme, Nima, Sangmo Knöpfel"
     },
+    {
+        id: 4,
+        name: "Helen & Emil Knöpfel"
+    }
     /*{
         id: 3,
         name: "Stefan Peter"
