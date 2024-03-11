@@ -18,7 +18,7 @@ export default[
     {
         id: 4,
         name: "Helen & Emil Knöpfel"
-    }
+    },
     {
         id: 5,
         name: "Stefan Künzler"
