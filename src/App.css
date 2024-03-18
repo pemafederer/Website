@@ -898,9 +898,8 @@ h1 {
   align-items: center;
   /*background-color: #0a2239; /* Light gray background color */
   /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
-  width: 80%;
+  width: 60%;
   padding: 20px;
-  margin-top: 20px;
   border-radius: 5px;
 }
 
