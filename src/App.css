@@ -835,8 +835,8 @@ h1 {
 
 .SingleRennbericht .rennberichte-text{
   padding-top: 50px;
-  width: 80.3%;
-  padding-left: 9.5%;
+  width: 80%;
+  padding: 10%;
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
