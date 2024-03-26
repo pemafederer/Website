@@ -54,7 +54,12 @@ export default function SingleRennbericht() {
                                 {rennbericht.title}
                             </div>
                             <div className="rennberichte-subtitle">
+                                {rennbericht.bedingungen}
+                                <br>
+                                </br>
+                                <br></br>
                                 {rennbericht.fulltext}
+
                             </div>
                          
                         </div>
