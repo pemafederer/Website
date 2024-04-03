@@ -33,7 +33,7 @@ export default function Galerie() {
                 </div>
             <div className="galerie-main-container">
 
-                <ImageList sx={{ width: "70%" , height: "auto"}} style={styles.imageList} cols={2} rowHeight={"264"} >
+                <ImageList sx={{ width: "80%" , height: "auto"}} style={styles.imageList} cols={2} rowHeight={"264"} >
                     {dataGalerie.map((item, index) => (
                         <div key={index} className="galerie-container" style={{ maxHeight: "80vh"}}>
                             {/* <ImageListItem key={item.img}>*/}

@@ -1,4 +1,13 @@
 export default [
+    {
+        img: "Rivera_2024_4.JPG",
+        title: "U23 HC Rivera 2024"
+
+    },
+    {
+        img: "Graenichen2024_s.jpg",
+        title: "Swissbikecup Gränichen 2024"
+    },
    
     {
         img: "Savognin_2.JPG",

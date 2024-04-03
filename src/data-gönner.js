@@ -22,7 +22,12 @@ export default[
     {
         id: 5,
         name: "Stefan Künzler"
-    }
+    },
+    {
+        id: 6,
+        name: "Tsering, Sonam, Nilha, Samten Balok"
+    },
+
     /*{
         id: 3,
         name: "Stefan Peter"
