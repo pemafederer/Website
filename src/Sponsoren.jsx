@@ -18,7 +18,7 @@ export default function Sponsoren() {
             <div className="container-sponsoren">
                 <div className="Sponsoren">
                 <div className="img-container">
-                <ImageWithFallback src="Savognin.jpg" alt="Savognin Image" />
+                <img src="Savognin.jpg" alt="Savognin Image" loading="lazy" />
             </div>
                   <h1 > PRIVATE SPONSOREN</h1>
                     <div className="sponsoren-main-container">

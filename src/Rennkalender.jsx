@@ -51,7 +51,7 @@ export default function Rennkalender() {
     return (
         <div className='Rennkalender'>
             <div className="img-container">
-                <img src="Egg_lastround.JPG" />
+                <img src="Egg_lastround.JPG" loading='lazy' />
             </div>
 
             <div className="page-title">

@@ -78,7 +78,7 @@ import dataAbout from './data-about'
 
   </div>*/}
           <div className="img-container">
-                <img src="Schwändi2.jpg" />
+                <img src="Schwändi2.jpg" loading="lazy"/>
                 <div className="text-container">
                {/* <p>HERZLICH WILLKOMMEN</p> */}
           </div>
