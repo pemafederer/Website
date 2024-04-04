@@ -631,11 +631,14 @@ footer {
   margin-bottom: 0;
   background-color: white;
   color: #0d324d;
-}.about-container {
+}
+
+.about-container {
   background-color: white;
   padding-top: 30px;
   color: #0d324d;
   padding-bottom: 0px;
+ 
 
 }
 .about-vorschau-container {
@@ -1525,6 +1528,7 @@ a {
    }
    .AboutMe-vorschau2-container{
     flex-wrap: wrap-reverse;
+    width: 90%;
     
  
    }
@@ -1589,7 +1593,7 @@ a {
   }
 
   .about-container .AboutMe-Text{
-    width: 70%;
+    width: 80%;
   }
   input {
     height: 40px;
