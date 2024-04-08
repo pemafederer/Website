@@ -104,14 +104,14 @@ export default function SingleRennbericht() {
                
             </div>
                 <div className="carousel-main-container">
-                <Carousel autoPlay sx={{maxHeight: "100px"}}>
-                <div className="carousel-container">
-                    <img src={"../" + rennbericht.img_container_2} className="single-rennberichte-img"/>
-                </div>
-                <div className="carousel-container">
-                    <img src={"../" + rennbericht.img_container_3} className="single-rennberichte-img"/>
-                </div>
-            </Carousel>
+                <Carousel autoPlay sx={{ maxHeight: "100px" }}>
+                    <div className="carousel-container">
+                        <img src={"../" + rennbericht.img_container_2} className="single-rennberichte-img"/>
+                    </div>
+                    <div className="carousel-container">
+                        <img src={"../" + rennbericht.img_container_3} className="single-rennberichte-img"/>
+                    </div>
+                </Carousel>
             </div>
                 
             
