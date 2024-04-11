@@ -40,7 +40,7 @@ export default function Calender() {
     <Table sx={{ minWidth: 700 }} aria-label="customized table">
       <TableHead>
         <TableRow>
-          <StyledTableCell>Rennkalender 2024 (provisorisch)</StyledTableCell>
+          <StyledTableCell>Rennkalender 2024</StyledTableCell>
           <StyledTableCell align="left">Datum</StyledTableCell>
           <StyledTableCell align="left">Startzeit</StyledTableCell>
           <StyledTableCell align="left">Kategorie</StyledTableCell>

@@ -22,19 +22,18 @@ export default [
         startTime: "09 : 30"
     },
     {
-        date: "28.04.2024",
-        race: "BikeWorldRaceSeries Schwändi",
-        state: "-",
-        category: "Open",
-        startTime: "14 : 15"
-
-    },
-    {
         date: "05.05.2024",
-        race: "ÖKK Bikerevolution Davos",
+        race: "ÖKK Bikerevolution Chur",
         state: "HC",
         category: " U23 Herren",
         startTime: "10 : 15"
+    },
+    {
+        date: "19.05.2024",
+        race: "Ötztaler Mountainbike Festival",
+        state: "HC",
+        category: "U23 Herren",
+        startTime: "10:15"
     },
     {
         date: "26.05.2024",
@@ -76,7 +75,7 @@ export default [
     },
     {
         date: "14.07.2024",
-        race: "XC0 SM Echallens",
+        race: "XCO SM Echallens",
         state: "NC",
         category: "U23 Herren",
         startTime: "10 : 15"
