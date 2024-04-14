@@ -839,7 +839,7 @@ h1 {
 .SingleRennbericht .rennberichte-text{
   padding-top: 50px;
   width: 80%;
-  padding: 10%;
+  padding: 10% 10% 0 10%;
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
@@ -929,8 +929,7 @@ h1 {
 /* Adjust the styling for the carousel container */
 .carousel-main-container {
   position: relative;
-  max-height: 75vh;
-  width: 60%;
+  width: 70%;
   height: auto; /* Adjust the height as needed */
   overflow: hidden;
   
@@ -940,9 +939,10 @@ h1 {
   
 }
 .carousel .slider-wrapper{
-  overflow: visible;
+  overflow: hidden;
   object-fit: cover;
   aspect-ratio: 15/10;
+
 }
 
 .carousel.carousel-slider .control-arrow{
@@ -1509,6 +1509,7 @@ a {
   }
   .SingleRennbericht .rennberichte-text{
     padding-top: 0px;
+    width: 76%;
   }
 
   .slide-container{
