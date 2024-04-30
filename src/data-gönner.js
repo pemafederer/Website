@@ -27,6 +27,10 @@ export default[
         id: 6,
         name: "Tsering, Sonam, Nilha, Samten Balok"
     },
+    {
+        id: 7,
+        name: "Marcel, Vasso, Noé, Eneas Federer"
+    }
 
     /*{
         id: 3,
