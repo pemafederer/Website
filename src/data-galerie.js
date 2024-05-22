@@ -1,5 +1,13 @@
 export default [
     {
+        img: "Chur2024_Bidon.jpg",
+        title: "U23 HC Chur 2024"
+    },
+    {
+        img: "Chur2024_Jump.jpg",
+        title: "U23 HC Chur 2024"
+    },
+    {
         img: "Rivera_2024_4.JPG",
         title: "U23 HC Rivera 2024"
 

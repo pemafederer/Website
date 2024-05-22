@@ -15,7 +15,7 @@ return(
 
 <div className="Gönner">
 <div className="img-container">
-                <img src="Lugano_XCC_2.jpg" loading="lazy"/>
+                <img src="Chur2024_Jump.jpg" loading="lazy"/>
             </div>
     <div className="gönner-main-container">
         <div className="gönner-container">

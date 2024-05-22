@@ -25,7 +25,7 @@ export default function Galerie() {
     return (
         <div className="Galerie">
             <div className="img-container">
-                    <img src="etzelbergzeitfahren_2.jpg" alt="Galerie" title="Galerie" loading='lazy'/>
+                    <img src="Chur2024_Techzone.jpg" alt="Galerie" title="Galerie" loading='lazy'/>
                 
             </div>
             <div className="galerie-title">
