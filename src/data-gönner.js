@@ -30,6 +30,10 @@ export default[
     {
         id: 7,
         name: "Marcel, Vasso, Noé, Eneas Federer"
+    },
+    {
+        id: 8,
+        name: "Leandra Stasio"
     }
 
     /*{

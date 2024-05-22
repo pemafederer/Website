@@ -43,6 +43,13 @@ export default [
         startTime: "14 : 15"
     },
     {
+        date: "02.06.2024",
+        race: "ÖKK Bike Revolution Engelberg",
+        state: "HC",
+        category: "U23 Herren",
+        startTime: "10 : 30"
+    },
+    {
         date: "09.06.2024",
         race: "Swissbikecup Leysin",
         state: "C1",
