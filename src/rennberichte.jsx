@@ -5,7 +5,7 @@ import dataRennberichte from "./data-rennberichte";
 
 
 export default function Rennberichte() {
-    const [flip, setFlip] = React.useState([true, true, true, true, true, true, true,true, true, true, true]);
+    const [flip, setFlip] = React.useState([true, true, true, true, true, true, true,true, true, true, true, true]);
 
 
   
