@@ -28,7 +28,7 @@ export default function Rennberichte() {
                         <div className={`rennberichte-container-hover`}>
                             <ReactCardFlip isFlipped={flip[idx]} flipDirection="horizontal">
                                 <div>
-                                    <Link to={`/rennbericht/${item.id}`}>
+                                    <Link to={`/rennbericht/${idx}`}>
                                         <div className="rennbericht-title" >
                                             {item.title}
                                         </div>
@@ -40,7 +40,7 @@ export default function Rennberichte() {
 
                                 </div>
 
-                                <Link to={`/rennbericht/${item.id}`}>
+                                <Link to={`/rennbericht/${idx}`}>
                                     <img src={item.img} className="rennberichte-img" alt={item.title} loading="lazy" ></img>
                                 </Link>
                             </ReactCardFlip>
