@@ -73,14 +73,6 @@ export default [
 
     },
     {
-        date: "12.07.2024",
-        race: "XCC SM Echallens",
-        state: "NC",
-        category: "U23 Herren",
-        startTime: "18 : 30"
-
-    },
-    {
         date: "14.07.2024",
         race: "XCO SM Echallens",
         state: "NC",
