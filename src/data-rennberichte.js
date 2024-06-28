@@ -1,6 +1,18 @@
 export default [
 {
     id: 0,
+    date: '24.06.2024',
+    title: 'Podest in Hittnau',
+    subtitle: 'Nach einer intensiven Trainingswoche absolvierte ich ein Rennen der Bike World Raceseries in Hittnau. Ich erwischte einen guten Tag und befand mich schon früh an der Spitze des Rennens. Nach einem soliden Rennen kam ich mit 20 Sekunden Rückstand auf Platz 2 ins Ziel. ',
+    bedingungen: 'Nach einer intensiven Trainingswoche nutzte ich das Rennen als weiteres gutes Training. Die Strecke war durch den Regen der letzten Tage sehr nass und rutschig. Während unseres Rennens begann der Untergrund langsam klebrig zu werden. ',
+    fulltext: 'Der Start gelang mir gut und ich konnte als Erster in die Abfahrt gehen. Schon früh im Rennen fühlte ich mich sehr gut. Nach der Startrunde waren wir zu viert an der Spitze. Zu Beginn der zweiten Runde griff Konny Looser an und konnte sich absetzen. Ich versuchte, den Abstand so gut wie möglich zu verringern und konnte mich auch von den anderen beiden Fahrern absetzen. Von da an fuhr ich konstant auf Platz 2. In den technischen Abschnitten der Strecke konnte ich immer wieder Zeit auf den Führenden gutmachen. Ende der dritten Runde lag ich noch knapp 20 Sekunden hinter dem Führenden. Ich gab nochmals alles, um die Lücke zu schließen. Dies gelang mir leider nicht mehr, und ich beendete das Rennen auf einem soliden zweiten Platz mit rund 20 Sekunden Rückstand. Nun steht eine weitere harte Trainingswoche an, um mich auf die bevorstehende Schweizermeisterschaft in drei Wochen vorzubereiten.',
+    img: 'Hittnau2024_PodestWeit.jpg',
+    img_container_2: 'Hittnau2024_PodestWeit.jpg',
+    img_container_3: 'Hittnau2024_Aufstieg.jpg',
+}
+,
+{
+    id: 0,
     date: '10.06.2024',
     title: 'P.2 in Leysin ',
     subtitle: 'Nach einer einjährigen Pause fand wieder ein Rennen des Swissbikecups in Leysin statt. Die Strecke wurde leicht angepasst und enthielt einige technisch anspruchsvolle Stellen. Ich hatte ein gutes Rennen und konnte mir meinen zweiten Podestplatz dieser Saison beim Swissbikecup sichern. ',
