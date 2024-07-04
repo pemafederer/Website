@@ -1,6 +1,18 @@
 export default [
 {
     id: 0,
+    date: '03.07.2024',
+    title: 'Podest in Uster',
+    subtitle: 'Um meinen letzten Trainingsblock vor der Schweizermeisterschaft zu beenden, absolvierte ich ein Rennen der Bike World Raceseries in Uster. Nach einem soliden Rennen, bei dem meine Beine erwartungsgemäß nicht so frisch waren, wurde ich wie in Hittnau erneut Zweiter.',
+    bedingungen: 'Um meinen letzten Trainingsblock vor der Schweizermeisterschaft abzuschließen, nahm ich an einem Rennen der Bike World Raceseries in Uster teil. Die Strecke in Uster ist sehr schnell und weist einige kurze, aber knackige Anstiege auf. Dieses Jahr wurde die Strecke leicht angepasst, und eine Abfahrt führte über einen neu gebauten Flowtrail. Am Tag vor dem Rennen besichtigten wir die Strecke, und ich fühlte mich gut vorbereitet.',
+    fulltext: 'Ich hatte einen guten Start und befand mich früh gemeinsam mit Aaron auf den Plätzen zwei und drei. In der zweiten Runde erlitt Aaron leider einen Platten bei einer Treppe, sodass ich fortan alleine auf Platz zwei fuhr. Aufgrund des intensiven Trainings der letzten Wochen fühlte ich mich während des gesamten Rennens nicht wirklich frisch. Dennoch versuchte ich, meinen Rhythmus beizubehalten und mein eigenes Rennen zu fahren. Nach neun langen Runden kam ich als Zweiter ins Ziel. Angesichts der Umstände bin ich mit diesem Ergebnis zufrieden. Nun geht es darum, mich gut zu erholen, damit ich bei der Schweizermeisterschaft die nötige Frische habe.',
+    img: 'Uster2024_Podest.jpg',
+    img_container_2: 'Uster2024_Podest.jpg',
+    img_container_3: 'Uster2024_Strecke.jpg',
+
+},
+{
+    id: 0,
     date: '24.06.2024',
     title: 'Podest in Hittnau',
     subtitle: 'Nach einer intensiven Trainingswoche absolvierte ich ein Rennen der Bike World Raceseries in Hittnau. Ich erwischte einen guten Tag und befand mich schon früh an der Spitze des Rennens. Nach einem soliden Rennen kam ich mit 20 Sekunden Rückstand auf Platz 2 ins Ziel. ',
