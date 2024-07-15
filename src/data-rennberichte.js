@@ -7,8 +7,9 @@ export default [
     bedingungen: 'Die Strecke in Echallens war sehr cool und zeichnete sich durch mehrere kürzere und sehr steile Aufstiege aus. Auch die Abfahrten waren technisch anspruchsvoll und definitiv eine würdige SM-Strecke. Nach einigen intensiven Regenschauern war die Strecke beim Streckentraining am Samstagmorgen extrem rutschig. Dank dem sonnigen Wetter und der tatkräftigen Hilfe der Organisatoren trocknete die Strecke sehr gut ab. Ich freute mich auf meine erste U23 SM und hoffte auf ein Top 20 Ergebnis. ',
     fulltext: 'Um 10:15 Uhr startete ich bei meiner ersten U23 SM. Ich erwischte einen sehr guten Start und war nach der Startrunde auf Platz 15. Nach der ersten von sechs großen Runden befand ich mich in einer großen Gruppe um Platz 15. Leider hatte ich kurz vor der ersten Techzone kleine technische Probleme und verlor dadurch rund 15 Sekunden und den Anschluss an meine Gruppe. Am Ende der zweiten grossen Runde lag ich auf Platz. 21. Ich kämpfte weiter und konnte mich in den folgenden Runden immer weiter nach vorne arbeiten. Ich fühlte mich an den Aufstiegen sehr gut. Mitte des Rennens lag ich auf Platz. 18. Ich probierte nochmals alles aus mir herauszuholen und konnte nochmals einige Fahrer einholen. Nach einer schnellen Schlussrunde beendete ich meine erste U23 SM auf dem sehr guten 16. Platz.  Mit dieser Platzierung belegte ich auch den dritten Platz in meinem Jahrgang, was mich sehr freut. Nun steht eine kleine Pause an, bevor die Vorbereitung für die zweite Saisonhälfte beginnt.',
     img: 'Echallens2024_RockgardenCloseUp.jpg',
-    img_container_2: 'Echallens2024_Techzone.jpg',
-    img_container_3: 'Echallens2024_Uphill.jpg',
+    img_container_2: 'Echallens2024_Rockgarden.jpg',
+    img_container_3: 'Echallens2024_Techzone.jpg',
+    
 
 },
 {
