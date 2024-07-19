@@ -732,7 +732,7 @@ h1 {
   aspect-ratio: 3/4;
   border-radius: 5px;
   margin-bottom: 10px;
-  padding: 30px;
+
 }
 
 .AboutMe-img img {
@@ -1524,7 +1524,6 @@ a {
   }
   .AboutMe-vorschau-container{
     flex-wrap: wrap-reverse;
-    padding-left: 5%;
  
    }
    .AboutMe-vorschau2-container{
