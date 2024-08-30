@@ -477,7 +477,7 @@ h3 {
   box-sizing: border-box;
   /*background-color: black;*/
   width: auto;
-  max-width: 70%;
+  max-width: 800px;
   padding: 3%;
   color: white;
   margin: auto;
@@ -492,12 +492,11 @@ h3 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 
 }
-.sponsoren-container:hover{
-  transform: scale(1.01);
-  /*box-shadow: 0 8px 16px rgba(122, 158, 206, 0.2); /* Enhance shadow on hover */
-
-
+.sponsoren-container:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
+
 
 .Sponsoren {
   background-color: white;

@@ -41,7 +41,7 @@ export default function Sponsoren() {
                             </div>
                         )
 
-                        ).slice(9, 11)}
+                        ).slice(9, 12)}
 
                     </div>
 

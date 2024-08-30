@@ -58,6 +58,12 @@ export default[
 
          },
          {
+            name: "Codelabs GmbH ist ein Schweizer Softwareunternehmen, das sich auf die Entwicklung hochsicherer Systeme spezialisiert hat. Sie entwickeln Lösungen wie den Muen Separation Kernel für sicherheitskritische Anwendungen auf Intel x86/64 Plattformen. Ihre Open-Source-Projekte sind in Ada geschrieben und bieten höchste Sicherheitsstandards.",
+            img: "codelabs_logo_oc_rgb.png",
+            link: "https://codelabs.ch/"
+
+         },
+         {
             name: "Seit 1993 sind wir stolz darauf, ein Familienbetrieb in Uznach zu sein, der eine breite Palette von Dienstleistungen rund um Autos anbietet. Unsere Leidenschaft für Fahrzeuge und unser Engagement für Qualität haben uns zu einer vertrauenswürdigen Anlaufstelle für unsere Kunden gemacht.",
             img:"markaj.png",
             link: "https://garage-markaj.ch/"
