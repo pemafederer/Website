@@ -1330,6 +1330,7 @@ a {
   }
   .sponsoren-main-container{
     display: grid;
+    height: fit-content;
     grid-template-columns: 1fr;
   }
   .sponsoren-container{
