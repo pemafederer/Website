@@ -8,12 +8,6 @@ import ImageSlider from "./ImageSlider"
 import { useEffect } from "react";
 
 export default function About() {
-    const slides = [
-        { url: "Crans-Montana_Kurve.JPG", title: "Gränichen Junior Series" },
-        { url: "Crans-Montana.JPG", title: "Gränichen Junior Series" },
-        { url: "Savognin.jpg", title: "Gränichen Junior Series" },
-        { url: "Haiming.JPG", title: "Gränichen Junior Series" },
-    ]
     useEffect(() => {
         window.scrollTo(0, 0); // Scrollen Sie nach oben, wenn die Komponente eingetreten ist
       }), []

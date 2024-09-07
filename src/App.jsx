@@ -11,18 +11,7 @@ import dataAbout from './data-about'
 
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
-  const slidesSmall = [
-    { url: "gstaad.jpg", title: "Gränichen Junior Series" },
-    { url: "gstaad-podium.jpg", title: "Gränichen Junior Series" },
-    { url: "Davos_2.jpg", title: "Gränichen Junior Series" },
-  ];
-  const slidesLarge = [
-    { url: "Savognin.jpg", title: "Swissbikecup Savognin" },
-    { url: "Gränichen.JPG", title: "Junior Series Gränichen" },
-    { url: "Savognin_1.JPG", title: "Swissbikecup Savognin" },
-    { url: "Savognin_3.jpg", title: "Swissbikecup Savognin" },
 
-  ]
   useEffect(() => {
     window.scrollTo(0, 0); // Scrollen Sie nach oben, wenn die Komponente eingetreten ist
   }), []

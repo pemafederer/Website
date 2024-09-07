@@ -1,6 +1,7 @@
 #root {
   text-align: center;
   max-width: 3000px;
+  background-color: white;
 
 }
 .video-main-container{
@@ -204,14 +205,14 @@ margin: 0;
   color: #247BA0;
 }
 
-.img-container img{
-  height: 110vh;
+.img-container img {
+  margin-top: 100px;
+  height: calc(100vh - 100px);
   width: 100%;
   object-fit: cover;
-  
- 
-  
+  object-position: center; /* Positioniert das Bild zentriert */
 }
+
 .text-container {
   position: absolute;
   top: 18%;
@@ -534,7 +535,7 @@ h3 {
 
 .sponsoren-main-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 8%;
   padding: 5%;
   /*background-color: #22577a;*/
@@ -1331,7 +1332,8 @@ a {
   .sponsoren-main-container{
     display: grid;
     height: fit-content;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr ;
+    grid-gap: 0;
   }
   .sponsoren-container{
     max-width: 85%;
@@ -1667,7 +1669,7 @@ a {
     width: 40%;
   }
   .sponsoren-main-container{
-    grid-gap: 10px;
+    grid-gap: 5px;
   }
 
   .AboutMe-button{
