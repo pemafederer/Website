@@ -206,8 +206,7 @@ margin: 0;
 }
 
 .img-container img {
-  margin-top: 100px;
-  height: calc(100vh - 100px);
+  height: 100vh;
   width: 100%;
   object-fit: cover;
   object-position: center; /* Positioniert das Bild zentriert */
@@ -1337,9 +1336,6 @@ a {
   }
   .sponsoren-container{
     max-width: 85%;
-  }
-  .img-container img{
-    height: calc(100vh - 100px);
   }
   input,
   textarea {
