@@ -34,6 +34,10 @@ export default[
     {
         id: 8,
         name: "Leandra Stasio"
+    },
+    {
+        id: 9,
+        name: "Chompel, Ramona, Youlha, Uma Balok - Seisel"
     }
 
     /*{
