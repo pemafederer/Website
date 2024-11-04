@@ -61,7 +61,7 @@ return(
              jeden Rennbericht per Email.
             </h3>
             <h3>
-            Die Mitgliedschaft ist flexibel und unbefristet, es gibt keine Verpflichtungen seitens Ihrerseits. Jeder Beitrag wird sehr geschätzt</h3>
+            Die Mitgliedschaft ist unbefristet und wird jedes Jahr durch Ihre Zahlung des gewünschten Beitrages bestätigt. Somit bestimmen Sie die Dauer und Kosten der Mitgliedschaft selbst. Verpflichtungen Ihrerseits gibt es keine.</h3>
             </div>
             </div>
         </div>
