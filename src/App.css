@@ -81,6 +81,7 @@
 
 
 /* General styling */
+/* General styling */
 .Resultate {
   padding-top: 20px;
   width: 100%;
@@ -122,6 +123,7 @@
 .resultate-title {
   padding-bottom: 60px;
   color: white;
+  text-align: center;
 }
 
 .resultate-main-container {
@@ -134,6 +136,7 @@
   max-width: 2000px;
 }
 
+/* Styling für jedes Jahr-Container */
 .resultate-container {
   width: 100%;
   height: fit-content;
@@ -618,8 +621,89 @@ footer {
 
 
 
-.Steckbrief {
+/*.Steckbrief {
   text-align: left;
+}*/
+/* Steckbrief-Container */
+/* Steckbrief */
+/* Steckbrief-Container */
+.Steckbrief {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  text-align: left;
+}
+
+/* Titel für den Steckbrief */
+.Steckbrief h1 {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.Steckbrief h1::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background: #ff7e00;
+  bottom: 0;
+  left: 0;
+  border-radius: 2px;
+}
+
+/* Kategorie-Labels und Werte */
+.Steckbrief-Item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 20px;
+  margin: 10px 0;
+  background: #f4f4f4;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.Steckbrief-Item:hover {
+  background: #e8e8e8;
+}
+
+.Steckbrief-Label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #555;
+  text-transform: uppercase;
+}
+
+.Steckbrief-Value {
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: 400;
+}
+
+/* Stil für kleinere Bildschirme */
+@media (max-width: 600px) {
+  .Steckbrief {
+      padding: 20px;
+  }
+
+  .Steckbrief h1 {
+      font-size: 2rem;
+  }
+
+  .Steckbrief-Item {
+      padding: 10px 15px;
+  }
 }
 
 
@@ -669,16 +753,14 @@ footer {
 
 }
 .AboutMe-vorschau2-container {
-  margin-top: 0;
-  margin-left: auto;
-
-  padding-bottom: 60px;
-  width: 85%;
-  background-color: white;
   display: flex;
-  justify-content: center;
-  align-items: center;
-
+  align-items: center; /* Zentriert den Inhalt vertikal */
+  justify-content: center; /* Zentriert den Inhalt horizontal */
+  gap: 20px; /* Abstand zwischen Bild und Steckbrief */
+  flex-wrap: wrap; /* Ermöglicht das Umfließen bei kleinen Bildschirmen */
+  margin: 0 auto; /* Zentriert den Container auf der Seite */
+  padding: 20px;
+  max-width: 1200px;
 }
 
 
@@ -733,11 +815,10 @@ h1 {
 }
 
 .AboutMe-img img {
-  transition: 'margin-left 0.5s ease';
-  border-radius: 4px;
   width: 100%;
-
-
+  max-width: 800px; /* Begrenzung der Bildgröße */
+  border-radius: 10px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
 }
 .slide-in{
 
