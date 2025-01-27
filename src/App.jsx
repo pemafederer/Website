@@ -67,7 +67,7 @@ import dataAbout from './data-about'
 
   </div>*/}
           <div className="img-container">
-                <img src="Schwändi2.jpg" loading="lazy"/>
+                <img src="Engelberg2024_WieseStart.jpg" loading="lazy"/>
                 <div className="text-container">
                {/* <p>HERZLICH WILLKOMMEN</p> */}
           </div>

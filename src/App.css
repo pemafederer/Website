@@ -188,29 +188,38 @@
   height: 100vh;
   margin: 0;
 }
-
-.img-container{
-width: 100%;
-position: relative;
-height: auto;
-margin: 0;
+/* Container für das Bild */
+.img-container {
+  width: 100%;
+  position: relative; /* Wichtig für absolute Positionierung von Inhalten */
+  height: 100vh; /* Vollbildhöhe */
+  margin: 0;
+  overflow: hidden; /* Entfernt Überstände */
 }
 
-.img-container-title{
+/* Titel-Text über dem Bild */
+.img-container-title {
+  position: absolute; /* Damit der Text auf dem Bild liegt */
+  top: 50%; /* Zentriert vertikal */
+  left: 50%; /* Zentriert horizontal */
+  transform: translate(-50%, -50%); /* Perfekte Zentrierung */
   display: flex;
   justify-content: center;
-  font-size: 120px;
-  margin-top: -15%;
-  margin-bottom: 10%;
+  font-size: 4vw; /* Responsiver Schriftgröße */
   color: #247BA0;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Lesbarkeit bei hellen Bildern */
+  z-index: 10; /* Stellt sicher, dass es über dem Bild ist */
+  margin: 0;
 }
 
+/* Stile für das Bild */
 .img-container img {
-  height: 100vh;
   width: 100%;
-  object-fit: cover;
+  height: 100%;
+  object-fit: cover; /* Füllt den Container proportional aus */
   object-position: center; /* Positioniert das Bild zentriert */
 }
+
 
 .text-container {
   position: absolute;
