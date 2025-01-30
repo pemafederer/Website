@@ -1,5 +1,17 @@
 export default [
     {
+        title: " 2. Rang CIC ON Swissbikecup Gesamtwertung",
+    },
+    {title: " 2. Rang Swissbikecup Leysin",},
+    {title: " 3. Rang Swissbikecup Lugano",},
+    {title: " 5. Rang Swissbikecup Lenzerheide",},
+    {title: " 16. Rang U23 SM Echallens",},
+    {title: " 18. Rang U23 HC Engelberg",},
+    {title: " 3x Top 3 Bikeworld Raceseries ",},
+    {title: " 3. Rang Elite Bikeworld Raceseries Gesamtwertung ",},
+    {title: " 2x 7. Rang C1 Novi Sad"},
+
+    {
         title: " Gesamtsieg U19 CIC ON Swiss Bike Cup",
     },
     {
@@ -29,6 +41,9 @@ export default [
     
     },
     {
+        title: "Gesamtsieg BikeWorld Raceseries"
+    },
+    {
         title: "1. Rang BikeWorld Raceseries Schwändi",
     },
     {
@@ -44,26 +59,15 @@ export default [
     {
         title: "1. Rang BikeWorld Raceseries Egg  "
     },
-    {
-        title: "Gesamtsieg BikeWorld Raceseries"
-    },
-    {
-        title: "1. Rang Ironbike Einsiedeln Kurzdistanz",
-    },
-    {
-        title: "1. Rang BikeWorld Raceseries Eschenbach"
-    },
-    {
-        title: "1. Rang BikeWorld Raceseries Schwändi",
-    },
-    {
-        title: "1. Rang BikeWorld Raceseries Egg",
-    },
+   
     {
         title: "2. Rang BikeWorld Raceseries Hittnau",
     },
     {
         title: "2. Rang BikeWorld Raceseries Uster",
+    },
+    {
+        title: "1. Rang Ironbike Einsiedeln Kurzdistanz",
     },
     {
         title: "15. Rang Swissbikecup Savognin C1",

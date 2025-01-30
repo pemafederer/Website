@@ -1,115 +1,139 @@
 export default [
     {
-        date: "17.03.2024",
-        race: "Swissbikecup Gränichen",
-        state: "C1",
-        category: "Amateure Masters",
-        startTime: "08 : 45"
+        date: "23.03.2025",
+        race: "Continental Series Rivera",
+        state: "CS",
+        category: "U23 Herren",
+        startTime: "10 : 30"
         
     },
     {
-        date: "24.03.2024",
-        race: "Swissbikecup Rivera",
+        date: "12.04.2025",
+        race: "Marlene Sunshine Race Nalles",
         state: "HC",
         category: "U23 Herren",
-        startTime: "10 : 15"
+        startTime: "tba"
     },
     {
-        date: "07.04.2024",
-        race: "Swissbikecup Lugano",
-        state: "C1",
-        category: "Amateure Masters",
-        startTime: "09 : 30"
+        date: "27.04.2025",
+        race: "BikeWorld Raceseries Schwändi",
+        state: "-",
+        category: "Elite",
+        startTime: "14 : 45"
     },
     {
-        date: "05.05.2024",
-        race: "ÖKK Bikerevolution Chur",
+        date: "04.05.2025",
+        race: "ÖKK Bikerevolution Engelberg",
         state: "HC",
         category: " U23 Herren",
         startTime: "10 : 15"
     },
     {
-        date: "19.05.2024",
-        race: "Ötztaler Mountainbike Festival",
-        state: "HC",
-        category: "U23 Herren",
-        startTime: "10:15"
-    },
-    {
-        date: "26.05.2024",
-        race: "BikeWorld Raceseries Wetzikon",
-        state: "-",
-        category: "Open",
-        startTime: "14 : 15"
-    },
-    {
-        date: "02.06.2024",
-        race: "ÖKK Bike Revolution Engelberg",
+        date: "10.05.2025",
+        race: "Swissbikecup Schaan",
         state: "HC",
         category: "U23 Herren",
         startTime: "10 : 30"
     },
     {
-        date: "09.06.2024",
-        race: "Swissbikecup Leysin",
-        state: "C1",
-        category: "Amateure Masters",
-        startTime: "09 : 30"
+        date: "11.05.2025",
+        race: "Continental Series Haiming",
+        state: "CS",
+        category: "U23 Herren",
+        startTime: "09 : 45"
     },
     {
-        date: "23.06.2024",
+        date: "18.05.2025",
+        race: "Bundesliga Heubach",
+        state: "HC",
+        category: "U23 Herren",
+        startTime: "tba"
+    },
+    {
+        date: "25.05.2025",
+        race: "BikeWorld Raceseries Wetzikon",
+        state: "-",
+        category: "Elite",
+        startTime: "14 : 45"
+    },
+    {
+        date: "22.06.2025",
         race: "BikeWorldRaceseries Hittnau",
         state: "-",
         category: "Open",
-        startTime: "14 : 15"
+        startTime: "14 : 45"
 
     },
     {
-        date: "30.06.2024",
-        race: "BikeWorldRaceseries Uster",
-        state: "-",
-        category: "Open",
-        startTime: "14 : 15"
-
-    },
-    {
-        date: "14.07.2024",
-        race: "XCO SM Echallens",
-        state: "NC",
-        category: "U23 Herren",
-        startTime: "10 : 15"
-
-    },
-    {
-        date: "25.08.2024",
-        race: "Swissbikecup Basel",
+        date: "29.06.2025",
+        race: "ÖKK Bikerevolution Davos",
         state: "HC",
         category: "U23 Herren",
         startTime: "10 : 15"
 
     },
     {
-        date: "01.09.2024",
-        race: "BikeWorld Raceseries Eschenbach",
-        state: "-",
-        category: "Open",
-        startTime: "14 : 15"
+        date: "05.07.2025",
+        race: "XCO SM Savognin",
+        state: "NC",
+        category: "U23 Herren",
+        startTime: "10 : 30"
 
     },
     {
-        date: "08.09.2024",
+        date: "06.07.2025",
+        race: "BikeWorld Raceseries Uster",
+        state: "-",
+        category: "Elite",
+        startTime: "14 : 45"
+
+    },
+    {
+        date: "10.08.2025",
+        race: "GP Oberbaselbiet (Strasse)",
+        state: "National",
+        category: "Elite",
+        startTime: "tba"
+
+    },
+    {
+        date: "17.08.2025",
+        race: "Swissbikecup Basel",
+        state: "HC",
+        category: "U23 Herren",
+        startTime: "10 : 30"
+
+    },
+    {
+        date: "24.08.2025",
+        race: "BikeWorld Raceseries Eschenbach",
+        state: "-",
+        category: "Elite",
+        startTime: "14 : 45"
+
+    },
+    {
+        date: "07.09.2025",
         race: "BikeWorld Raceseries Egg",
         state: "-",
         category: "Open",
-        startTime: "14 : 15"
+        startTime: "14 : 45"
 
     },
     {
-        date: "22.09.2024",
-        race: "Swissbikecup Crans-Montana",
-        state: "C1",
-        category: "Amateure Masters",
-        startTime: "09 : 30"
+        date: "14.09.2025",
+        race: "Chur - Arosa (Strasse)",
+        state: "National",
+        category: "Elite",
+        startTime: "tba"
+
+    },
+    {
+        date: "27.09.2025",
+        race: "Swissbikecup Gränichen ",
+        state: "HC",
+        category: "U23 Herren",
+        startTime: "10 : 30"
 
     },
 

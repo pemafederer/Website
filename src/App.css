@@ -85,7 +85,7 @@
 .Resultate {
   padding-top: 20px;
   width: 100%;
-  height: auto;
+  height: auto + 300px;
   background-color: #171738;
   padding-bottom: 50px;
 }
@@ -131,9 +131,10 @@
   margin: 0 auto; /* Center the container */
   display: grid;
   padding: 20px;
-  grid-gap: 15%;
-  grid-template-columns: 1fr 1fr;
+  grid-gap: 5%;
   max-width: 2000px;
+  grid-template-columns: minmax(100px, auto) minmax(100px, auto); 
+
 }
 
 /* Styling für jedes Jahr-Container */
@@ -142,6 +143,7 @@
   height: fit-content;
   border-top: 3px solid #ddd;
   overflow: hidden; /* Hide overflow from border-top */
+  min-height: 100px;
 }
 
 .resultate-container h1 {

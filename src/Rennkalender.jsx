@@ -62,7 +62,7 @@ export default function Rennkalender() {
       <Table sx={{ minWidth: 700 }} aria-label="customized table"  stickyHeader className='rennkalender-container'>
         <TableHead>
           <TableRow>
-            <StyledTableCell>Rennkalender 2024 (provisorisch)</StyledTableCell>
+            <StyledTableCell>Rennkalender 2025 (provisorisch)</StyledTableCell>
             <StyledTableCell align="left">Datum</StyledTableCell>
             <StyledTableCell align="left">Startzeit</StyledTableCell>
             <StyledTableCell align="left">Kategorie</StyledTableCell>
